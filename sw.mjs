@@ -5,28 +5,48 @@ let currentSession;
 let sessionLoading;
 let configuration;
 async function config() {
-  if (!configuration) configuration = fetch(new URL('pages-config.json', base), {cache: 'no-store'}).then(r => {
+  if (!configuration) configuration = fetch(new URL('pages-config.json', base), {cache: 'no-store', signal: AbortSignal.timeout(5000)}).then(r => {
     if (!r.ok) throw new Error('Access configuration unavailable');
     return r.json();
   }).catch(error => { configuration = undefined; throw error; });
   return configuration;
 }
+const storageError = () => new Error('Browser access storage is unavailable or blocked. Close other atlas tabs and allow site storage, then reload.');
 async function database() {
   return new Promise((resolve, reject) => {
-    const request = indexedDB.open('nmatlas-access-' + base.pathname, 1);
-    request.onupgradeneeded = () => request.result.createObjectStore('access');
-    request.onsuccess = () => resolve(request.result);
-    request.onerror = () => reject(request.error);
+    let settled = false;
+    const finish = (error, db) => {
+      if (settled) { db?.close(); return; }
+      settled = true; clearTimeout(timer);
+      if (error) reject(error); else resolve(db);
+    };
+    const timer = setTimeout(() => finish(storageError()), 3000);
+    let request;
+    try { request = indexedDB.open('nmatlas-access-' + base.pathname, 1); }
+    catch { finish(storageError()); return; }
+    request.onupgradeneeded = () => {
+      if (settled) { request.transaction.abort(); return; }
+      request.result.createObjectStore('access');
+    };
+    request.onsuccess = () => finish(null, request.result);
+    request.onerror = () => finish(storageError());
+    request.onblocked = () => finish(storageError());
   });
 }
 async function storage(mode, operation) {
   const db = await database();
   try { return await new Promise((resolve, reject) => {
     const tx = db.transaction('access', mode);
-    const request = operation(tx.objectStore('access'));
-    tx.oncomplete = () => resolve(request.result);
-    tx.onerror = () => reject(tx.error);
-    tx.onabort = () => reject(tx.error || new Error('Storage unavailable'));
+    const timer = setTimeout(() => {
+      // Abort timed-out writes so a failed unlock cannot commit later.
+      try { tx.abort(); } catch {}
+      reject(storageError());
+    }, 3000);
+    tx.oncomplete = () => { clearTimeout(timer); resolve(request.result); };
+    tx.onerror = tx.onabort = () => { clearTimeout(timer); reject(storageError()); };
+    let request;
+    try { request = operation(tx.objectStore('access')); }
+    catch (error) { clearTimeout(timer); try { tx.abort(); } catch {} reject(error); }
   }); } finally { db.close(); }
 }
 async function loadSession() {
@@ -34,14 +54,14 @@ async function loadSession() {
     const stored = await storage('readonly', s => s.get('session'));
     const settings = await config();
     if (stored?.version === settings.version && stored.expires > Date.now()) currentSession = stored;
-  })().catch(() => {});
+  })().catch(error => { sessionLoading = undefined; throw error; });
   await sessionLoading;
   if (currentSession?.expires <= Date.now()) currentSession = undefined;
   return currentSession;
 }
 async function manifestFor(key) {
   const settings = await config();
-  const response = await fetch(new URL(settings.manifest, base), {cache: 'no-store'});
+  const response = await fetch(new URL(settings.manifest, base), {cache: 'no-store', signal: AbortSignal.timeout(5000)});
   if (!response.ok) throw new Error('Encrypted app unavailable');
   return JSON.parse(new TextDecoder().decode(await decrypt(key, await response.arrayBuffer(), 'manifest')));
 }
@@ -68,7 +88,7 @@ self.addEventListener('message', event => {
         }
       }
       event.ports[0].postMessage({unlocked: Boolean(currentSession)});
-    } catch (error) { event.ports[0].postMessage({unlocked: false, error: error.message}); }
+    } catch (error) { event.ports[0].postMessage({unlocked: false, error: ['TimeoutError', 'AbortError', 'TypeError'].includes(error.name) ? 'The atlas access files could not be loaded. Check your connection and reload.' : error.message}); }
   })());
 });
 self.addEventListener('fetch', event => {
@@ -79,7 +99,9 @@ self.addEventListener('fetch', event => {
   event.respondWith((async () => {
     const headers = {'Cache-Control': 'no-store', 'X-Content-Type-Options': 'nosniff'};
     if (!['GET', 'HEAD'].includes(event.request.method)) return new Response('Method not allowed', {status: 405, headers});
-    const session = await loadSession();
+    let session;
+    try { session = await loadSession(); }
+    catch { return new Response('Browser access storage or configuration is unavailable. Reload the atlas to try again.', {status: 503, headers}); }
     if (!session) {
       if (event.request.mode === 'navigate') {
         const gate = new URL('unlock.html', base); gate.searchParams.set('next', url.pathname + url.search);
