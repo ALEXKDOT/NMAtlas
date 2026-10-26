@@ -1,0 +1,455 @@
+{
+  "version": "0.17.0",
+  "reviewed": "2026-10-15",
+  "geometry_source": "HCP1065 population bundles, plus an endpoint-filtered estimate from the public Lead-DBS STN pathways; see public-pathways.json.",
+  "interpretation": "Preset selection is a literature-informed inference. Reference fibers and the explicitly labeled pre-SMA\u2013STN estimate do not represent patient activation, a complete functional circuit or proven causal treatment pathways.",
+  "laterality": "Bilateral reference bundles are shown by default. The Hemisphere filter controls their visibility. Finding-specific stimulation/effect laterality remains in the cortical highlights and evidence; bilateral fibers do not imply bilateral treatment.",
+  "sources": [
+    {
+      "id": "yeh2022",
+      "label": "Yeh 2022 \u00b7 population tractography",
+      "url": "https://www.nature.com/articles/s41467-022-32595-4",
+      "kind": "Structural atlas",
+      "review": "Publisher article and atlas documentation"
+    },
+    {
+      "id": "strafella2001",
+      "label": "Strafella 2001 \u00b7 TMS\u2013PET",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11459878/",
+      "kind": "Healthy-volunteer mechanism",
+      "review": "Published abstract"
+    },
+    {
+      "id": "salomons2014",
+      "label": "Salomons 2014 \u00b7 dmPFC connectivity",
+      "url": "https://www.nature.com/articles/npp2013222",
+      "kind": "Open-label functional connectivity",
+      "review": "Publisher full text; 25 participants, including four with bipolar depression; 24 post-treatment scans"
+    },
+    {
+      "id": "lehericy2004",
+      "label": "Leh\u00e9ricy 2004 \u00b7 pre-SMA\u2013striatum",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15166103/",
+      "kind": "Structural anatomy",
+      "review": "Published abstract; eight healthy participants"
+    },
+    {
+      "id": "aron2007",
+      "label": "Aron 2007 \u00b7 inhibitory-control network",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17409238/",
+      "kind": "Structural and functional anatomy",
+      "review": "Published abstract and indexed full text"
+    },
+    {
+      "id": "ji2021",
+      "label": "Ji 2021 \u00b7 pre-SMA\u2013STN targeting",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8288080/",
+      "kind": "OCD TMS / functional connectivity",
+      "review": "Methods reviewed for region work; published article and abstract rechecked"
+    },
+    {
+      "id": "seguin2026",
+      "label": "Seguin 2026 \u00b7 indirect white-matter routes",
+      "url": "https://www.nature.com/articles/s41593-026-02248-6",
+      "kind": "Connectome modeling",
+      "review": "Supplied full text, source data Figures 1\u20133, public Supplementary Figures S1\u2013S19, and pinned analysis repository reviewed; 2026-10-02",
+      "resource_url": "https://github.com/caioseguin/tms_dep_pathways",
+      "title": "White matter pathways mediating dorsolateral prefrontal TMS therapy for depression"
+    },
+    {
+      "id": "P28616997",
+      "label": "Dixon 2017 \u00b7 functional background",
+      "title": "Emotion and the prefrontal cortex: An integrative review",
+      "authors": "Dixon ML, Thiruchselvam R, Todd R, Christoff K",
+      "year": 2017,
+      "journal": "Psychological Bulletin, 143(10), 1033\u20131081",
+      "doi": "10.1037/bul0000096",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28616997/",
+      "kind": "Integrative review / proposed functional framework",
+      "review": "Supplied author proof: full text and Figures 1\u201311 reviewed, including the four separate extracts of Figures 2\u20135. Published bibliographic identity verified. Background functions only; no new clinical outcomes, coordinates or tract geometry. Region-specific uncertainty retained."
+    }
+  ],
+  "profiles": [
+    {
+      "id": "dlpfc-depression",
+      "topics": [
+        "tms-depression",
+        "all"
+      ],
+      "targets": [
+        "dlpfc"
+      ],
+      "title": "DLPFC \u00b7 frontostriatal context",
+      "bundles": [
+        "CS_A"
+      ],
+      "summary": "Prefrontal TMS can influence the striatum: TMS\u2013PET demonstrated an ipsilateral caudate dopamine response. The anterior corticostriatal atlas bundle supplies structural context alongside the cortical target.",
+      "limitations": "Fox measures DLPFC\u2013sgACC functional connectivity. Seguin proposes one cortical and two fronto-thalamic multistep routes in normative connectomes; neither makes this displayed bundle a direct DLPFC\u2013sgACC tract. These are whole atlas bundles, not fibers selected from a coil site or proven mediators of antidepressant benefit.",
+      "source_ids": [
+        "strafella2001",
+        "P22658708",
+        "seguin2026",
+        "yeh2022"
+      ],
+      "bundle_reasons": {
+        "CS_A": "Prefrontal\u2013striatal reference anatomy; TMS\u2013PET supports downstream striatal engagement."
+      }
+    },
+    {
+      "id": "dlpfc-ocd",
+      "topics": [
+        "tms-ocd"
+      ],
+      "targets": [
+        "dlpfc"
+      ],
+      "title": "DLPFC \u00b7 cognitive-control circuitry",
+      "bundles": [
+        "CS_A"
+      ],
+      "summary": "Corticostriatal reference fibers accompany the DLPFC OCD target. Fitzsimmons studied cortical stimulation with ERP; the separate TMS\u2013PET evidence supports a prefrontal influence on the caudate.",
+      "limitations": "The displayed tract is anatomical context. The OCD trial did not establish this entire bundle as its treatment mediator, and the healthy-volunteer PET result is not OCD efficacy evidence.",
+      "source_ids": [
+        "P39089567",
+        "strafella2001",
+        "yeh2022"
+      ],
+      "bundle_reasons": {
+        "CS_A": "Associative prefrontal\u2013striatal anatomy; not a reconstruction from the Fitzsimmons trial."
+      }
+    },
+    {
+      "id": "medial-depression",
+      "topics": [
+        "tms-depression"
+      ],
+      "targets": [
+        "medial"
+      ],
+      "title": "dmPFC \u00b7 cortico-striatal / thalamic network",
+      "bundles": [
+        "CS_A",
+        "TR_A"
+      ],
+      "summary": "Salomons linked dmPFC treatment response to functional connectivity involving striatum, thalamus and cingulate. Anterior corticostriatal fibers and anterior thalamic radiation show the corresponding broad anatomical systems.",
+      "limitations": "Functional MRI does not identify which individual axons carry the effect. Salomons was open label and included bipolar depression; the negative controlled Dunlop 2020 trial remains in the evidence cards.",
+      "source_ids": [
+        "salomons2014",
+        "P31711880",
+        "yeh2022"
+      ],
+      "bundle_reasons": {
+        "CS_A": "Prefrontal\u2013striatal context for the functional network.",
+        "TR_A": "Prefrontal\u2013thalamic context; not a measured TMS activation pathway."
+      }
+    },
+    {
+      "id": "medial-ocd",
+      "topics": [
+        "tms-ocd",
+        "all"
+      ],
+      "targets": [
+        "medial"
+      ],
+      "title": "dmPFC \u00b7 frontostriatal network",
+      "bundles": [
+        "CS_A",
+        "TR_A"
+      ],
+      "summary": "Dunlop associated OCD improvement with reduced dmPFC\u2013ventral-striatal functional connectivity. The striatal and thalamic arms of the wider frontal circuit remain visible as reference anatomy.",
+      "limitations": "Dunlop did not reconstruct a treatment-specific tract. The thalamic radiation is broader circuit context, supported by the CSTC rationale in Carmi; it is not a demonstrated Dunlop response fiber. For depression dmPFC findings, see Salomons and the controlled Dunlop 2020 study.",
+      "source_ids": [
+        "P26440813",
+        "P31109199",
+        "salomons2014",
+        "P31711880",
+        "yeh2022"
+      ],
+      "bundle_reasons": {
+        "CS_A": "Frontal\u2013striatal anatomical context for the dmPFC functional finding.",
+        "TR_A": "Thalamic arm of the broader cortico-striato-thalamo-cortical circuit."
+      }
+    },
+    {
+      "id": "deep-medial",
+      "topics": [
+        "tms-ocd",
+        "all"
+      ],
+      "targets": [
+        "deep-medial"
+      ],
+      "title": "mPFC / ACC \u00b7 CSTC circuit context",
+      "bundles": [
+        "CS_A",
+        "TR_A"
+      ],
+      "summary": "The H7 OCD approach is motivated by cortico-striato-thalamo-cortical circuitry. Corticostriatal fibers and anterior thalamic radiation show two available arms of that network.",
+      "limitations": "The pallidal links and a complete closed loop are not drawn. Carmi is a clinical trial, not tract-activation mapping; these fibers do not represent the H7 electric field or prove direct stimulation of deep nuclei.",
+      "source_ids": [
+        "P31109199",
+        "yeh2022"
+      ],
+      "bundle_reasons": {
+        "CS_A": "Frontal\u2013striatal arm of the circuit rationale.",
+        "TR_A": "Frontal\u2013thalamic arm; no synaptic direction or stimulation strength is encoded."
+      }
+    },
+    {
+      "id": "presma",
+      "topics": [
+        "tms-ocd",
+        "all"
+      ],
+      "targets": [
+        "presma"
+      ],
+      "title": "Pre-SMA \u00b7 striatal and STN circuitry",
+      "bundles": [
+        "CS_S",
+        "HDP_PRE_SMA"
+      ],
+      "summary": "Superior corticostriatal fibers show the SMA\u2013striatal arm. A separately colored pre-SMA\u2013STN estimate now shows released STN fibers selected by anatomical endpoints, relevant to the circuitry used by Ji for OCD TMS targeting.",
+      "limitations": "The pre-SMA\u2013STN subset uses an approximate anterior-SMA region and a public STN mask in their native template coordinates. It is not Ji\u2019s patient-specific connectivity target. The retained source sets are asymmetric (460 left, 186 right), without artificial mirroring. Superior corticostriatal fibers reach striatum, not STN.",
+      "source_ids": [
+        "lehericy2004",
+        "ji2021",
+        "aron2007",
+        "P39089567",
+        "yeh2022",
+        "presma_derivation"
+      ],
+      "bundle_reasons": {
+        "CS_S": "SMA-complex\u2013striatal reference family, distinct from the STN pathway.",
+        "HDP_PRE_SMA": "Endpoint-filtered STN streamlines; estimated pre-SMA anatomy, not a trial-specific tract."
+      }
+    },
+    {
+      "id": "ofc",
+      "topics": [
+        "tms-ocd",
+        "all"
+      ],
+      "targets": [
+        "ofc"
+      ],
+      "title": "OFC \u00b7 frontostriatal / capsular context",
+      "bundles": [
+        "CS_A",
+        "TR_A"
+      ],
+      "summary": "OFC TMS is considered within frontal\u2013striatal circuitry. Jimenez selected a right-OFC site using an OCD DBS tract map through the ALIC; the available capsular tract families supply context.",
+      "limitations": "The exact Jimenez ALIC-to-OFC tract is unavailable. Whole anterior corticostriatal and thalamic families do not identify its axons. That report is one case with concurrent ERP. Nauczyciel\u2019s bilateral metabolic effects remain separate from right-sided stimulation.",
+      "source_ids": [
+        "P40963640",
+        "P25203167",
+        "P31109199",
+        "yeh2022"
+      ],
+      "bundle_reasons": {
+        "CS_A": "Broad OFC/prefrontal\u2013striatal context, not the Jimenez tract.",
+        "TR_A": "ALIC corridor context, not evidence that the whole radiation mediates OFC TMS."
+      }
+    },
+    {
+      "id": "sgacc",
+      "topics": [
+        "tms-depression",
+        "all"
+      ],
+      "targets": [
+        "sgacc"
+      ],
+      "title": "sgACC \u00b7 indirect network reference",
+      "bundles": [
+        "C_FP",
+        "C_PO",
+        "CS_A"
+      ],
+      "summary": "sgACC is a network reference for DLPFC TMS. Cingulum and corticostriatal anatomy contextualize the wider cingulate\u2013frontal\u2013striatal system; structural anatomy is also described in the SCC DBS literature.",
+      "limitations": "Both frontoparietal and parolfactory cingulum segments are available. They do not reconstruct a direct DLPFC\u2013sgACC fiber or the full sequence of Seguin\u2019s indirect connectome routes. SCC DBS anatomy supplies anatomical context, not proof of a TMS mechanism.",
+      "source_ids": [
+        "P22658708",
+        "seguin2026",
+        "P24832866",
+        "yeh2022"
+      ],
+      "bundle_reasons": {
+        "C_FP": "Partial cingulate-network anatomy; this segment is not a complete sgACC connection.",
+        "CS_A": "Frontal\u2013striatal context; not an individually selected sgACC pathway.",
+        "C_PO": "Anterior parolfactory cingulum adds context near the subcallosal region; not a validated sgACC TMS route."
+      }
+    },
+    {
+      "id": "symptoms",
+      "topics": [
+        "tms-depression",
+        "all"
+      ],
+      "targets": [
+        "symptoms"
+      ],
+      "title": "Symptom targets \u00b7 DLPFC tract context",
+      "bundles": [
+        "CS_A"
+      ],
+      "summary": "The stimulation target remains DLPFC. Its corticostriatal reference fibers stay visible alongside the study\u2019s functional-network targeting layer.",
+      "limitations": "The symptom-specific functional map does not identify separate dysphoric and anxiosomatic fiber bundles. The anterior corticostriatal bundle is general DLPFC anatomy, supported by separate mechanistic TMS\u2013PET evidence; it is not a tract result from this targeting trial.",
+      "source_ids": [
+        "P32160765",
+        "strafella2001",
+        "yeh2022"
+      ],
+      "bundle_reasons": {
+        "CS_A": "General DLPFC\u2013striatal context, separate from this study\u2019s functional targeting model."
+      }
+    },
+    {
+      "id": "insula",
+      "topics": [
+        "tms-depression",
+        "all"
+      ],
+      "targets": [
+        "insula"
+      ],
+      "title": "Insula-guided DLPFC \u00b7 tract context",
+      "bundles": [
+        "CS_A"
+      ],
+      "summary": "The stimulation target remains DLPFC. Its corticostriatal reference fibers stay visible alongside the study\u2019s functional-network targeting layer.",
+      "limitations": "The right-insula\u2013left-DLPFC effective-connectivity relationship is not an anatomical tract. Its cross-hemisphere route is unavailable. The anterior corticostriatal bundle is general DLPFC anatomy, supported by separate mechanistic TMS\u2013PET evidence; it is not a tract result from this targeting trial.",
+      "source_ids": [
+        "P38228914",
+        "strafella2001",
+        "yeh2022"
+      ],
+      "bundle_reasons": {
+        "CS_A": "General DLPFC\u2013striatal context, separate from this study\u2019s functional targeting model."
+      }
+    },
+    {
+      "id": "convergent",
+      "topics": [
+        "tms-depression",
+        "all"
+      ],
+      "targets": [
+        "convergent"
+      ],
+      "title": "Depression circuit \u00b7 DLPFC tract context",
+      "bundles": [
+        "CS_A"
+      ],
+      "summary": "The stimulation target remains DLPFC. Its corticostriatal reference fibers stay visible alongside the study\u2019s functional-network targeting layer.",
+      "limitations": "The released functional group map does not identify the tract carrying an individual treatment effect. The anterior corticostriatal bundle is general DLPFC anatomy, supported by separate mechanistic TMS\u2013PET evidence; it is not a tract result from this targeting trial.",
+      "source_ids": [
+        "P42340706",
+        "strafella2001",
+        "yeh2022"
+      ],
+      "bundle_reasons": {
+        "CS_A": "General DLPFC\u2013striatal context, separate from this study\u2019s functional targeting model."
+      }
+    },
+    {
+      "id": "overview-depression",
+      "topics": [
+        "tms-depression"
+      ],
+      "targets": [
+        "overview"
+      ],
+      "title": "Depression TMS \u00b7 network overview",
+      "bundles": [
+        "CS_A",
+        "TR_A",
+        "C_FP"
+      ],
+      "summary": "Available striatal, thalamic and cingulate tract families accompany the DLPFC and dmPFC evidence. Choose a target to narrow the suggested fibers.",
+      "limitations": "This is a union of reference systems, not one validated antidepressant circuit. The cingulum segment is partial; indirect DLPFC\u2013sgACC routes and individual treatment tractograms are unavailable.",
+      "source_ids": [
+        "strafella2001",
+        "salomons2014",
+        "seguin2026",
+        "P24832866",
+        "yeh2022"
+      ],
+      "bundle_reasons": {
+        "CS_A": "Prefrontal\u2013striatal anatomy.",
+        "TR_A": "Prefrontal\u2013thalamic anatomy.",
+        "C_FP": "Partial cingulate anatomy; not a complete subgenual pathway."
+      }
+    },
+    {
+      "id": "overview-ocd",
+      "topics": [
+        "tms-ocd"
+      ],
+      "targets": [
+        "overview"
+      ],
+      "title": "OCD TMS \u00b7 network overview",
+      "bundles": [
+        "CS_A",
+        "CS_S",
+        "TR_A",
+        "HDP_PRE_SMA"
+      ],
+      "summary": "Anterior and superior corticostriatal systems and anterior thalamic radiation provide context across medial-frontal, DLPFC, OFC and pre-SMA approaches. Choose a target to narrow the suggested fibers.",
+      "limitations": "Reference tract families and an explicitly estimated pre-SMA\u2013STN subset are available. A complete CSTC loop and trial-specific activation maps are not reconstructed.",
+      "source_ids": [
+        "P31109199",
+        "P26440813",
+        "lehericy2004",
+        "ji2021",
+        "yeh2022",
+        "presma_derivation"
+      ],
+      "bundle_reasons": {
+        "CS_A": "Prefrontal\u2013striatal anatomy.",
+        "CS_S": "SMA-complex\u2013striatal anatomy; not the STN hyperdirect pathway.",
+        "TR_A": "Prefrontal\u2013thalamic anatomy.",
+        "HDP_PRE_SMA": "Anatomical estimate of the pre-SMA\u2013STN connection; separate from corticostriatal fibers."
+      }
+    },
+    {
+      "id": "fronto-insular",
+      "topics": [
+        "tms-depression",
+        "all"
+      ],
+      "targets": [
+        "fronto-insular"
+      ],
+      "title": "Fronto-insular mechanism \u00b7 no inferred tract",
+      "bundles": [],
+      "summary": "Human regional surfaces orient the evoked-response and connectivity analyses. Animal experiments have no human spatial registration.",
+      "limitations": "No default fibers are assigned: functional connectivity, evoked responses and animal interventions do not provide a reconstructed human tract.",
+      "source_ids": [
+        "P42102818"
+      ],
+      "bundle_reasons": {}
+    },
+    {
+      "id": "depression-network",
+      "topics": [
+        "tms-depression",
+        "depression",
+        "all"
+      ],
+      "targets": [
+        "depression-network"
+      ],
+      "title": "Depression therapeutic network \u00b7 reference anatomy",
+      "bundles": [],
+      "summary": "Whole structures locate selected network landmarks; the author-released DTN is linked externally and is not displayed.",
+      "limitations": "No default fibers are assigned: functional connectivity, evoked responses and animal interventions do not provide a reconstructed human tract.",
+      "source_ids": [
+        "P41484145"
+      ],
+      "bundle_reasons": {}
+    }
+  ]
+}

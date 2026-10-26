@@ -1,0 +1,315 @@
+{
+  "version": "0.7",
+  "reviewed": "2026-09-30",
+  "policy": "Optional, simultaneously visible anatomical estimates. Region boundaries are atlas-derived reference anatomy, not patient targets, seed extents, electric fields or efficacy maps.",
+  "regions": [
+    {
+      "id": "dmpfc",
+      "name": "dmPFC",
+      "full_name": "Dorsomedial prefrontal cortex",
+      "status": "Atlas-derived anatomical estimate",
+      "mesh_ids": [
+        "aal3-dmpfc-l",
+        "aal3-dmpfc-r"
+      ],
+      "context_mesh_ids": [],
+      "point_ids": [],
+      "relevant_topics": [
+        "tms-ocd",
+        "tms-depression"
+      ],
+      "default_view": "medial",
+      "default_hemisphere": "left",
+      "evidence_topic": "tms-ocd",
+      "evidence_target": "medial",
+      "description": "The non-orbital medial superior frontal labels in AAL3 provide a bounded gross-anatomical estimate of dmPFC. The anterior SMA is a separate region with a separate color.",
+      "limitations": "Reference anatomy in the AAL3 MNI single-subject template, displayed using its native affine. The background cortex uses a different MNI template; small mismatches are possible. No new nonlinear registration, individual treatment boundary or electric field is claimed. This broad medial prefrontal proxy includes anterior medial cortex and is not a unique cytoarchitectonic dmPFC definition. Dunlop’s connectivity seed and Talairach coil landmark do not define its extent.",
+      "evidence_note": "Studied in OCD and depression. The 120-patient Dunlop 2020 depression trial found no superiority over sham. The seed shown here comes from the OCD paper only.",
+      "sources": [
+        {
+          "label": "AAL3 · anatomical boundaries",
+          "url": "https://www.oxcns.org/aal3.html",
+          "role": "Rolls et al. 2020, AAL3v1 labels, author-released 1 mm sampling. Medial superior frontal labels 19/20, SMA 15/16, subgenual ACC 151/152. Atlas reference; source affine only, no new registration to the background template."
+        },
+        {
+          "label": "Dunlop 2016",
+          "url": "https://www.nature.com/articles/npp2015292",
+          "role": "OCD dmPFC rTMS; Methods distinguish the MNI analysis seed from a Talairach coil landmark."
+        },
+        {
+          "label": "Dunlop 2020",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31711880/",
+          "role": "Depression randomized trial; published abstract reviewed. No study geometry obtained."
+        }
+      ],
+      "color": "#4c99b0",
+      "boundary_basis": "The non-orbital medial superior frontal labels in AAL3 provide a bounded gross-anatomical estimate of dmPFC. The anterior SMA is a separate region with a separate color."
+    },
+    {
+      "id": "dlpfc",
+      "name": "DLPFC",
+      "full_name": "Dorsolateral prefrontal cortex",
+      "status": "Broad anatomical parcels",
+      "mesh_ids": [
+        "dkt-rostral-middle-frontal-l",
+        "dkt-rostral-middle-frontal-r",
+        "dkt-caudal-middle-frontal-l",
+        "dkt-caudal-middle-frontal-r"
+      ],
+      "context_mesh_ids": [],
+      "point_ids": [],
+      "relevant_topics": [
+        "tms-ocd",
+        "tms-depression"
+      ],
+      "default_view": "lateral",
+      "default_hemisphere": "left",
+      "evidence_topic": "tms-depression",
+      "evidence_target": "dlpfc",
+      "description": "Middle-frontal parcels provide broad DLPFC reference anatomy. Use Hemisphere to compare sides; laterality and location vary by protocol.",
+      "limitations": "These gyri are an approximation, not a cytoarchitectonic DLPFC boundary, individual coil location or electric field.",
+      "evidence_note": "DLPFC is represented in depression and OCD TMS studies. Clinical evidence retains its reported laterality; optional anatomy layers are independent.",
+      "sources": [
+        {
+          "label": "CerebrA / DKT · anatomical boundaries",
+          "url": "https://www.nature.com/articles/s41597-020-0557-9",
+          "role": "Manera et al. 2020: standardized gross anatomical parcels derived from Mindboggle DKT. The union of named frontal parcels is our broad region approximation, not a clinical study mask; prepared meshes retain their existing source registration."
+        },
+        {
+          "label": "Fox 2012",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4120275/",
+          "role": "Depression TMS connectivity analysis; Table 1A and Figure 3. Seed and cortical target are distinct."
+        },
+        {
+          "label": "Fitzsimmons 2025",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39089567/",
+          "role": "OCD trial of left DLPFC or left pre-SMA plus ERP; no clinical superiority over the vertex control."
+        }
+      ],
+      "color": "#c99270",
+      "boundary_basis": "Middle-frontal parcels provide broad DLPFC reference anatomy. Use Hemisphere to compare sides; laterality and location vary by protocol."
+    },
+    {
+      "id": "presma",
+      "name": "Pre-SMA",
+      "full_name": "Pre-supplementary motor area",
+      "status": "Atlas-derived anatomical estimate",
+      "mesh_ids": [
+        "aal3-presma-l",
+        "aal3-presma-r"
+      ],
+      "context_mesh_ids": [],
+      "point_ids": [],
+      "relevant_topics": [
+        "tms-ocd"
+      ],
+      "default_view": "medial",
+      "default_hemisphere": "left",
+      "evidence_topic": "tms-ocd",
+      "evidence_target": "presma",
+      "description": "Pre-SMA is estimated from the left and right AAL3 supplementary motor labels anterior to the anterior-commissure plane (MNI y > 0). This separates it from both SMA proper and the medial superior-frontal estimate of dmPFC.",
+      "limitations": "Reference anatomy in the AAL3 MNI single-subject template, displayed using its native affine. The background cortex uses a different MNI template; small mismatches are possible. No new nonlinear registration, individual treatment boundary or electric field is claimed. The anterior-SMA rule follows the anatomical part of Ji 2021’s method. Its patient-specific 15 mm superficial restriction and connectivity-based target selection are not reproduced.",
+      "evidence_note": "OCD TMS literature includes bilateral scalp-based targeting and left pre-SMA targeting. Ji 2021 used individualized connectivity-guided sites, not one universal coordinate.",
+      "sources": [
+        {
+          "label": "AAL3 · anatomical boundaries",
+          "url": "https://www.oxcns.org/aal3.html",
+          "role": "Rolls et al. 2020, AAL3v1 labels, author-released 1 mm sampling. Medial superior frontal labels 19/20, SMA 15/16, subgenual ACC 151/152. Atlas reference; source affine only, no new registration to the background template."
+        },
+        {
+          "label": "Mantovani 2010",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19691873/",
+          "role": "Bilateral pre-SMA rTMS; scalp measurement is not an MRI target mask."
+        },
+        {
+          "label": "Fitzsimmons 2025",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39089567/",
+          "role": "OCD trial of left DLPFC or left pre-SMA plus ERP; no clinical superiority over the vertex control."
+        },
+        {
+          "label": "Ji 2021",
+          "url": "https://doi.org/10.1002/hbm.25468",
+          "role": "Full publisher Methods §2.5 reviewed: anterior AAL SMA, superficial-distance restriction and personalized right pre-SMA connectivity target. Only the gross anterior-SMA rule is used here, bilaterally for anatomy."
+        }
+      ],
+      "color": "#c4a33c",
+      "boundary_basis": "Pre-SMA is estimated from the left and right AAL3 supplementary motor labels anterior to the anterior-commissure plane (MNI y > 0). This separates it from both SMA proper and the medial superior-frontal estimate of dmPFC."
+    },
+    {
+      "id": "vlpfc",
+      "name": "VLPFC",
+      "full_name": "Ventrolateral prefrontal cortex",
+      "status": "Broad anatomical parcels; circuit context",
+      "mesh_ids": [
+        "dkt-pars-opercularis-l",
+        "dkt-pars-opercularis-r",
+        "dkt-pars-triangularis-l",
+        "dkt-pars-triangularis-r",
+        "dkt-pars-orbitalis-l",
+        "dkt-pars-orbitalis-r"
+      ],
+      "context_mesh_ids": [],
+      "point_ids": [],
+      "relevant_topics": [
+        "ocd",
+        "tms-depression"
+      ],
+      "default_view": "lateral",
+      "default_hemisphere": "left",
+      "evidence_topic": "ocd",
+      "evidence_target": "vlpfc",
+      "description": "Inferior-frontal parcels provide broad VLPFC context. They include opercular, triangular and orbital portions; the whole region is not an amygdala-specific target.",
+      "limitations": "No study-specific VLPFC–amygdala tract, target mask or electric field is available. “More amygdala-connected” is not a demonstrated quantitative ranking of all targets. No connection-strength overlay is inferred.",
+      "evidence_note": "Sydnor 2022 showed left-VLPFC TMS engagement of the amygdala in 45 healthy participants: mechanistic background, not a depression/OCD efficacy trial. Oathes 2023 used an amygdala-connected VLPFC comparison site in depression circuit probing; its evoked amygdala response did not predict depression change. Existing OCD DBS cards concern connected cortex, not direct VLPFC stimulation.",
+      "sources": [
+        {
+          "label": "CerebrA / DKT · anatomical boundaries",
+          "url": "https://www.nature.com/articles/s41597-020-0557-9",
+          "role": "Manera et al. 2020: standardized gross anatomical parcels derived from Mindboggle DKT. The union of named frontal parcels is our broad region approximation, not a clinical study mask; prepared meshes retain their existing source registration."
+        },
+        {
+          "label": "Sydnor 2022 · mechanistic background",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9217085/",
+          "role": "Abstract and indexed Results reviewed; healthy participants. Amygdala-connected endpoints concentrated in BA47/anterior BA45; broad reference parcels are not those endpoints."
+        },
+        {
+          "label": "Oathes 2023 · depression circuit probing",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12919846/",
+          "role": "Indexed Results and Figure 2 reviewed; experimental comparison site, not demonstrated VLPFC treatment efficacy."
+        },
+        {
+          "label": "Li 2020 · OCD DBS",
+          "url": "https://www.nature.com/articles/s41467-020-16734-3",
+          "role": "Response-associated structural network; atlas cortex is not the original tract endpoints."
+        }
+      ],
+      "color": "#9a78b4",
+      "boundary_basis": "Inferior-frontal parcels provide broad VLPFC context. They include opercular, triangular and orbital portions; the whole region is not an amygdala-specific target."
+    },
+    {
+      "id": "sgacc",
+      "name": "sgACC",
+      "full_name": "Subgenual anterior cingulate cortex",
+      "status": "Atlas-derived anatomical estimate",
+      "mesh_ids": [
+        "aal3-sgacc-l",
+        "aal3-sgacc-r"
+      ],
+      "context_mesh_ids": [],
+      "point_ids": [],
+      "relevant_topics": [
+        "tms-depression",
+        "depression"
+      ],
+      "default_view": "medial",
+      "default_hemisphere": "right",
+      "evidence_topic": "tms-depression",
+      "evidence_target": "sgacc",
+      "description": "Left and right subgenual anterior cingulate gray matter follow the AAL3 ACC_sub labels. The region is displayed as a shaded surface, independently of Fox’s analysis seed.",
+      "limitations": "Reference anatomy in the AAL3 MNI single-subject template, displayed using its native affine. The background cortex uses a different MNI template; small mismatches are possible. No new nonlinear registration, individual treatment boundary or electric field is claimed. This gray-matter region does not represent the adjacent SCC white-matter DBS target.",
+      "evidence_note": "“Subglossal” is interpreted here as subgenual. Depression TMS literature uses sgACC as a network reference; the separate SCC DBS view concerns subcallosal white matter. These are not interchangeable targets.",
+      "sources": [
+        {
+          "label": "AAL3 · anatomical boundaries",
+          "url": "https://www.oxcns.org/aal3.html",
+          "role": "Rolls et al. 2020, AAL3v1 labels, author-released 1 mm sampling. Medial superior frontal labels 19/20, SMA 15/16, subgenual ACC 151/152. Atlas reference; source affine only, no new registration to the background template."
+        },
+        {
+          "label": "Fox 2012",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4120275/",
+          "role": "Depression TMS connectivity analysis; Table 1A and Figure 3. Seed and cortical target are distinct."
+        },
+        {
+          "label": "Holtzheimer 2017 · SCC DBS",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28988904/",
+          "role": "Bilateral subcallosal white-matter DBS trial; no significant benefit in the blinded primary comparison."
+        }
+      ],
+      "color": "#c97189",
+      "boundary_basis": "Left and right subgenual anterior cingulate gray matter follow the AAL3 ACC_sub labels. The region is displayed as a shaded surface, independently of Fox’s analysis seed."
+    },
+    {
+      "id": "ofc",
+      "name": "OFC",
+      "full_name": "Orbitofrontal cortex",
+      "status": "Broad anatomical parcels",
+      "mesh_ids": [
+        "dkt-medial-orbitofrontal-l",
+        "dkt-medial-orbitofrontal-r",
+        "dkt-lateral-orbitofrontal-l",
+        "dkt-lateral-orbitofrontal-r",
+        "dkt-pars-orbitalis-l",
+        "dkt-pars-orbitalis-r"
+      ],
+      "context_mesh_ids": [],
+      "point_ids": [],
+      "relevant_topics": [
+        "tms-ocd",
+        "ocd"
+      ],
+      "default_view": "oblique",
+      "default_hemisphere": "both",
+      "evidence_topic": "tms-ocd",
+      "evidence_target": "ofc",
+      "description": "Medial and lateral orbitofrontal parcels plus pars orbitalis provide reference anatomy. Use Hemisphere to inspect either side.",
+      "limitations": "Anatomical OFC parcels do not define a stimulation field. The medial/lateral distinction and stimulation-versus-imaging-effect laterality remain finding-specific.",
+      "evidence_note": "OCD literature includes OFC stimulation and OFC connections of DBS sites. Nauczyciel’s stimulation was right-sided; the reported metabolic decrease was bilateral.",
+      "sources": [
+        {
+          "label": "CerebrA / DKT · anatomical boundaries",
+          "url": "https://www.nature.com/articles/s41597-020-0557-9",
+          "role": "Manera et al. 2020: standardized gross anatomical parcels derived from Mindboggle DKT. The union of named frontal parcels is our broad region approximation, not a clinical study mask; prepared meshes retain their existing source registration."
+        },
+        {
+          "label": "Nauczyciel 2014",
+          "url": "https://www.nature.com/articles/tp201462",
+          "role": "Right OFC stimulation at the Fp2 scalp landmark; bilateral metabolic effects, not bilateral stimulation. Primary active–sham contrast P=.07."
+        },
+        {
+          "label": "Tyagi 2019",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30853111/",
+          "role": "VC connections to medial OFC and amSTN connections to lateral OFC are distinct findings."
+        }
+      ],
+      "color": "#668ac3",
+      "boundary_basis": "Medial and lateral orbitofrontal parcels plus pars orbitalis provide reference anatomy. Use Hemisphere to inspect either side."
+    },
+    {
+      "id": "right-ofc",
+      "name": "Right OFC",
+      "full_name": "Right orbitofrontal cortex",
+      "status": "Right-sided anatomical parcels",
+      "mesh_ids": [
+        "dkt-medial-orbitofrontal-r",
+        "dkt-lateral-orbitofrontal-r",
+        "dkt-pars-orbitalis-r"
+      ],
+      "context_mesh_ids": [],
+      "point_ids": [],
+      "relevant_topics": [
+        "tms-ocd"
+      ],
+      "default_view": "oblique",
+      "default_hemisphere": "right",
+      "evidence_topic": "tms-ocd",
+      "evidence_target": "ofc",
+      "description": "Right OFC is a documented OCD TMS target. Nauczyciel used the Fp2 scalp landmark; the colored parcels show anatomy, not that coil placement.",
+      "limitations": "The recalled “right bitemporofrontal/bifrontal cortex” name remains unresolved. Right OFC is a plausible match, not a confirmed correction. No separate region is created under the uncertain name.",
+      "evidence_note": "The cited right-OFC trial did not reach significance in its primary active-versus-sham clinical comparison. Bilateral PET changes are separate from the right stimulation site.",
+      "sources": [
+        {
+          "label": "CerebrA / DKT · anatomical boundaries",
+          "url": "https://www.nature.com/articles/s41597-020-0557-9",
+          "role": "Manera et al. 2020: standardized gross anatomical parcels derived from Mindboggle DKT. The union of named frontal parcels is our broad region approximation, not a clinical study mask; prepared meshes retain their existing source registration."
+        },
+        {
+          "label": "Nauczyciel 2014",
+          "url": "https://www.nature.com/articles/tp201462",
+          "role": "Right OFC stimulation at the Fp2 scalp landmark; bilateral metabolic effects, not bilateral stimulation. Primary active–sham contrast P=.07."
+        }
+      ],
+      "color": "#668ac3",
+      "boundary_basis": "Right OFC is a documented OCD TMS target. Nauczyciel used the Fp2 scalp landmark; the colored parcels show anatomy, not that coil placement."
+    }
+  ]
+}

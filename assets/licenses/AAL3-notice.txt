@@ -1,0 +1,28 @@
+AAL3 source labels and atlas-derived regional surfaces
+
+Source: Groupe d'Imagerie Neurofonctionnelle (GIN), UMR5296, Bordeaux, France.
+AAL3 authors: Edmund T. Rolls, Chu-Chung Huang, Ching-Po Lin, Jianfeng Feng,
+Marc Joliot. Automated anatomical labelling atlas 3. NeuroImage 206 (2020),
+116189. https://doi.org/10.1016/j.neuroimage.2019.116189
+
+Author distribution: https://www.oxcns.org/AAL3v1_for_SPM12.zip
+Current distributor: https://www.gin.cnrs.fr/en/tools/aal/
+License notice: AAL3 User Guide, April 2024, page 1:
+https://www.gin.cnrs.fr/wp-content/uploads/AAL3_UserGuide_April2024.pdf
+The guide states that AAL3 is copyright freeware under the GNU General Public
+License. It explains that the April 2024 package adds the operating license
+without modifying the AAL3v1 atlas. The notice does not specify a GPL version;
+the included GPL-3.0 text is supplied with this distribution.
+
+Unmodified corresponding atlas data are supplied in assets/atlas-inputs/.
+The corresponding surface-generation source is tools/build-region-surfaces.py.
+The six assets/anatomy/aal3-*.glb files are modifications prepared 2026-09-30:
+AAL3 label selection, anterior SMA restriction at MNI y > 0, marching cubes,
+and mild Taubin smoothing. Full processing parameters and hashes are in
+assets/region-surfaces.json. These derived assets and their generation script
+are distributed under GPL-3.0-or-later, without warranty.
+
+No atlas software was executed or redistributed. Source labels retain their
+original attribution. This notice applies to these AAL3 materials; unrelated
+prepared assets retain their own licenses. This is reference anatomy, not
+validated treatment-target geometry.

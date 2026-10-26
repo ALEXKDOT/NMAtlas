@@ -1,0 +1,102 @@
+NMAtlas v0.5 — corrections and verification
+30 September 2026
+
+75 findings from 31 sources. Updated in the existing application folder so the
+local server remains at http://127.0.0.1:8773/ . No original PDFs or synced project
+files were changed. The prior v0.4 distribution and a backup of edited files remain.
+
+1. Finding-specific anatomy and laterality
+Every finding now carries explicit per-entity hemisphere metadata. The renderer
+uses those assignments rather than guessing a whole paper's side. Fitzsimmons
+shows left DLPFC and left pre-SMA context. Nauczyciel stimulation is right-sided;
+the PET-effect finding is bilateral. Figee FM016 and FM017 distinguish right NAc
+from right lateral PFC and left medial PFC, respectively. FM018 preserves the left
+NAc seed while keeping unspecified cortical laterality labeled as context.
+Selecting a new finding resets a prior hemisphere filter so reported sides are
+not silently hidden. Unknown laterality does not create a bilateral-effect claim.
+
+2. Separate Tyagi networks
+R2-19-1 now represents VC–medial OFC; R2-19-3 represents amSTN–lateral OFC/dACC/DLPFC.
+Separate medial and lateral DKT orbitofrontal parcels are used. The existing
+clinical-comparison finding remains R2-19-2. This is one additional finding from
+the same paper, not an independent cohort. Whole STN and capsular masks remain
+reference context, not reconstructed clinical subdivisions or patient tracts.
+
+3. Pre-SMA versus dmPFC
+Removed the identical whole-superior-frontal target highlights. Shared parcels
+remain gray anatomical context; their displayed laterality follows each finding.
+A separate, sourced scalp-landmark comparison distinguishes the more anterior
+dmPFC approach (Dunlop, about 25% of nasion–inion distance) from the pre-SMA approach
+reported by Mantovani (35%). Fitzsimmons' left-sided target is identified separately.
+Dunlop's Talairach coil landmark is not plotted as an MNI coordinate; the published
+MNI analysis seed keeps its distinct role. No target segmentation was invented.
+Clicking shared reference anatomy offers target choices instead of picking the
+first matching entity and silently switching from dmPFC to pre-SMA.
+
+4. Evidence, functional maps and links
+Selecting a study or finding chooses its linked available map or turns the overlay
+off. A deliberately selected unrelated map is visibly labeled Comparison only,
+including the selected paper's name. Depression TMS overlays are available in
+Depression TMS and All evidence, not in OCD or depression DBS views. Shared URLs
+preserve the chosen map (including Off), opacity, hemisphere, view preset, labels,
+points, fibers and evidence selection. Arbitrary free-camera poses are not saved;
+a free-view link restores a preset. Rotation updates the on-screen view label.
+
+5. Viewing and coordinate controls
+Medial presets isolate a hemisphere. Requesting Both from a medial view changes
+to oblique so the filter and view remain compatible. Orientation axes rotate with
+the camera. Point labels have anchored colored dots and connecting lines; collision
+avoidance moves text without moving its true coordinate anchor. Published point
+labels have priority over anatomical labels. Through-anatomy point projection is
+explicitly disclosed in the scene and coordinate notes. Marker size is display-only.
+Functional maps have a dedicated opacity slider. The cortex slider is disabled
+while a map is active, with an explanation. Zero map opacity hides all mapped
+cortex consistently, including highlighted parcels. Cortex opacity also scales
+focused cortical parcels when no map is active.
+
+6. Controlled depression DBS evidence
+Added Holtzheimer 2017 (SCC; 90 randomized) and Dougherty 2015 (VC/VS; 30 participants).
+Each card identifies its randomized sham-controlled design, controlled interval,
+response definition, reported denominators, nonsignificant primary comparison,
+source and interpretation limits. These additions were checked against published
+abstracts; full text was not independently reviewed. Later open-label findings
+are not substituted for the controlled result.
+
+7. Other audit corrections
+Object-valued sample sizes are formatted by cohort instead of [object Object].
+Carmi's response card states 16/42 active and 5/45 sham, separately from the 99-person
+ITT and 94-person modified ITT populations. Study design is visible on each card.
+
+Verification
+- 12 automated regression groups passed. These exercise the actual application
+  selection/URL functions and shared display rules, plus all evidence references.
+- Live browser checks confirmed Fitzsimmons' left-only context, Nauczyciel's
+  bilateral-effect metadata, separate Tyagi networks, both new trial cards,
+  Fox clearing Taylor, explicit comparison labeling, saved-map restoration,
+  isolated medial view, zero map opacity, point leader lines, shared-parcel choices,
+  and the free-rotation label. No browser errors or warnings were reported.
+- All 32 original finding/limitation texts remain unchanged. The seven supplied
+  Round 2 PDF hashes and both original public map hashes match the prior build.
+- Fresh screenshots are in output/atlas-corrections-v0.5. The previous browser
+  scripts/results are archived as historical v0.4 checks; they are not presented
+  as a new exhaustive regression run.
+
+Remaining spatial limitations
+Precise pre-SMA/dmPFC target masks, participant-specific electrodes, stimulation
+fields, response volumes and tractograms remain unavailable. Missing subdivisions
+and pathways are still disclosed. No new nonlinear registration of mixed template
+versions was performed, and cortical projections are not anatomically validated
+individual targeting surfaces. These changes correct representation and controls;
+they do not supply missing original 3D data or validate clinical targeting.
+
+Primary sources used for corrections
+Nauczyciel: https://pubmed.ncbi.nlm.nih.gov/25203167/
+Tyagi: https://pubmed.ncbi.nlm.nih.gov/30853111/
+Dunlop targeting methods: https://pmc.ncbi.nlm.nih.gov/articles/PMC4793124/
+Holtzheimer: https://pubmed.ncbi.nlm.nih.gov/28988904/
+Dougherty: https://pubmed.ncbi.nlm.nih.gov/25726497/
+Dougherty author-institution abstract:
+https://ohiostate.elsevierpure.com/en/publications/a-randomized-sham-controlled-trial-of-deep-brain-stimulation-of-t/
+Carmi: supplied PDF, Results, page 4; https://doi.org/10.1176/appi.ajp.2019.18101180
+Fitzsimmons: published abstract/indexed methods and companion trial publication,
+https://www.biologicalpsychiatryjournal.com/article/S0006-3223%2824%2901588-9/fulltext

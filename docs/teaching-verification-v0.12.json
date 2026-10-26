@@ -1,0 +1,79 @@
+{
+  "version": "0.12.0",
+  "date": "2026-10-02",
+  "scope": "Teaching companion and original-atlas regression checks",
+  "automated": {
+    "status": "passed",
+    "syntax": [
+      "app.js",
+      "atlas-model.mjs",
+      "learn.js",
+      "teaching-model.mjs",
+      "teaching-catalog.mjs"
+    ],
+    "atlasRegressionGroups": 52,
+    "teachingRegressionGroups": 7,
+    "citationIntegrity": {
+      "sources": 37,
+      "findings": 88,
+      "coordinateRecords": 13,
+      "displayedMarkers": 8
+    },
+    "pythonSyntax": [
+      "serve.py",
+      "launch.py",
+      "tools/build-region-surfaces.py",
+      "tools/build-public-pathways.py"
+    ],
+    "diffWhitespace": "passed"
+  },
+  "browser": {
+    "environment": "Codex in-app browser, local server",
+    "status": "passed for the checks listed",
+    "lessonSteps": {
+      "tested": 20,
+      "total": 20,
+      "result": "Lesson/step, selected entities, side, reference bundles and child-renderer state matched."
+    },
+    "diagramControls": {
+      "tested": 30,
+      "result": "All distinct region and edge controls selected the expected catalog ID; no final mismatches."
+    },
+    "contactPairs": {
+      "tested": 16,
+      "result": "All ordered pairs of four contacts, including same-contact selections; displayed spacing and observation cards matched."
+    },
+    "restoration": [
+      "Contact comparison survives reload.",
+      "Selected sgACC lesson element survives reload and reaches the embedded renderer after loading.",
+      "Browser Back restores prior lesson, step and selected element in parent and child."
+    ],
+    "responsive": {
+      "narrowCssWidth": 325,
+      "documentScrollWidth": 325,
+      "iframeCssWidth": 293,
+      "result": "No horizontal page overflow; contact cards and diagram panels remain within the page.",
+      "viewportOverride": "Reset after testing."
+    },
+    "originalAtlas": [
+      "SCC highlight visible on both hemispheres with the original atlas colors.",
+      "Normal depression-TMS topic selection restores its DLPFC preset and corticostriatal bundle.",
+      "Taylor functional map selectable in normal depression-TMS view.",
+      "Teaching scene remains null in the normal atlas."
+    ],
+    "teachingScc": "Left sgACC landmark visible, colored ba748a; right hidden in left medial teaching view.",
+    "applicationGeometryErrors": [],
+    "preview": "teaching-preview-v0.12.jpg"
+  },
+  "scientificReview": {
+    "claimCrosswalk": "teaching-review-v0.12.json",
+    "accessRequests": "TEACHING-ACCESS-v0.12.md",
+    "reviewScope": "Public source and existing atlas-record review; not an independent clinical validation.",
+    "limits": [
+      "No patient-specific lead registration, stimulation field or tract-to-contact assignment.",
+      "Population geometry is not validated for millimeter-level contact localization.",
+      "No claim that this draft reproduces Dr. Figee's particular schematic.",
+      "No student usability study or clinician endorsement."
+    ]
+  }
+}

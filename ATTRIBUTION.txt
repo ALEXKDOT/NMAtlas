@@ -1,0 +1,186 @@
+NMAtlas — 3D circuit atlas, v0.6, 30 September 2026
+
+This project continues the user's local NMAtlas. It does not copy Omar Chishti's
+source code, models, or visual assets; his White Matter Tract Explorer informed the
+requested interaction style. https://github.com/omar-chishti/omar-chishti.github.io
+
+1. HCP1065 POPULATION-AVERAGED TRACTOGRAPHY
+Yeh FC. Population-based tract-to-region connectome of the human brain and its
+hierarchical topology. Nature Communications 13, 4933 (2022).
+https://doi.org/10.1038/s41467-022-32595-4
+https://brain.labsolver.org/hcp_trk_atlas.html
+Source archive: https://github.com/data-others/atlas/releases/download/hcp1065/hcp1065_avg_tracts_trk.zip
+License: Creative Commons Attribution-ShareAlike 4.0 International.
+https://creativecommons.org/licenses/by-sa/4.0/
+The HCP-derived coordinate assets in assets/tracts/ are provided under the same licence. Other sources added in v0.10 retain their own terms below.
+
+Data were provided by the Human Connectome Project, WU-Minn Consortium
+(Principal Investigators: David Van Essen and Kamil Ugurbil; 1U54MH091657), funded
+by the 16 NIH Institutes and Centers that support the NIH Blueprint for
+Neuroscience Research; and by the McDonnell Center for Systems Neuroscience
+at Washington University.
+
+Preparation: 11 original .trk.gz entries were retrieved by HTTP byte range from the
+published archive, with ZIP CRC-32 verified. Each original file SHA-256 is recorded
+in assets/atlas.json. NiBabel 5.3.2 interpreted TrackVis header orientation and
+half-voxel conventions to produce RAS+ millimetre coordinates. Up to 550
+streamlines per file were sampled at evenly spaced indices, then resampled by
+arc length at approximately 1.8 mm, capped at 100 points per streamline. No
+registration, anatomical editing, endpoint labeling or patient-specific inference
+was added. The webpage applies one display rotation: RAS [x,y,z] -> [x,z,-y].
+Colors identify bundles; display density is not an anatomical measurement.
+
+2. PREPARED ANATOMICAL MESHES
+Batuhan Ayci. Clinical Neuroanatomy Atlas, public data release v1.0.3.
+https://github.com/aycibatuhan/nervous-system-atlas/releases/tag/v1.0.3
+Bundle: atlas-data-v1.0.3.tar.gz
+SHA-256: 728a29ab97bfd0703dc1e01769c6d48ac34287500d1bb79544d8f6f858423db7
+Selected prepared geometry is reused without coordinate changes. Runtime materials,
+colors, opacity and visibility are changed. The bundle's generated data is offered
+under CC BY-SA 4.0, with the original datasets retaining their own upstream terms.
+The original source metadata, transformation labels and mesh hashes are retained
+in assets/atlas.json. Licence texts are included in assets/licenses/.
+
+Principal upstream sources used:
+- MNI152NLin2009cAsym template, (c) Louis Collins, McGill University; Fonov et al.
+  TemplateFlow distribution, MNI/McGill permissive template terms.
+- FreeSurfer aseg segmentation of the MNI template (TemplateFlow); source terms
+  and provenance caveat are retained in the MNI-FreeSurfer licence record.
+- MASSP multi-contrast subcortical parcellation, Pierre-Louis Bazin and colleagues,
+  University of Amsterdam; eLife 2020. Apache 2.0 (author atlas-prior terms; the
+  TemplateFlow derivative's own separate terms were not stated). The mesh bundle
+  converted labels to smoothed, decimated triangle surfaces; these are modified data.
+- MIAL thalamic nuclei: Najdenovska et al., Scientific Data 2018; CC BY 4.0.
+- Neudorfer et al. High-resolution atlas of the human hypothalamic region,
+  Scientific Data 2020; CC BY 4.0. Supplies BNST geometry in the prepared bundle.
+- CerebrA: Manera AL, Dadar M, Fonov V, Collins DL. Scientific Data 2020;7:237.
+  https://doi.org/10.1038/s41597-020-0557-9. CC0 source labels; prepared meshes
+  were transformed from the symmetric to asymmetric MNI template by the bundle author.
+
+Alignment: HCP tracts use ICBM 2009a Nonlinear Asymmetric; the prepared mesh bundle
+reports MNI152NLin2009cAsym with source-specific transformation metadata.
+No new 2009a-to-2009c nonlinear registration was performed. The shared RAS-mm
+coordinate overlay is for reference visualization and has not been validated for
+millimetre-level target-to-tract measurements. Native coordinates are preserved.
+
+3. EVIDENCE COLLECTION AND ROUND 2
+The 32 original finding and limitation records are retained verbatim, with clinical
+focus tags added. Round 2 contributes 41 source-linked findings after splitting the Tyagi networks from 20 selected papers:
+7 TMS/depression, 6 TMS/OCD, 4 DBS/depression, 3 DBS/OCD. Jimenez is cross-listed
+in both TMS areas, but is one paper. Two controlled depression DBS additions bring the total to 75 findings across 31 sources.
+Original Figee files, including all seven supplied Round 2 PDFs, remain read-only.
+No full-text publication or journal figure is redistributed in this package.
+Local PDF routes use an explicit allowlist. Links require the originals to remain
+at their recorded locations. Published full-text links remain available separately.
+assets/round2-audit.json records source access, checksums and sample distinctions.
+
+PUBLIC FUNCTIONAL MAPS
+Two public NeuroVault volumes uploaded by siddiqis, collection 13075, downloaded
+30 September 2026. CC0-1.0 under https://neurovault.org/FAQ, question 13.
+- Image 787858: Dysphoric-anxiosomatic targeting atlas, Siddiqi et al., AJP 2020,
+  Figure 5. DOI 10.1176/appi.ajp.2019.19090915.
+  https://neurovault.org/images/787858/
+  Positive: hypothesized anxiosomatic preference. Negative: dysphoric preference.
+  Repository space: GenericMNI; exact template version unspecified.
+- Image 787859: Convergent causal depression map, Siddiqi et al., Nature Human
+  Behaviour 2021, Figure 5a. DOI 10.1038/s41562-021-01161-1.
+  https://neurovault.org/images/787859/
+  This public group t map is referenced in Taylor 2026, Figure 2 and Methods.
+  It is not a participant-specific R map or an individualized treatment target.
+  Repository space: MNI152NLin2009cAsym. Native 2-mm grid and affine retained.
+The native compressed NIfTIs and exact checksums are included. Browser arrays are
+little-endian float32, C order, with the original voxel-to-world transforms.
+Values are trilinearly sampled onto the reference cortical surfaces in shared
+MNI coordinates; no new nonlinear registration is performed. Deep voxel values
+are not represented on cortex. The display scale clips at the 95th percentile
+of absolute nonzero finite values; this is not a significance threshold.
+Color sign is defined separately for each map and is not excitation/inhibition.
+No newly colored region is claimed to be a validated or accessible TMS target.
+
+PUBLISHED POINT MARKERS
+Five MNI coordinates are transcribed with source locators and original template
+qualifications. Fox Figure 3 supplies two candidate left-DLPFC targets; Fox Table
+1A, Morriss Methods and Dunlop Methods supply three analysis seeds. Point radius
+is a visibility aid, not an ROI radius, electric-field size or treatment tolerance.
+No Talairach point was silently converted to MNI. No patient target was inferred.
+
+4. DISPLAY LIBRARY
+Three.js 0.170.0, (c) 2010-2024 three.js authors, MIT licence.
+https://github.com/mrdoob/three.js/tree/r170
+Licence: assets/vendor/LICENSE-three.txt
+The bundled Meshopt decoder retains its embedded upstream notices.
+
+REGIONAL OVERLAY UPDATE (v0.6)
+Seven reference-overlay entries reuse the licensed anatomy and five existing
+coordinate markers. No new study masks, registrations or patient data were added.
+Source-specific representation and review limits are in assets/region-overlays.json.
+The Dunlop 2020 clinical addition brings the current total to 76 findings / 32 sources.
+Sydnor 2022 (doi:10.1126/sciadv.abn5803), Oathes 2023
+(doi:10.1038/s44220-023-00165-2) and Ji 2021 (doi:10.1002/hbm.25468)
+are supplemental mechanistic/targeting citations, not new clinical outcome cards.
+Full texts are not redistributed. Original source PDFs were not modified.
+
+8. AAL3 anatomical estimates added in v0.7
+Rolls ET, Huang CC, Lin CP, Feng J, Joliot M. Automated anatomical labelling
+atlas 3. NeuroImage 2020;206:116189. doi:10.1016/j.neuroimage.2019.116189.
+Author labels: https://www.oxcns.org/AAL3v1_for_SPM12.zip
+Six derived surfaces represent medial superior frontal anatomy (dmPFC proxy),
+anterior SMA (pre-SMA proxy; y > 0), and subgenual ACC. These retain source MNI
+affine placement without new registration to the background. The pre-SMA rule
+follows the anatomical part of Ji et al. 2021, doi:10.1002/hbm.25468; no individual
+connectivity target or superficial-distance restriction is reproduced.
+Source labels and generation script are included; hashes and processing details
+are in assets/region-surfaces.json. License notice: assets/licenses/AAL3-notice.txt
+and assets/licenses/GPL-3.0.txt. No original papers are redistributed.
+
+V0.8 TMS CIRCUIT CONTEXT
+Existing HCP1065 tract geometry is unchanged. Source-linked display presets,
+not new tract reconstructions, are documented in assets/tms-circuits.json and
+TMS-CIRCUITS.txt. The seven supplemental references are linked, not redistributed.
+Mechanistic/functional evidence and atlas anatomy are identified separately.
+
+
+7. PUBLIC PATHWAY EXPANSION — v0.10.0, 1 October 2026
+
+New HCP1065 families: C_FPH, C_PHP, C_PH, C_PO and FAT, bilateral.
+Same Yeh citation, CC BY-SA 4.0 and HCP acknowledgment as section 1.
+
+Forceps minor: Advanced Atlas of 80 Bundles in MNI Space, version 2.
+https://doi.org/10.6084/m9.figshare.7375883.v2
+HCP842-derived, not HCP1065. Garyfallidis et al., Recognition of white matter
+bundles using local and global streamline-based registration and clustering,
+NeuroImage 170:283–295 (2018; bundled README cites 2017 online publication), and Yeh et al. 2018 (source README).
+CC BY 4.0. Full source license and README: assets/tract-inputs/dipy/.
+
+Lead-DBS 3.2.1 official distribution, release archive last modified 14 May 2026:
+https://www.lead-dbs.org/release/leaddbs.zip
+DBS Tractography Atlas (Middlebrooks 2020), AJNR, doi:10.3174/ajnr.A6693;
+OCD Response Tract Atlas (Li 2020), doi:10.1038/s41467-020-16734-3;
+Atlas of the Human Hypothalamus (Neudorfer & Germann 2020),
+doi:10.1038/s41597-020-00644-6.
+The complete upstream license is retained at
+assets/tract-inputs/lead/UPSTREAM-LICENSE.md. Its Standard Space Atlases notice
+releases bundled atlases under the main Lead-DBS license and separately states
+that commercial uses should be referred to the relevant atlas coordinator.
+We preserve that notice without asserting broader permissions. Original MAT
+and NIfTI inputs accompany the derivatives, with SHA-256 hashes and source paths.
+
+Pre-SMA estimate: source motor/associative STN streamlines endpoint-filtered
+with bundled STN masks and existing AAL3 anterior-SMA labels; 460 left, 186 right.
+AAL3 attribution/license remains as described above. No synthesized trajectories.
+Li fibers: all 238 positive-weight source streamlines; 146 nonpositive excluded.
+ITP: local probability masks >0.5 converted to shaded surfaces; not full fibers.
+VTAPP: original vtaPP_slMFB model; full source paths including caudal extensions,
+separate from the classical MFB model.
+
+Reproduction: tools/build-public-pathways.py, tools/public-pathways-spec.json,
+assets/tract-inputs/manifest.json and assets/public-pathways.json.
+All transformations, indices, software versions and coordinate-space limitations
+are documented in docs/PUBLIC-DATA-AUDIT-v0.10.md.
+
+Office-drawing anatomy addition (v0.16.1, 2026-10-15)
+Four unchanged prepared meshes from the existing Clinical Neuroanatomy Atlas
+v1.0.3 bundle: hippocampus-l/r (MNI-FreeSurfer) and amygdala-l/r (MASSP, Apache-2.0).
+Source metadata, mesh SHA-256 hashes, template space and original licenses are
+retained in assets/atlas.json and assets/licenses/. No geometry was derived from
+the office photos. Precentral-gyrus context reuses the existing CerebrA meshes.

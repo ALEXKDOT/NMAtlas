@@ -1,0 +1,397 @@
+{
+  "version": "0.17.0",
+  "reviewed": "2026-10-15",
+  "provenance": "Brief paraphrases of the existing evidence, region and TMS-circuit catalogs. Gross background parcels are labeled as orientation anatomy, not new treatment indications. Anatomical dataset provenance is retained in atlas.json and region-surfaces.json. Version 0.14.1 clarifies teaching language without adding clinical claims; embedded lessons use their own source-linked node explanations. Version 0.15.0 adds Dixon 2017 functional background and terminology, preserving uncertainty and clinical/spatial distinctions. Version 0.16.1 adds high-confidence office-drawing anatomy references without adding clinical findings. Version 0.17.0 adds Johnson and Ji research context; broad surfaces do not reproduce study clusters.",
+  "anatomy": {
+    "dkt-rostral-middle-frontal": {
+      "description": "Anterior middle-frontal cortex, used here as a broad DLPFC estimate for depression and OCD TMS. This parcel is larger than an individual stimulation site.",
+      "role": "DLPFC context",
+      "source_ids": [
+        "P22658708",
+        "P39089567"
+      ]
+    },
+    "dkt-caudal-middle-frontal": {
+      "description": "Posterior middle-frontal cortex, included in the broad DLPFC reference region. TMS studies use more specific sites within or near these anatomical parcels.",
+      "role": "DLPFC context",
+      "source_ids": [
+        "P22658708",
+        "P39089567"
+      ]
+    },
+    "dkt-pars-opercularis": {
+      "description": "This part of the inferior frontal gyrus contributes to the broad VLPFC region. VLPFC connections appear in OCD DBS research; its presence here does not mean it is directly stimulated.",
+      "role": "VLPFC context",
+      "source_ids": [
+        "P41172368"
+      ]
+    },
+    "dkt-pars-triangularis": {
+      "description": "This part of the inferior frontal gyrus contributes to the broad VLPFC region. Its connections help explain the cortical networks associated with OCD DBS.",
+      "role": "VLPFC context",
+      "source_ids": [
+        "P23434914",
+        "P41172368"
+      ]
+    },
+    "dkt-pars-orbitalis": {
+      "description": "This lower part of the inferior frontal gyrus sits near the boundary between VLPFC and orbitofrontal cortex. It contributes to both broad regional estimates in this atlas.",
+      "role": "VLPFC / OFC overlap",
+      "source_ids": [
+        "P41172368",
+        "P40963640"
+      ]
+    },
+    "dkt-medial-orbitofrontal": {
+      "description": "Medial cortex on the orbital frontal surface. Tyagi associated ventral-capsule DBS sites with medial OFC connections, distinct from the lateral OFC network of amSTN sites. Dixon proposes that medial OFC evaluates memories and imagined future events in relation to goals and needs. This specialization remains a hypothesis.",
+      "role": "Medial OFC context",
+      "source_ids": [
+        "P28616997",
+        "P30853111"
+      ],
+      "background_locator": "Figure 3; medial OFC section; Limitations of the Appraisal-by-Content Model"
+    },
+    "dkt-lateral-orbitofrontal": {
+      "description": "Lateral cortex on the orbital frontal surface. Included for OCD OFC TMS and the lateral OFC connections reported from amSTN DBS sites; it is not a coil field. Dixon describes lateral OFC as evaluating external sensory information in context, including both positive and negative values.",
+      "role": "Lateral OFC context",
+      "source_ids": [
+        "P28616997",
+        "P25203167",
+        "P30853111"
+      ],
+      "background_locator": "Figure 2; lateral OFC section"
+    },
+    "dkt-superior-frontal": {
+      "description": "Superior frontal cortex appears in proposed DLPFC\u2013sgACC routes and provides context for medial-frontal TMS. This broad parcel does not delineate individual study regions; separate dmPFC and pre-SMA layers provide more specific estimates.",
+      "role": "Superior frontal context",
+      "source_ids": [
+        "P31109199",
+        "P26440813",
+        "seguin2026"
+      ]
+    },
+    "dkt-caudal-anterior-cingulate": {
+      "description": "Dorsal/caudal anterior cingulate anatomy, included in OCD mPFC\u2013ACC and DBS connectivity discussions. A whole parcel does not demonstrate isolated direct ACC stimulation by TMS. Dixon calls the action-related cingulate territory aMCC (anterior midcingulate cortex), often labeled dACC in other work. Study definitions vary; this parcel is not an exact aMCC boundary.",
+      "role": "Cingulate circuit context",
+      "source_ids": [
+        "P28616997",
+        "P31109199",
+        "P30853111"
+      ]
+    },
+    "dkt-rostral-anterior-cingulate": {
+      "description": "Part of the anterior cingulate cortex, a region studied in mood and OCD circuits. The smaller sgACC region lies farther below the corpus callosum and is shaded separately when selected. Dixon distinguishes pregenual ACC (pgACC), proposed to interpret bodily feelings in personal context. This broad rostral parcel does not precisely delineate pgACC.",
+      "role": "Cingulate reference anatomy",
+      "source_ids": [
+        "P28616997",
+        "P22658708"
+      ]
+    },
+    "dkt-insula": {
+      "description": "The insula is a connectivity and task-analysis region, not the cortical coil site in insula-guided TMS. Johnson 2026 adds fronto-insular mechanism research and exploratory human associations; Ji 2026 includes the insula in network convergence. This whole-insula surface does not delineate either study\u2019s exact cluster or establish an effective stimulation target.",
+      "role": "Task and connectivity analysis region",
+      "source_ids": [
+        "P38228914",
+        "P39089567",
+        "P42102818",
+        "P41484145"
+      ]
+    },
+    "aal3-dmpfc": {
+      "description": "The dorsomedial prefrontal cortex (dmPFC) is a medial frontal region studied as a TMS target in OCD and depression. This shading estimates its anatomy; the effects and evidence depend on the stimulation protocol.",
+      "role": "dmPFC estimate",
+      "source_ids": [
+        "P26440813",
+        "P31711880"
+      ]
+    },
+    "aal3-presma": {
+      "description": "Pre-SMA is medial frontal cortex involved in controlling actions. Its connections with the striatum and STN motivate OCD TMS research. The shaded region is an anatomical estimate; the optional pre-SMA\u2013STN fibers approximate one of these pathways.",
+      "role": "Pre-SMA estimate",
+      "source_ids": [
+        "P19691873",
+        "P39089567",
+        "ji2021"
+      ]
+    },
+    "aal3-sgacc": {
+      "description": "Subgenual anterior cingulate cortex (sgACC) is a deep cortical region involved in mood. Depression TMS research studies its functional connections with the DLPFC. SCC DBS instead targets connecting fibers beside this cortex. The pink surface shows sgACC, not an exact stimulation site. Dixon proposes a role in anticipating events through bodily arousal; this remains tentative, with causal evidence mainly from animals.",
+      "role": "sgACC estimate",
+      "source_ids": [
+        "P28616997",
+        "P22658708",
+        "P24832866"
+      ],
+      "background_locator": "Figure 4; sgACC section; Limitations of the Appraisal-by-Content Model"
+    },
+    "internal-capsule": {
+      "description": "A major white-matter corridor shown for capsular DBS orientation. This full capsule does not delineate the ventral ALIC target or the VC/VS treatment region.",
+      "role": "Capsular DBS context",
+      "source_ids": [
+        "P27049915",
+        "P38141909"
+      ]
+    },
+    "nucleus-accumbens": {
+      "description": "A ventral-striatal nucleus historically named as an OCD DBS target. Effective contacts in some NAc-labeled series were in adjacent ventral capsule, which is a distinct structure.",
+      "role": "Striatal DBS context",
+      "source_ids": [
+        "P23652657"
+      ]
+    },
+    "bed-nucleus-stria-terminalis": {
+      "description": "A deep structure near the posterior OCD DBS response-associated region. It is an anatomical landmark here, not a reconstruction of that response volume or the inferior thalamic peduncle.",
+      "role": "Posterior DBS context",
+      "source_ids": [
+        "P38141909"
+      ]
+    },
+    "caudate-nucleus": {
+      "description": "The caudate is part of the striatum and connects with prefrontal cortex. A healthy-volunteer TMS\u2013PET study found a dopamine response here after DLPFC stimulation. This supports a downstream effect, not proof of an antidepressant mechanism.",
+      "role": "Frontostriatal context",
+      "source_ids": [
+        "strafella2001",
+        "P38141909"
+      ]
+    },
+    "putamen": {
+      "description": "The putamen is part of the striatum, which participates in circuits linking frontal cortex and deep brain structures. It helps explain corticostriatal connections; showing it does not mean TMS directly stimulates it.",
+      "role": "Striatal reference anatomy",
+      "source_ids": [
+        "lehericy2004"
+      ]
+    },
+    "globus-pallidus-externus": {
+      "description": "The external globus pallidus (GPe) is part of the basal ganglia and lies near capsular DBS contacts. In Imtiaz\u2019s OCD study, a GPe contact recorded brain activity while stimulation was delivered in ALIC white matter.",
+      "role": "DBS localization context",
+      "source_ids": [
+        "P41172368",
+        "D874dae9256"
+      ]
+    },
+    "globus-pallidus-internus": {
+      "description": "The internal globus pallidus (GPi) is a basal ganglia structure. Here it helps locate neighboring DBS anatomy; it is not presented as a depression or OCD stimulation target.",
+      "role": "Basal-ganglia reference anatomy",
+      "source_ids": []
+    },
+    "subthalamic-nucleus": {
+      "description": "A basal-ganglia nucleus relevant to OCD DBS and pre-SMA inhibitory-control circuitry. This is the whole STN, not a distinct anteromedial target mask. Separate public STN pathways and an estimated pre-SMA\u2013STN subset can be enabled.",
+      "role": "STN circuit context",
+      "source_ids": [
+        "P30853111",
+        "ji2021",
+        "aron2007"
+      ]
+    },
+    "habenula": {
+      "description": "Habenular reference anatomy orients the lateral-habenula depression DBS discussion. This mask is treated as whole-habenula context; it does not isolate the clinical lateral subdivision.",
+      "role": "Whole-habenula context",
+      "source_ids": [
+        "P35817944"
+      ]
+    },
+    "thalamus": {
+      "description": "The thalamic complex helps orient cortico-thalamic circuitry discussed in neuromodulation. A whole-thalamus surface does not specify the nucleus or axons implicated in a study.",
+      "role": "Thalamic reference anatomy",
+      "source_ids": [
+        "P26440813",
+        "salomons2014"
+      ]
+    },
+    "thalamus-mediodorsal": {
+      "description": "The mediodorsal nucleus is one part of the thalamus involved in prefrontal\u2013thalamic circuits. It provides a more specific landmark than the whole thalamus when exploring the BNST and inferior thalamic peduncle region.",
+      "role": "Thalamic circuit context",
+      "source_ids": [
+        "P34482949"
+      ]
+    },
+    "red-nucleus": {
+      "description": "A midbrain nucleus used as a spatial landmark for nearby tractography-defined DBS corridors. It is not presented as the psychiatric treatment target.",
+      "role": "Midbrain landmark",
+      "source_ids": [
+        "P30867553"
+      ]
+    },
+    "brainstem": {
+      "description": "The brainstem supplies an inferior anatomical landmark for deep targets and midbrain tract corridors. The whole surface is not a treatment target or a study-defined midbrain region.",
+      "role": "Orientation anatomy",
+      "source_ids": [
+        "P30867553"
+      ]
+    },
+    "brain-envelope": {
+      "description": "The outer brain mask is a spatial envelope. It is hidden in the interactive atlas to avoid obscuring the underlying anatomy.",
+      "role": "Orientation envelope",
+      "source_ids": []
+    },
+    "dkt-paracentral": {
+      "description": "Medial cortex around the central sulcus provides surrounding anatomy for orienting the neuromodulation targets and displayed networks. No dedicated treatment target is assigned to this parcel here.",
+      "role": "Background cortical anatomy",
+      "source_ids": []
+    },
+    "dkt-precentral": {
+      "description": "Precentral gyrus, used as broad orientation for the M\u2081 (primary motor cortex) label. The parcel is not a complete or exact M1 boundary and is not a treatment mask.",
+      "role": "Motor reference anatomy",
+      "source_ids": []
+    },
+    "dkt-postcentral": {
+      "description": "Parietal cortex just posterior to the central sulcus provides surrounding anatomy for orienting the neuromodulation targets and displayed networks. No dedicated treatment target is assigned to this parcel here.",
+      "role": "Background cortical anatomy",
+      "source_ids": []
+    },
+    "dkt-entorhinal": {
+      "description": "Medial temporal cortical anatomy provides surrounding anatomy for orienting the neuromodulation targets and displayed networks. No dedicated treatment target is assigned to this parcel here.",
+      "role": "Background cortical anatomy",
+      "source_ids": []
+    },
+    "dkt-isthmus-cingulate": {
+      "description": "The posterior transition of the cingulate gyrus provides surrounding anatomy for orienting the neuromodulation targets and displayed networks. No dedicated treatment target is assigned to this parcel here.",
+      "role": "Background cortical anatomy",
+      "source_ids": []
+    },
+    "dkt-parahippocampal": {
+      "description": "Medial temporal anatomy around the parahippocampal gyrus provides surrounding anatomy for orienting the neuromodulation targets and displayed networks. No dedicated treatment target is assigned to this parcel here.",
+      "role": "Background cortical anatomy",
+      "source_ids": []
+    },
+    "dkt-posterior-cingulate": {
+      "description": "Posterior cingulate cortex provides surrounding anatomy for orienting the neuromodulation targets and displayed networks. No dedicated treatment target is assigned to this parcel here.",
+      "role": "Background cortical anatomy",
+      "source_ids": []
+    },
+    "dkt-cuneus": {
+      "description": "Medial occipital cortex provides surrounding anatomy for orienting the neuromodulation targets and displayed networks. No dedicated treatment target is assigned to this parcel here.",
+      "role": "Background cortical anatomy",
+      "source_ids": []
+    },
+    "dkt-lateral-occipital": {
+      "description": "Lateral occipital cortex provides surrounding anatomy for orienting the neuromodulation targets and displayed networks. No dedicated treatment target is assigned to this parcel here.",
+      "role": "Background cortical anatomy",
+      "source_ids": []
+    },
+    "dkt-lingual": {
+      "description": "Inferomedial occipital cortex provides surrounding anatomy for orienting the neuromodulation targets and displayed networks. No dedicated treatment target is assigned to this parcel here.",
+      "role": "Background cortical anatomy",
+      "source_ids": []
+    },
+    "dkt-pericalcarine": {
+      "description": "Cortex around the calcarine sulcus provides surrounding anatomy for orienting the neuromodulation targets and displayed networks. No dedicated treatment target is assigned to this parcel here.",
+      "role": "Background cortical anatomy",
+      "source_ids": []
+    },
+    "dkt-inferior-parietal": {
+      "description": "Inferior parietal cortex participates in planning networks. Fitzsimmons\u2019 OCD TMS trial reported bilateral planning-task activation differences after left-DLPFC stimulation. The whole parcel does not reproduce the study\u2019s spherical ROI.",
+      "role": "Task and connectivity analysis region",
+      "source_ids": [
+        "P39089567"
+      ]
+    },
+    "dkt-precuneus": {
+      "description": "The precuneus participates in planning networks. Fitzsimmons\u2019 OCD TMS trial measured bilateral planning-task activation here after left-DLPFC stimulation. This parcel is broader than the analysis ROI and is not a stimulation target.",
+      "role": "Task and connectivity analysis region",
+      "source_ids": [
+        "P39089567"
+      ]
+    },
+    "dkt-superior-parietal": {
+      "description": "Superior parietal cortex provides surrounding anatomy for orienting the neuromodulation targets and displayed networks. No dedicated treatment target is assigned to this parcel here.",
+      "role": "Background cortical anatomy",
+      "source_ids": []
+    },
+    "dkt-supramarginal": {
+      "description": "Parietal anatomy around the supramarginal gyrus provides surrounding anatomy for orienting the neuromodulation targets and displayed networks. No dedicated treatment target is assigned to this parcel here.",
+      "role": "Background cortical anatomy",
+      "source_ids": []
+    },
+    "dkt-fusiform": {
+      "description": "Ventral occipitotemporal cortex provides surrounding anatomy for orienting the neuromodulation targets and displayed networks. No dedicated treatment target is assigned to this parcel here.",
+      "role": "Background cortical anatomy",
+      "source_ids": []
+    },
+    "dkt-inferior-temporal": {
+      "description": "Inferior temporal cortex provides surrounding anatomy for orienting the neuromodulation targets and displayed networks. No dedicated treatment target is assigned to this parcel here.",
+      "role": "Background cortical anatomy",
+      "source_ids": []
+    },
+    "dkt-middle-temporal": {
+      "description": "Middle temporal cortex provides surrounding anatomy for orienting the neuromodulation targets and displayed networks. No dedicated treatment target is assigned to this parcel here.",
+      "role": "Background cortical anatomy",
+      "source_ids": []
+    },
+    "dkt-superior-temporal": {
+      "description": "Superior temporal cortex provides surrounding anatomy for orienting the neuromodulation targets and displayed networks. No dedicated treatment target is assigned to this parcel here.",
+      "role": "Background cortical anatomy",
+      "source_ids": []
+    },
+    "dkt-transverse-temporal": {
+      "description": "Transverse temporal cortex around Heschl\u2019s gyrus provides surrounding anatomy for orienting the neuromodulation targets and displayed networks. No dedicated treatment target is assigned to this parcel here.",
+      "role": "Background cortical anatomy",
+      "source_ids": []
+    },
+    "hippocampus": {
+      "description": "Hippocampus, identified by H in the office brain drawing. Ji 2026 includes this region in its depression therapeutic network analysis. This whole-structure surface is reference anatomy, not the study\u2019s derived hub cluster, network map, or a clinical stimulation target.",
+      "role": "Reference anatomy and network research context",
+      "source_ids": [
+        "P41484145"
+      ]
+    },
+    "amygdala": {
+      "description": "Amygdala, identified by A in the office brain drawing. Ji 2026 includes this region in its depression therapeutic network analysis. This whole-structure surface is reference anatomy, not the study\u2019s derived hub cluster, network map, or a clinical stimulation target.",
+      "role": "Reference anatomy and network research context",
+      "source_ids": [
+        "P41484145"
+      ]
+    }
+  },
+  "tracts": {
+    "CS_A": {
+      "description": "Anterior corticostriatal reference fibers connect prefrontal and striatal territories. Included for capsular DBS and downstream TMS circuit context; these are population fibers, not a patient\u2019s treatment pathway.",
+      "role": "Frontostriatal reference bundle",
+      "source_ids": [
+        "yeh2022",
+        "strafella2001"
+      ]
+    },
+    "CS_S": {
+      "description": "Superior corticostriatal reference fibers supply SMA-complex\u2013striatal context for pre-SMA TMS. They run to striatum, not directly to STN, and cannot represent the hyperdirect pathway.",
+      "role": "Corticostriatal reference bundle",
+      "source_ids": [
+        "yeh2022",
+        "lehericy2004"
+      ]
+    },
+    "TR_A": {
+      "description": "Anterior thalamic radiation supplies prefrontal\u2013thalamic and capsular context for DBS and TMS network views. It is distinct from the paper-defined slMFB and is not a measured stimulation field.",
+      "role": "Thalamic reference bundle",
+      "source_ids": [
+        "yeh2022",
+        "P30522916",
+        "salomons2014"
+      ]
+    },
+    "C_FP": {
+      "description": "The frontoparietal cingulum segment provides cingulate-network anatomy discussed around depression neuromodulation. It is only part of the cingulum, not a complete DLPFC\u2013sgACC connection.",
+      "role": "Cingulate reference bundle",
+      "source_ids": [
+        "yeh2022",
+        "P24832866"
+      ]
+    },
+    "UF": {
+      "description": "The uncinate is a frontotemporal association bundle included in the SCC DBS targeting literature. These population fibers do not show an individual tract intersection or prove a TMS mechanism.",
+      "role": "Association reference bundle",
+      "source_ids": [
+        "yeh2022",
+        "P28397839"
+      ]
+    },
+    "AC": {
+      "description": "The anterior commissure crosses the midline and provides a landmark near ventral-striatal and capsular DBS regions. Its display does not identify an optimal stimulation site.",
+      "role": "Commissural reference bundle",
+      "source_ids": [
+        "yeh2022",
+        "P38141909"
+      ]
+    }
+  }
+}

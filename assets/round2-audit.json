@@ -1,0 +1,246 @@
+{
+  "papers": [
+    {
+      "key": "fox2012",
+      "doi": "10.1016/j.biopsych.2012.04.028",
+      "review_status": "Map-relevant full text reviewed",
+      "findings": [
+        "R2-01-1",
+        "R2-01-2"
+      ]
+    },
+    {
+      "key": "weigand2018",
+      "doi": "10.1016/j.biopsych.2017.10.028",
+      "review_status": "Map-relevant full text reviewed",
+      "findings": [
+        "R2-02-1",
+        "R2-02-2"
+      ]
+    },
+    {
+      "key": "siddiqi2020",
+      "doi": "10.1176/appi.ajp.2019.19090915",
+      "review_status": "Map-relevant full text reviewed",
+      "findings": [
+        "R2-03-1",
+        "R2-03-2"
+      ]
+    },
+    {
+      "key": "cole2022",
+      "doi": "10.1176/appi.ajp.2021.20101429",
+      "review_status": "Map-relevant full text reviewed",
+      "findings": [
+        "R2-04-1",
+        "R2-04-2"
+      ]
+    },
+    {
+      "key": "elbau2023",
+      "doi": "10.1176/appi.ajp.20220306",
+      "review_status": "Map-relevant full text reviewed",
+      "findings": [
+        "R2-05-1",
+        "R2-05-2"
+      ]
+    },
+    {
+      "key": "morriss2024",
+      "doi": "10.1038/s41591-023-02764-z",
+      "review_status": "Map-relevant full text reviewed",
+      "findings": [
+        "R2-06-1",
+        "R2-06-2"
+      ]
+    },
+    {
+      "key": "taylor2026",
+      "doi": "10.1001/jamapsychiatry.2026.1100",
+      "review_status": "Map-relevant full text reviewed",
+      "findings": [
+        "R2-07-1",
+        "R2-07-2"
+      ]
+    },
+    {
+      "key": "carmi2019",
+      "doi": "10.1176/appi.ajp.2019.18101180",
+      "review_status": "Map-relevant full text reviewed",
+      "findings": [
+        "R2-08-1",
+        "R2-08-2"
+      ]
+    },
+    {
+      "key": "dunlop2016",
+      "doi": "10.1038/npp.2015.292",
+      "review_status": "Map-relevant full text reviewed",
+      "findings": [
+        "R2-09-1",
+        "R2-09-2"
+      ]
+    },
+    {
+      "key": "mantovani2010",
+      "doi": "10.1017/S1461145709990435",
+      "review_status": "Map-relevant full text reviewed",
+      "findings": [
+        "R2-10-1",
+        "R2-10-2"
+      ]
+    },
+    {
+      "key": "nauczyciel2014",
+      "doi": "10.1038/tp.2014.62",
+      "review_status": "Map-relevant full text reviewed",
+      "findings": [
+        "R2-11-1",
+        "R2-11-2"
+      ]
+    },
+    {
+      "key": "fitzsimmons2025",
+      "doi": "10.1016/j.biopsych.2024.06.029",
+      "review_status": "Published abstract and indexed publisher methods/results reviewed; direct PDF retrieval blocked",
+      "findings": [
+        "R2-12-1",
+        "R2-12-2"
+      ]
+    },
+    {
+      "key": "jimenez2025",
+      "doi": "10.1016/j.transm.2025.100182",
+      "review_status": "Map-relevant full text reviewed",
+      "findings": [
+        "R2-13-1",
+        "R2-13-2"
+      ]
+    },
+    {
+      "key": "rivaposse2014",
+      "doi": "10.1016/j.biopsych.2014.03.029",
+      "review_status": "Map-relevant full text reviewed",
+      "findings": [
+        "R2-14-1",
+        "R2-14-2"
+      ]
+    },
+    {
+      "key": "rivaposse2018",
+      "doi": "10.1038/mp.2017.59",
+      "review_status": "Map-relevant full text reviewed",
+      "findings": [
+        "R2-15-1",
+        "R2-15-2"
+      ]
+    },
+    {
+      "key": "coenen2019",
+      "doi": "10.1038/s41386-019-0369-9",
+      "review_status": "Map-relevant full text reviewed",
+      "findings": [
+        "R2-16-1",
+        "R2-16-2"
+      ]
+    },
+    {
+      "key": "bergfeld2016",
+      "doi": "10.1001/jamapsychiatry.2016.0152",
+      "review_status": "Map-relevant full text reviewed",
+      "findings": [
+        "R2-17-1",
+        "R2-17-2"
+      ]
+    },
+    {
+      "key": "li2020",
+      "doi": "10.1038/s41467-020-16734-3",
+      "review_status": "Map-relevant full text reviewed",
+      "findings": [
+        "R2-18-1",
+        "R2-18-2"
+      ]
+    },
+    {
+      "key": "tyagi2019",
+      "doi": "10.1016/j.biopsych.2019.01.017",
+      "review_status": "Map-relevant full text reviewed",
+      "findings": [
+        "R2-19-1",
+        "R2-19-3",
+        "R2-19-2"
+      ]
+    },
+    {
+      "key": "vanbogaert2026",
+      "doi": "10.1016/j.bpsgos.2025.100609",
+      "review_status": "Map-relevant full text reviewed",
+      "findings": [
+        "R2-20-1",
+        "R2-20-2"
+      ]
+    }
+  ],
+  "original_pdf_hashes": [
+    {
+      "id": "R2_COLE",
+      "sha256": "43e01939a97c1e68e7ddd6d6442d57274bfb909aa74e83dc89bbf4132d168d20",
+      "read_only": true,
+      "filename": "cole-et-al-2021-stanford-neuromodulation-therapy-%28snt%29-a-double-blind-randomized-controlled-trial.pdf"
+    },
+    {
+      "id": "R2_COLE_S1",
+      "sha256": "6710e6bdb9a8404bc8b04ef33d9810a18eb1f7d36363d9ee45765a39db20223a",
+      "read_only": true,
+      "filename": "appi.ajp.2021.20101429.ds001.pdf"
+    },
+    {
+      "id": "R2_TAYLOR",
+      "sha256": "e058a61f0dd3afa85e09b84254fb165a3220f011faf7137c09b55f05f9e45801",
+      "read_only": true,
+      "filename": "jamapsychiatry_taylor_2026_oi_260026_1785440710.02008.pdf"
+    },
+    {
+      "id": "R2_TAYLOR_S1",
+      "sha256": "326fe5af2b79b430293033539cfb7bf91f1998fc63108247edeae600601ea941",
+      "read_only": true,
+      "filename": "yoi260026supp1_prod_1785440710.03009.pdf"
+    },
+    {
+      "id": "R2_TAYLOR_S2",
+      "sha256": "ee36a0581f57a6fa78af46945a45cf7cba9df4ba7f528fc32830a979f93f01ca",
+      "read_only": true,
+      "filename": "yoi260026supp2_prod_1785440710.03508.pdf"
+    },
+    {
+      "id": "R2_TAYLOR_S3",
+      "sha256": "222e3cbdbd317a822e199247e4c2cd4b0b0af3ce82815b72afefc79e740fa00c",
+      "read_only": true,
+      "filename": "yoi260026supp3_prod_1785440710.04009.pdf"
+    },
+    {
+      "id": "R2_TAYLOR_CORRECTION",
+      "sha256": "dc8768ee9c17cf4f63160f0b9b1c406c902540bcc793245a34f4eba7e64b3976",
+      "read_only": true,
+      "filename": "jamapsychiatry_2026_cx_260005_1785440731.52847.pdf"
+    }
+  ],
+  "notes": [
+    "Cohort correction: Riva-Posse 2014 enrolled 17, but analyzed 16 imaging datasets at 6 months and 14 at 2 years.",
+    "Fitzsimmons randomized 66; the reported treated/analyzed sample is 61.",
+    "Published coordinates distinguish analysis seeds from candidate cortical stimulation targets."
+  ],
+  "public_spatial_assets": [
+    {
+      "neurovault_id": 787858,
+      "status": "Downloaded and incorporated as cortical projection",
+      "role": "Siddiqi 2020 symptom-specific hypothesis map"
+    },
+    {
+      "neurovault_id": 787859,
+      "status": "Downloaded and incorporated as cortical projection",
+      "role": "Siddiqi 2021 group circuit referenced by Taylor 2026; not a participant-specific target map"
+    }
+  ]
+}

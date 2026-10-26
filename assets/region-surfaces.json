@@ -1,0 +1,274 @@
+{
+  "version": "0.7",
+  "source_url": "https://www.oxcns.org/AAL3v1_for_SPM12.zip",
+  "input_file": "assets/atlas-inputs/AAL3v1_1mm.nii.gz",
+  "input_sha256": "b1dce3ba4e42096cc31813f807b569c55ae4ba9d3416b60ee8a17fc3eebc3146",
+  "affine": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      -90.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      -126.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      -72.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "shape": [
+    181,
+    217,
+    181
+  ],
+  "method": "Marching cubes at 0.5; Taubin smoothing lambda 0.5, nu 0.53, 4 iterations; source RAS affine; no decimation or nonlinear registration.",
+  "packages": {
+    "nibabel": "5.4.2",
+    "numpy": "2.5.3",
+    "scikit-image": "0.26.0",
+    "trimesh": "5.1.0"
+  },
+  "meshes": [
+    {
+      "id": "aal3-dmpfc-l",
+      "name": "Medial superior frontal cortex (L)",
+      "side": "left",
+      "source": "aal3",
+      "license": "GPL",
+      "file": "assets/anatomy/aal3-dmpfc-l.glb",
+      "is_cortex": true,
+      "regional_only": true,
+      "region_id": "dmpfc",
+      "label_points": false,
+      "space": "AAL3 MNI single-subject template, RAS millimetres",
+      "alignment": "source-affine-only; no cross-template nonlinear registration",
+      "bbox": [
+        [
+          -16.5541,
+          14.4208,
+          -3.5534
+        ],
+        [
+          3.5538,
+          72.5772,
+          64.5758
+        ]
+      ],
+      "centroid": [
+        -5.3196,
+        46.2998,
+        28.8766
+      ],
+      "triangles": 17506,
+      "bytes": 315864,
+      "atlas_label": 19,
+      "source_voxels": 23936,
+      "definition": "AAL3 Frontal_Sup_Medial: non-orbital medial superior-frontal proxy for broad dmPFC; not a cytoarchitectonic or treatment boundary.",
+      "max_smoothing_displacement_mm": 0.2325,
+      "sha256": "e72c5a923bb5d7f5b0452d08810b41e0a7553496816feefe2e9a9ccaa2057640"
+    },
+    {
+      "id": "aal3-dmpfc-r",
+      "name": "Medial superior frontal cortex (R)",
+      "side": "right",
+      "source": "aal3",
+      "license": "GPL",
+      "file": "assets/anatomy/aal3-dmpfc-r.glb",
+      "is_cortex": true,
+      "regional_only": true,
+      "region_id": "dmpfc",
+      "label_points": false,
+      "space": "AAL3 MNI single-subject template, RAS millimetres",
+      "alignment": "source-affine-only; no cross-template nonlinear registration",
+      "bbox": [
+        [
+          1.4393,
+          18.4467,
+          -3.5239
+        ],
+        [
+          21.5231,
+          72.5538,
+          64.5758
+        ]
+      ],
+      "centroid": [
+        9.6134,
+        47.9752,
+        28.3739
+      ],
+      "triangles": 14722,
+      "bytes": 265748,
+      "atlas_label": 20,
+      "source_voxels": 17072,
+      "definition": "AAL3 Frontal_Sup_Medial: non-orbital medial superior-frontal proxy for broad dmPFC; not a cytoarchitectonic or treatment boundary.",
+      "max_smoothing_displacement_mm": 0.2238,
+      "sha256": "b2a7b7e27b55e64279f577206b7aa6122181259353f023d17c40435ffb9bf370"
+    },
+    {
+      "id": "aal3-presma-l",
+      "name": "Anterior supplementary motor cortex (L)",
+      "side": "left",
+      "source": "aal3",
+      "license": "GPL",
+      "file": "assets/anatomy/aal3-presma-l.glb",
+      "is_cortex": true,
+      "regional_only": true,
+      "region_id": "presma",
+      "label_points": false,
+      "space": "AAL3 MNI single-subject template, RAS millimetres",
+      "alignment": "source-affine-only; no cross-template nonlinear registration",
+      "bbox": [
+        [
+          -16.5571,
+          0.4462,
+          42.4467
+        ],
+        [
+          3.5536,
+          30.5229,
+          78.5578
+        ]
+      ],
+      "centroid": [
+        -4.9866,
+        12.0262,
+        58.7003
+      ],
+      "triangles": 7404,
+      "bytes": 134048,
+      "atlas_label": 15,
+      "source_voxels": 9736,
+      "definition": "AAL3 Supp_Motor_Area restricted to MNI y > 0, anterior to the AC plane. Gross anatomical approximation; not Ji patient-specific superficial ROI or connectivity target.",
+      "max_smoothing_displacement_mm": 0.2199,
+      "sha256": "5729cb0821a8675dcc250f47446bf8a5a24c49b9e4e05a5817ccb2b430033c1a"
+    },
+    {
+      "id": "aal3-presma-r",
+      "name": "Anterior supplementary motor cortex (R)",
+      "side": "right",
+      "source": "aal3",
+      "license": "GPL",
+      "file": "assets/anatomy/aal3-presma-r.glb",
+      "is_cortex": true,
+      "regional_only": true,
+      "region_id": "presma",
+      "label_points": false,
+      "space": "AAL3 MNI single-subject template, RAS millimetres",
+      "alignment": "source-affine-only; no cross-template nonlinear registration",
+      "bbox": [
+        [
+          1.4221,
+          0.4474,
+          44.4473
+        ],
+        [
+          19.5549,
+          26.5538,
+          76.5528
+        ]
+      ],
+      "centroid": [
+        9.1829,
+        11.3775,
+        59.0491
+      ],
+      "triangles": 6364,
+      "bytes": 115328,
+      "atlas_label": 16,
+      "source_voxels": 8528,
+      "definition": "AAL3 Supp_Motor_Area restricted to MNI y > 0, anterior to the AC plane. Gross anatomical approximation; not Ji patient-specific superficial ROI or connectivity target.",
+      "max_smoothing_displacement_mm": 0.2057,
+      "sha256": "6a94cdeeb098720272d1030162e7ad6f21c32ee0d98b7f460caf83980ac553f8"
+    },
+    {
+      "id": "aal3-sgacc-l",
+      "name": "Subgenual anterior cingulate cortex (L)",
+      "side": "left",
+      "source": "aal3",
+      "license": "GPL",
+      "file": "assets/anatomy/aal3-sgacc-l.glb",
+      "is_cortex": true,
+      "regional_only": true,
+      "region_id": "sgacc",
+      "label_points": false,
+      "space": "AAL3 MNI single-subject template, RAS millimetres",
+      "alignment": "source-affine-only; no cross-template nonlinear registration",
+      "bbox": [
+        [
+          -12.575,
+          16.4928,
+          -11.5742
+        ],
+        [
+          3.5743,
+          36.553,
+          2.5534
+        ]
+      ],
+      "centroid": [
+        -3.5979,
+        29.5783,
+        -5.945
+      ],
+      "triangles": 2326,
+      "bytes": 42620,
+      "atlas_label": 151,
+      "source_voxels": 1343,
+      "definition": "AAL3 ACC_sub label; gray-matter reference, distinct from SCC white-matter DBS.",
+      "max_smoothing_displacement_mm": 0.2105,
+      "sha256": "4bb7e77bde3b2c8ca0acddc7a08372b22c90f2d01824ab827974307f2e164b0c"
+    },
+    {
+      "id": "aal3-sgacc-r",
+      "name": "Subgenual anterior cingulate cortex (R)",
+      "side": "right",
+      "source": "aal3",
+      "license": "GPL",
+      "file": "assets/anatomy/aal3-sgacc-r.glb",
+      "is_cortex": true,
+      "regional_only": true,
+      "region_id": "sgacc",
+      "label_points": false,
+      "space": "AAL3 MNI single-subject template, RAS millimetres",
+      "alignment": "source-affine-only; no cross-template nonlinear registration",
+      "bbox": [
+        [
+          -0.5246,
+          20.4744,
+          -11.5099
+        ],
+        [
+          13.5231,
+          36.5539,
+          2.5566
+        ]
+      ],
+      "centroid": [
+        6.2219,
+        30.8665,
+        -4.9969
+      ],
+      "triangles": 1756,
+      "bytes": 32384,
+      "atlas_label": 152,
+      "source_voxels": 1056,
+      "definition": "AAL3 ACC_sub label; gray-matter reference, distinct from SCC white-matter DBS.",
+      "max_smoothing_displacement_mm": 0.2192,
+      "sha256": "a8bf97578ed9baa96da55c939b93c462c9f7ee2a26d02e38e03b1b921d0552dd"
+    }
+  ]
+}

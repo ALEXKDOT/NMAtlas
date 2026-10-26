@@ -1,0 +1,165 @@
+{
+  "version": "0.13.0",
+  "checked": "2026-10-02",
+  "supplied_assets": [
+    {
+      "name": "41593_2026_2248_MOESM4_ESM.xlsx",
+      "sha256": "6cd4dbf380b12c87900ab73dfd7c6193940a1fb0e9d23f1dfc77448ac899611e",
+      "bytes": 4011855
+    },
+    {
+      "name": "41593_2026_2248_MOESM5_ESM.xlsx",
+      "sha256": "ffc56e3640d3d0d67895b750484ab61d3a53576718c68239cad366f792ae67ac",
+      "bytes": 42685
+    },
+    {
+      "name": "41593_2026_2248_MOESM3_ESM.xlsx",
+      "sha256": "6f07494d64603f3877a8c2affa3771403c11b9ea59593bdd14b6f475578691f6",
+      "bytes": 68771
+    },
+    {
+      "name": "s41593-026-02248-6.pdf",
+      "sha256": "d683e1cd56cf8a4d8a75b789fee7c942a19ac980418d6f3b0b0723f1452d9d33",
+      "bytes": 6598780
+    },
+    {
+      "name": "1-s2.0-S1388245709004933-main.pdf",
+      "sha256": "ca34cfa6ddca8e8b2f9da124e229a0923dc83fc7ccd49ba4aecbf2eb96b3d256",
+      "bytes": 517003
+    }
+  ],
+  "clinical_sources": [
+    {
+      "id": "seguin2026",
+      "doi": "10.1038/s41593-026-02248-6",
+      "title": "White matter pathways mediating dorsolateral prefrontal TMS therapy for depression"
+    },
+    {
+      "id": "P19781987",
+      "doi": "10.1016/j.clinph.2009.05.030",
+      "title": "Functional topography of the ventral striatum and anterior limb of the internal capsule determined by electrical stimulation of awake patients",
+      "pmid": "19781987"
+    }
+  ],
+  "finding_checks": [
+    {
+      "id": "R4-S-1",
+      "source_id": "seguin2026",
+      "locator": {
+        "asset_id": "R4_SEGUIN",
+        "pdf_page": 3,
+        "detail": "Results; Figure 1c,g; Supplementary Figure S3"
+      },
+      "status": "Full text checked"
+    },
+    {
+      "id": "R4-S-2",
+      "source_id": "seguin2026",
+      "locator": {
+        "asset_id": "R4_SEGUIN",
+        "pdf_page": 3,
+        "detail": "Results, p. 1050; Figure 2g–h on p. 1051"
+      },
+      "status": "Full text checked"
+    },
+    {
+      "id": "R4-S-3",
+      "source_id": "seguin2026",
+      "locator": {
+        "asset_id": "R4_SEGUIN",
+        "pdf_page": 3,
+        "detail": "Results, p. 1050; Figure 2h; Supplementary Figures S6–S15"
+      },
+      "status": "Full text checked"
+    },
+    {
+      "id": "R4-M-1",
+      "source_id": "P19781987",
+      "locator": {
+        "asset_id": "R4_MACHADO",
+        "pdf_page": 3,
+        "detail": "Results 3.1; Table 2 on p. 1945; Discussion 4.1.2"
+      },
+      "status": "Full text checked"
+    },
+    {
+      "id": "R4-M-2",
+      "source_id": "P19781987",
+      "locator": {
+        "asset_id": "R4_MACHADO",
+        "pdf_page": 2,
+        "detail": "Methods 2.2–2.5; Results 3.1; Table 1"
+      },
+      "status": "Full text checked"
+    },
+    {
+      "id": "R4-M-3",
+      "source_id": "P19781987",
+      "locator": {
+        "asset_id": "R4_MACHADO",
+        "pdf_page": 6,
+        "detail": "Discussion 4.1.1–4.1.2; Discussion 4.2 and Conclusion on p. 1947"
+      },
+      "status": "Full text checked"
+    }
+  ],
+  "coordinate_checks": [],
+  "spreadsheet_checks": {
+    "fig1c": {
+      "n": 25,
+      "rho": -0.5105851032582891,
+      "p_one_sided_scipy": 0.0045539637490877236
+    },
+    "hops_histogram": {
+      "5": 146454,
+      "4": 392995,
+      "3": 150330,
+      "6": 39166,
+      "2": 1540,
+      "7": 7107
+    },
+    "fig2c": {
+      "regions_sum": 59.1827,
+      "paths_sum": 59.1149
+    },
+    "3C": {
+      "n": 837,
+      "rho": 0.47718703513432853,
+      "p_two_sided": 8.118062098853271e-49
+    },
+    "3F": {
+      "n": 929,
+      "rho": 0.7542690289107478,
+      "p_two_sided": 1.4359932888858658e-171
+    }
+  },
+  "repository": {
+    "url": "https://github.com/caioseguin/tms_dep_pathways",
+    "commit": "067385f040eea215ed092afdc8e0332ad55b290d",
+    "contains": [
+      "Regional matrices",
+      "parcellation volumes",
+      "MNI affine",
+      "cohort I target/outcome data",
+      "analysis code"
+    ],
+    "absent": [
+      "Study streamline files",
+      "individual DBS lead localization",
+      "cohort II clinical data"
+    ],
+    "checks": [
+      "Both stored SC matrices have zero nonzero entries outside their released direction masks.",
+      "Source Data Figure 1B stores voxel indices: applying the released affine matches all 25 adjusted MNI target coordinates exactly; seed (42,71,31) maps to (6,16,-10).",
+      "Lausanne region centroids use one-based voxel coordinates, verified against repository coords_xyz and Supplementary Figure S6."
+    ],
+    "execution": "Upstream scripts inspected, not executed; source-data statistics independently recomputed."
+  },
+  "source_discrepancies": [
+    "Seguin Results and Methods reverse the cohort-specific BDI/MADRS labels; UI uses percentage symptom improvement without choosing between conflicting labels.",
+    "Seguin prose prints a left-SGC coordinate with inconsistent signs; code uses (-6,16,-10). No new coordinate marker is added.",
+    "Machado Table 2 repeats right-CC1 mood elevation in two frequency categories; teaching uses Results and Discussion, which agree on consistent.",
+    "Machado text reports 89% intra/postoperative agreement while Table 4 summary differs; this metric is not taught."
+  ],
+  "remaining_requests": []
+}

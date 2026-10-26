@@ -1,0 +1,247 @@
+{
+  "retrieved": "2026-10-01",
+  "inputs": [
+    {
+      "file": "assets/tract-inputs/hcp1065/C_FPH_L.trk.gz",
+      "sha256": "385fd00da92b9759bd68a59f40b5c20d40e79b594ca3db6c6db52420073a1855",
+      "bytes": 797740,
+      "source_url": "https://github.com/data-others/atlas/releases/download/hcp1065/hcp1065_avg_tracts_trk.zip",
+      "archive_member": "association/C_FPH_L.trk.gz",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "file": "assets/tract-inputs/hcp1065/C_FPH_R.trk.gz",
+      "sha256": "1dadeffb534926ea41b85f0a187f120196c44b523fe95554e10bb60107ee08d8",
+      "bytes": 177728,
+      "source_url": "https://github.com/data-others/atlas/releases/download/hcp1065/hcp1065_avg_tracts_trk.zip",
+      "archive_member": "association/C_FPH_R.trk.gz",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "file": "assets/tract-inputs/hcp1065/C_PHP_L.trk.gz",
+      "sha256": "eb6445adf0808bd648d7ee7fd1386fadd1dc4e1abfe9413bcbf138bab6b32d57",
+      "bytes": 91125,
+      "source_url": "https://github.com/data-others/atlas/releases/download/hcp1065/hcp1065_avg_tracts_trk.zip",
+      "archive_member": "association/C_PHP_L.trk.gz",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "file": "assets/tract-inputs/hcp1065/C_PHP_R.trk.gz",
+      "sha256": "4a7d76d06c493a627c4566146b45324a19dea5a7c4277e621e4e94986c608d40",
+      "bytes": 480079,
+      "source_url": "https://github.com/data-others/atlas/releases/download/hcp1065/hcp1065_avg_tracts_trk.zip",
+      "archive_member": "association/C_PHP_R.trk.gz",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "file": "assets/tract-inputs/hcp1065/C_PH_L.trk.gz",
+      "sha256": "dfc058009582c38f835965e187a63619ab8d7f2461979c391a0685fb37798ecf",
+      "bytes": 321387,
+      "source_url": "https://github.com/data-others/atlas/releases/download/hcp1065/hcp1065_avg_tracts_trk.zip",
+      "archive_member": "association/C_PH_L.trk.gz",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "file": "assets/tract-inputs/hcp1065/C_PH_R.trk.gz",
+      "sha256": "a70c03cedbfb9bbd5ed9c8522431ee2a8c106467a1a1bc91dec57e0997365115",
+      "bytes": 269820,
+      "source_url": "https://github.com/data-others/atlas/releases/download/hcp1065/hcp1065_avg_tracts_trk.zip",
+      "archive_member": "association/C_PH_R.trk.gz",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "file": "assets/tract-inputs/hcp1065/C_PO_L.trk.gz",
+      "sha256": "f164a894da82120e22b63fcff3eb50998e2191c84da7408f1e387bada5d5a5fd",
+      "bytes": 1012767,
+      "source_url": "https://github.com/data-others/atlas/releases/download/hcp1065/hcp1065_avg_tracts_trk.zip",
+      "archive_member": "association/C_PO_L.trk.gz",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "file": "assets/tract-inputs/hcp1065/C_PO_R.trk.gz",
+      "sha256": "54e17895878a668a76bfc6b3690d251eef4dfb21f9fd4585532c731d399291b5",
+      "bytes": 1090600,
+      "source_url": "https://github.com/data-others/atlas/releases/download/hcp1065/hcp1065_avg_tracts_trk.zip",
+      "archive_member": "association/C_PO_R.trk.gz",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "file": "assets/tract-inputs/hcp1065/FAT_L.trk.gz",
+      "sha256": "b53028512c362af98f1a4fca9e15b5867b13d15530dd092907dc81d35bbe2650",
+      "bytes": 12790855,
+      "source_url": "https://github.com/data-others/atlas/releases/download/hcp1065/hcp1065_avg_tracts_trk.zip",
+      "archive_member": "association/FAT_L.trk.gz",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "file": "assets/tract-inputs/hcp1065/FAT_R.trk.gz",
+      "sha256": "f4d1434dbdcff0f4b227afcfbb1a0c4da3f833913cbd245a3803b872c70576a8",
+      "bytes": 4733069,
+      "source_url": "https://github.com/data-others/atlas/releases/download/hcp1065/hcp1065_avg_tracts_trk.zip",
+      "archive_member": "association/FAT_R.trk.gz",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "file": "assets/tract-inputs/dipy/CC_ForcepsMinor.trk",
+      "sha256": "2b3681b7edd94397eaf413d75319c685bf4c6293546b4fb078a26151900b6927",
+      "bytes": 1386644,
+      "source_url": "https://ndownloader.figshare.com/files/13638644",
+      "archive_member": "Atlas_80_Bundles/bundles/CC_ForcepsMinor.trk",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "assets/tract-inputs/dipy/LICENSE",
+      "sha256": "a89813aa6bf3790f738147579c43dcd868e8059f08bfa0ccdf002fc6c30e9295",
+      "bytes": 317,
+      "source_url": "https://doi.org/10.6084/m9.figshare.7375883.v2"
+    },
+    {
+      "file": "assets/tract-inputs/dipy/README",
+      "sha256": "a2f1db1f6c5abc328e29147fd65b352ea062a83d09610442688ce1f2abe47db6",
+      "bytes": 1200,
+      "source_url": "https://doi.org/10.6084/m9.figshare.7375883.v2"
+    },
+    {
+      "file": "assets/tract-inputs/lead/UPSTREAM-LICENSE.md",
+      "sha256": "1bbcaccbcfd0dca56031c7c629a32ee9d267728861289afd4a2ec180a8d000d3",
+      "bytes": 49125,
+      "source_url": "https://www.lead-dbs.org/release/leaddbs.zip",
+      "archive_member": "LICENSE.md",
+      "release": "3.2.1; HTTP Last-Modified 2026-05-14",
+      "license": "Lead-DBS upstream atlas terms; see lead/UPSTREAM-LICENSE.md"
+    },
+    {
+      "file": "assets/tract-inputs/lead/lh/MFB.mat",
+      "sha256": "adea808eb8e69abca70709e64d66699922a429807ac392dec2e2a4ec2d274e8c",
+      "bytes": 63161,
+      "source_url": "https://www.lead-dbs.org/release/leaddbs.zip",
+      "archive_member": "templates/space/MNI152NLin2009bAsym/atlases/DBS Tractography Atlas (Middlebrooks 2020)/lh/MFB.mat",
+      "release": "3.2.1; HTTP Last-Modified 2026-05-14",
+      "license": "Lead-DBS upstream atlas terms; see lead/UPSTREAM-LICENSE.md"
+    },
+    {
+      "file": "assets/tract-inputs/lead/lh/STN_associative_tract.mat",
+      "sha256": "fd69062ca30f5a8f89f9eb19edb8f1e8df85cf7d132340739083170c80385559",
+      "bytes": 320184,
+      "source_url": "https://www.lead-dbs.org/release/leaddbs.zip",
+      "archive_member": "templates/space/MNI152NLin2009bAsym/atlases/DBS Tractography Atlas (Middlebrooks 2020)/lh/STN_associative_tract.mat",
+      "release": "3.2.1; HTTP Last-Modified 2026-05-14",
+      "license": "Lead-DBS upstream atlas terms; see lead/UPSTREAM-LICENSE.md"
+    },
+    {
+      "file": "assets/tract-inputs/lead/lh/STN_limbic_tract.mat",
+      "sha256": "51e528a3653bd45c23587306249ba04589d53dce55ea59a8b7dc31bfa8b90fec",
+      "bytes": 1343911,
+      "source_url": "https://www.lead-dbs.org/release/leaddbs.zip",
+      "archive_member": "templates/space/MNI152NLin2009bAsym/atlases/DBS Tractography Atlas (Middlebrooks 2020)/lh/STN_limbic_tract.mat",
+      "release": "3.2.1; HTTP Last-Modified 2026-05-14",
+      "license": "Lead-DBS upstream atlas terms; see lead/UPSTREAM-LICENSE.md"
+    },
+    {
+      "file": "assets/tract-inputs/lead/lh/STN_motor_tract.mat",
+      "sha256": "58f7c11890c03172b64577244bdd9517f587aba98a22c3f40c5f90a60173a4f7",
+      "bytes": 552488,
+      "source_url": "https://www.lead-dbs.org/release/leaddbs.zip",
+      "archive_member": "templates/space/MNI152NLin2009bAsym/atlases/DBS Tractography Atlas (Middlebrooks 2020)/lh/STN_motor_tract.mat",
+      "release": "3.2.1; HTTP Last-Modified 2026-05-14",
+      "license": "Lead-DBS upstream atlas terms; see lead/UPSTREAM-LICENSE.md"
+    },
+    {
+      "file": "assets/tract-inputs/lead/lh/vtaPP_slMFB.mat",
+      "sha256": "b7b35bf47589750112d495c249823ebb43ffe8266eb1b1f7062d8c02a8f677f8",
+      "bytes": 1373707,
+      "source_url": "https://www.lead-dbs.org/release/leaddbs.zip",
+      "archive_member": "templates/space/MNI152NLin2009bAsym/atlases/DBS Tractography Atlas (Middlebrooks 2020)/lh/vtaPP_slMFB.mat",
+      "release": "3.2.1; HTTP Last-Modified 2026-05-14",
+      "license": "Lead-DBS upstream atlas terms; see lead/UPSTREAM-LICENSE.md"
+    },
+    {
+      "file": "assets/tract-inputs/lead/rh/MFB.mat",
+      "sha256": "017b1b42b55f41d54120afa4940840a9127ce7f522e04da471f8c07740fd7b38",
+      "bytes": 64321,
+      "source_url": "https://www.lead-dbs.org/release/leaddbs.zip",
+      "archive_member": "templates/space/MNI152NLin2009bAsym/atlases/DBS Tractography Atlas (Middlebrooks 2020)/rh/MFB.mat",
+      "release": "3.2.1; HTTP Last-Modified 2026-05-14",
+      "license": "Lead-DBS upstream atlas terms; see lead/UPSTREAM-LICENSE.md"
+    },
+    {
+      "file": "assets/tract-inputs/lead/rh/STN_associative_tract.mat",
+      "sha256": "67627851f269c501bffbb3bb293548aadc168ae56bd16a0868a56797f9517694",
+      "bytes": 320690,
+      "source_url": "https://www.lead-dbs.org/release/leaddbs.zip",
+      "archive_member": "templates/space/MNI152NLin2009bAsym/atlases/DBS Tractography Atlas (Middlebrooks 2020)/rh/STN_associative_tract.mat",
+      "release": "3.2.1; HTTP Last-Modified 2026-05-14",
+      "license": "Lead-DBS upstream atlas terms; see lead/UPSTREAM-LICENSE.md"
+    },
+    {
+      "file": "assets/tract-inputs/lead/rh/STN_limbic_tract.mat",
+      "sha256": "b521369aeb9c61785c97470a72b3724fa0ab8a93b833a0535bf670783feee331",
+      "bytes": 1363862,
+      "source_url": "https://www.lead-dbs.org/release/leaddbs.zip",
+      "archive_member": "templates/space/MNI152NLin2009bAsym/atlases/DBS Tractography Atlas (Middlebrooks 2020)/rh/STN_limbic_tract.mat",
+      "release": "3.2.1; HTTP Last-Modified 2026-05-14",
+      "license": "Lead-DBS upstream atlas terms; see lead/UPSTREAM-LICENSE.md"
+    },
+    {
+      "file": "assets/tract-inputs/lead/rh/STN_motor_tract.mat",
+      "sha256": "80fc0c1917e885359a742f7e9606d6c8d9f530a9b47b887fc31d6ba7c9a340e7",
+      "bytes": 561829,
+      "source_url": "https://www.lead-dbs.org/release/leaddbs.zip",
+      "archive_member": "templates/space/MNI152NLin2009bAsym/atlases/DBS Tractography Atlas (Middlebrooks 2020)/rh/STN_motor_tract.mat",
+      "release": "3.2.1; HTTP Last-Modified 2026-05-14",
+      "license": "Lead-DBS upstream atlas terms; see lead/UPSTREAM-LICENSE.md"
+    },
+    {
+      "file": "assets/tract-inputs/lead/rh/vtaPP_slMFB.mat",
+      "sha256": "452722ff930fb8d81d4ea511d0f4930883b0617bde0d98df10a3f7539e201410",
+      "bytes": 1387665,
+      "source_url": "https://www.lead-dbs.org/release/leaddbs.zip",
+      "archive_member": "templates/space/MNI152NLin2009bAsym/atlases/DBS Tractography Atlas (Middlebrooks 2020)/rh/vtaPP_slMFB.mat",
+      "release": "3.2.1; HTTP Last-Modified 2026-05-14",
+      "license": "Lead-DBS upstream atlas terms; see lead/UPSTREAM-LICENSE.md"
+    },
+    {
+      "file": "assets/tract-inputs/lead/li2020.mat",
+      "sha256": "03e14596f53f919709a326c5eb81491696a71fc5b5bce382f9b4e25c79e40bf0",
+      "bytes": 653064,
+      "source_url": "https://www.lead-dbs.org/release/leaddbs.zip",
+      "archive_member": "templates/space/MNI152NLin2009bAsym/atlases/OCD Response Tract Atlas (Li 2020)/midline/Tract_Target_Li_2020.mat",
+      "release": "3.2.1; HTTP Last-Modified 2026-05-14",
+      "license": "Lead-DBS upstream atlas terms; see lead/UPSTREAM-LICENSE.md"
+    },
+    {
+      "file": "assets/tract-inputs/lead/lh/STN.nii.gz",
+      "sha256": "6b8891067b4fe6df789313adea5e6cbfd21d95bf5a9faaf2e8ca103ea96c2d44",
+      "bytes": 254910,
+      "source_url": "https://www.lead-dbs.org/release/leaddbs.zip",
+      "archive_member": "templates/space/MNI152NLin2009bAsym/atlases/DBS Tractography Atlas (Middlebrooks 2020)/lh/STN.nii.gz",
+      "release": "3.2.1; HTTP Last-Modified 2026-05-14",
+      "license": "Lead-DBS upstream atlas terms; see lead/UPSTREAM-LICENSE.md"
+    },
+    {
+      "file": "assets/tract-inputs/lead/rh/STN.nii.gz",
+      "sha256": "4cf9a0faf0e550e7f87beb3f0c900697fafc8d0e203be5c9c97dd1a46f4f02b9",
+      "bytes": 250179,
+      "source_url": "https://www.lead-dbs.org/release/leaddbs.zip",
+      "archive_member": "templates/space/MNI152NLin2009bAsym/atlases/DBS Tractography Atlas (Middlebrooks 2020)/rh/STN.nii.gz",
+      "release": "3.2.1; HTTP Last-Modified 2026-05-14",
+      "license": "Lead-DBS upstream atlas terms; see lead/UPSTREAM-LICENSE.md"
+    },
+    {
+      "file": "assets/tract-inputs/lead/lh/inferior_thalamic_peduncle.nii.gz",
+      "sha256": "d4e125ab95033968a6aebeb1a6823082671946161b6895c23c05e632b9ddd476",
+      "bytes": 15067,
+      "source_url": "https://www.lead-dbs.org/release/leaddbs.zip",
+      "archive_member": "templates/space/MNI152NLin2009bAsym/atlases/Atlas of the Human Hypothalamus (Neudorfer & Germann 2020)/lh/inferior_thalamic_peduncle.nii.gz",
+      "license": "Lead-DBS upstream atlas terms; see lead/UPSTREAM-LICENSE.md"
+    },
+    {
+      "file": "assets/tract-inputs/lead/rh/inferior_thalamic_peduncle.nii.gz",
+      "sha256": "1cd0ce4a8b3235cc71860823f0e37476d96825db4908f3ff867b61d482a16524",
+      "bytes": 16638,
+      "source_url": "https://www.lead-dbs.org/release/leaddbs.zip",
+      "archive_member": "templates/space/MNI152NLin2009bAsym/atlases/Atlas of the Human Hypothalamus (Neudorfer & Germann 2020)/rh/inferior_thalamic_peduncle.nii.gz",
+      "license": "Lead-DBS upstream atlas terms; see lead/UPSTREAM-LICENSE.md"
+    }
+  ]
+}

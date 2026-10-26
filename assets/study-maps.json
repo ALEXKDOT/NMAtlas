@@ -1,0 +1,284 @@
+[
+  {
+    "id": "siddiqi-symptoms",
+    "name": "Symptom-specific targets · Siddiqi 2020",
+    "file": "assets/maps/siddiqi-symptoms.bin",
+    "original_file": "assets/maps/siddiqi-symptoms.nii.gz",
+    "shape": [
+      91,
+      109,
+      91
+    ],
+    "world_to_voxel": [
+      [
+        0.5,
+        0.0,
+        0.0,
+        45.0
+      ],
+      [
+        0.0,
+        0.5,
+        0.0,
+        63.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.5,
+        36.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "affine": [
+      [
+        2.0,
+        0.0,
+        0.0,
+        -90.0
+      ],
+      [
+        0.0,
+        2.0,
+        0.0,
+        -126.0
+      ],
+      [
+        0.0,
+        0.0,
+        2.0,
+        -72.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "scale": 0.6593669056892395,
+    "range": [
+      -0.7510910630226135,
+      0.7372662425041199
+    ],
+    "negative_label": "Dysphoric preference",
+    "positive_label": "Anxiosomatic preference",
+    "space": "Generic MNI; exact template version unspecified",
+    "url": "https://neurovault.org/images/787858/",
+    "license": "CC0-1.0",
+    "license_url": "https://neurovault.org/FAQ",
+    "sha256": "423bdcfd5c8bbe2ec7a2e947909a8a3b2ee832f833d9595ed92a8bf71a2df469",
+    "uploader": "siddiqis",
+    "repository_metadata": {
+      "url": "http://neurovault.org/images/787858/",
+      "id": 787858,
+      "file": "http://neurovault.org/media/images/13075/TargetAtlas_AnxDys.nii.gz",
+      "collection": "http://neurovault.org/collections/13075/",
+      "collection_id": 13075,
+      "file_size": 1059811,
+      "cognitive_paradigm_cogatlas": "None / Other",
+      "cognitive_paradigm_cogatlas_id": "None",
+      "cognitive_contrast_cogatlas": "None / Other",
+      "cognitive_contrast_cogatlas_id": "None",
+      "map_type": "other",
+      "analysis_level": "group",
+      "name": "Dysphoric-anxiosomatic targeting atlas",
+      "description": "As in Figure 5, Siddiqi et al., AJP 2020\r\n\r\nPositive values are hypothesized to be better TMS targets for anxiosomatic symptoms.\r\nNegative values are hypothesized to be better TMS targets for dysphoric symptoms\r\n\r\nhttps://doi.org/10.1176/appi.ajp.2019.19090915\r\n",
+      "add_date": "2022-10-20T10:05:19.685318+02:00",
+      "modify_date": "2022-10-20T10:05:19.685338+02:00",
+      "is_valid": true,
+      "surface_left_file": null,
+      "surface_right_file": null,
+      "data_origin": "volume",
+      "target_template_image": "GenericMNI",
+      "subject_species": "homo sapiens",
+      "figure": "5",
+      "handedness": null,
+      "age": null,
+      "sex": null,
+      "race": null,
+      "ethnicity": null,
+      "BMI": null,
+      "fat_percentage": null,
+      "waist_hip_ratio": null,
+      "mean_PDS_score": null,
+      "tanner_stage": null,
+      "days_since_menstruation": null,
+      "hours_since_last_meal": null,
+      "bis_bas_score": null,
+      "spsrq_score": null,
+      "bis11_score": null,
+      "thumbnail": null,
+      "reduced_representation": null,
+      "is_thresholded": false,
+      "perc_bad_voxels": 69.76664831287273,
+      "not_mni": false,
+      "brain_coverage": 99.63016942179506,
+      "perc_voxels_outside": 16.58403415232965,
+      "number_of_subjects": 111,
+      "modality": "Other",
+      "statistic_parameters": null,
+      "smoothness_fwhm": null,
+      "contrast_definition": "",
+      "contrast_definition_cogatlas": null,
+      "cognitive_paradigm_description_url": "",
+      "cognitive_paradigm_short_description": null,
+      "cognitive_paradigm_name": null,
+      "image_type": "statistic_map"
+    },
+    "display_note": "Trilinear sampling onto reference cortical surfaces. Display scale clips at the 95th percentile of absolute nonzero voxel values, not a statistical threshold. No new registration performed; deep map values are not shown on the cortical surface.",
+    "original_citation": "Siddiqi et al. Distinct symptom-specific treatment targets for circuit-based neuromodulation. American Journal of Psychiatry 2020. doi:10.1176/appi.ajp.2019.19090915. Figure 5.",
+    "source_ids": [
+      "P32160765"
+    ],
+    "topics": [
+      "tms-depression"
+    ]
+  },
+  {
+    "id": "taylor-circuit",
+    "name": "Convergent depression circuit · Taylor 2026",
+    "file": "assets/maps/taylor-circuit.bin",
+    "original_file": "assets/maps/taylor-circuit.nii.gz",
+    "shape": [
+      91,
+      109,
+      91
+    ],
+    "world_to_voxel": [
+      [
+        0.5,
+        0.0,
+        0.0,
+        45.0
+      ],
+      [
+        0.0,
+        0.5,
+        0.0,
+        63.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.5,
+        36.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "affine": [
+      [
+        2.0,
+        0.0,
+        0.0,
+        -90.0
+      ],
+      [
+        0.0,
+        2.0,
+        0.0,
+        -126.0
+      ],
+      [
+        0.0,
+        0.0,
+        2.0,
+        -72.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "scale": 3.747399091720581,
+    "range": [
+      -4.647482395172119,
+      4.996326446533203
+    ],
+    "negative_label": "Negative map value",
+    "positive_label": "Positive map value",
+    "space": "Repository labels MNI152NLin2009cAsym; native 2-mm MNI grid retained",
+    "url": "https://neurovault.org/images/787859/",
+    "license": "CC0-1.0",
+    "license_url": "https://neurovault.org/FAQ",
+    "sha256": "b457d79b04b9e0366b55edba222fd9499c5b6920978b5c078f1ff61a8d3a5373",
+    "uploader": "siddiqis",
+    "repository_metadata": {
+      "url": "http://neurovault.org/images/787859/",
+      "id": 787859,
+      "file": "http://neurovault.org/media/images/13075/DepressionCircuit_t.nii.gz",
+      "collection": "http://neurovault.org/collections/13075/",
+      "collection_id": 13075,
+      "file_size": 1098386,
+      "cognitive_paradigm_cogatlas": "None / Other",
+      "cognitive_paradigm_cogatlas_id": "None",
+      "cognitive_contrast_cogatlas": "None / Other",
+      "cognitive_contrast_cogatlas_id": "None",
+      "map_type": "T map",
+      "analysis_level": "group",
+      "name": "Convergent causal depression map",
+      "description": "Fig. 5a in Siddiqi et al., Nature Human Behaviour 2021",
+      "add_date": "2022-10-20T11:13:32.055452+02:00",
+      "modify_date": "2022-10-20T11:13:32.055471+02:00",
+      "is_valid": true,
+      "surface_left_file": null,
+      "surface_right_file": null,
+      "data_origin": "volume",
+      "target_template_image": "MNI152NLin2009cAsym",
+      "subject_species": "homo sapiens",
+      "figure": "",
+      "handedness": null,
+      "age": null,
+      "sex": null,
+      "race": null,
+      "ethnicity": null,
+      "BMI": null,
+      "fat_percentage": null,
+      "waist_hip_ratio": null,
+      "mean_PDS_score": null,
+      "tanner_stage": null,
+      "days_since_menstruation": null,
+      "hours_since_last_meal": null,
+      "bis_bas_score": null,
+      "spsrq_score": null,
+      "bis11_score": null,
+      "thumbnail": null,
+      "reduced_representation": null,
+      "is_thresholded": false,
+      "perc_bad_voxels": 68.32552466184889,
+      "not_mni": false,
+      "brain_coverage": 100.0,
+      "perc_voxels_outside": 100.0,
+      "number_of_subjects": 713,
+      "modality": "Other",
+      "statistic_parameters": null,
+      "smoothness_fwhm": null,
+      "contrast_definition": "",
+      "contrast_definition_cogatlas": null,
+      "cognitive_paradigm_description_url": "",
+      "cognitive_paradigm_short_description": null,
+      "cognitive_paradigm_name": null,
+      "image_type": "statistic_map"
+    },
+    "display_note": "Trilinear sampling onto reference cortical surfaces. Display scale clips at the 95th percentile of absolute nonzero voxel values, not a statistical threshold. No new registration performed; deep map values are not shown on the cortical surface.",
+    "original_citation": "Siddiqi et al. Brain stimulation and brain lesions converge on common causal circuits in neuropsychiatric disease. Nature Human Behaviour 2021;5:1707–1716. doi:10.1038/s41562-021-01161-1. Public t map referenced in Taylor 2026 Figure 2 and Methods.",
+    "source_ids": [
+      "P42340706"
+    ],
+    "topics": [
+      "tms-depression"
+    ]
+  }
+]

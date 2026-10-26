@@ -1,0 +1,21 @@
+This is a dataset to be used by the RecoBundles algorithm to automatically extract anatomically relevant bundles. RecoBundles is available in DIPY (http://dipy.org). The algorithm is explained in the paper:
+
+Garyfallidis, Eleftherios, et al. "Recognition of white matter bundles using local and global streamline-based registration and clustering." NeuroImage 170 (2017): 283-297.
+
+https://www.ncbi.nlm.nih.gov/pubmed/28712994
+
+This dataset is curated from the dataset explained in the following paper
+
+Yeh, Fang-Cheng, et al. "Population-averaged atlas of the macroscale human structural connectome and its network topology." NeuroImage 178 (2018): 57-68.
+
+https://www.sciencedirect.com/science/article/pii/S1053811918304324
+
+All the bundles and trk (Trackvis) files are in MNI space ICBM 2009a.
+
+Do contact the DIPY developers at https://gitter.im/nipy/dipy if you need the bundles in ICBM 2009c space.
+
+For the Fornix (F) both left and right sides are included in one file. It is possible to easily separate them. Send an e-mail to dipy@python.org to learn how.
+
+If you use this dataset please cite Garyfallidis et al. 2017 and Yeh et al. 2018 (see above).
+
+Happy RecoBundling!

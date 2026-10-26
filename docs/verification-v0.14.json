@@ -1,0 +1,46 @@
+{
+  "version": "0.14.0",
+  "date": "2026-10-02",
+  "automated": {
+    "javascript_syntax": "passed",
+    "atlas_regression_groups": 52,
+    "citation_identities": 39,
+    "findings_verified": 94,
+    "coordinates_checked": 13,
+    "teaching_regression_groups": 9,
+    "curation_regression_groups": 5,
+    "original_findings_coordinates_entities_cohorts_unchanged": true,
+    "git_diff_whitespace": "passed"
+  },
+  "browser": {
+    "current_interpretations_checked": 48,
+    "clinical_focuses": [
+      "ocd",
+      "depression",
+      "tms-depression",
+      "tms-ocd",
+      "all"
+    ],
+    "checks": [
+      "Legacy Machado URL loads with historical designation and original cluster selection",
+      "Return from historical viewer to current SCC lesson",
+      "Updated DLPFC association and targeting-comparison steps",
+      "Updated pre-SMA mixed-outcome step",
+      "SCC negative-trial/shared-follow-up explanation",
+      "Figee corrected findings precede collapsed original analysis",
+      "Original FM014 shared link selects and reveals nested finding",
+      "Machado hardware finding hidden by default in VC/VS",
+      "Search reveals historical hardware finding",
+      "Historical finding selection survives reload with search",
+      "Switching target returns evidence panel to current interpretation",
+      "Native narrow teaching view and desktop atlas screenshots inspected"
+    ],
+    "console_errors_or_warnings_observed": 0,
+    "atlas_loading_complete": true
+  },
+  "limits": [
+    "No new patient-specific localization, stimulation simulation or geometry validation",
+    "Some newer QA comparison papers remain abstract-only and were not incorporated as new findings",
+    "Editorial priority is not a formal evidence grading system"
+  ]
+}

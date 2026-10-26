@@ -1,0 +1,460 @@
+{
+  "version": "0.14.1",
+  "checked": "2026-10-02T19:13:48.168Z",
+  "lessonChecks": [
+    {
+      "errors": [],
+      "highlighted": 2,
+      "pinned": null,
+      "scene": "depression-tms:0:",
+      "title": "Start at the cortical target",
+      "visibleTracts": 0
+    },
+    {
+      "errors": [],
+      "highlighted": 3,
+      "pinned": null,
+      "scene": "depression-tms:1:",
+      "title": "Connect the target to sgACC",
+      "visibleTracts": 0
+    },
+    {
+      "errors": [],
+      "highlighted": 4,
+      "pinned": null,
+      "scene": "depression-tms:2:",
+      "title": "Keep the deep circuit in view",
+      "visibleTracts": 1
+    },
+    {
+      "errors": [],
+      "highlighted": 4,
+      "pinned": null,
+      "scene": "depression-tms:3:",
+      "title": "Read targeting trials in context",
+      "visibleTracts": 1
+    },
+    {
+      "errors": [],
+      "highlighted": 5,
+      "pinned": null,
+      "scene": "depression-routes:0:",
+      "title": "A route through cortex",
+      "visibleTracts": 4
+    },
+    {
+      "errors": [],
+      "highlighted": 6,
+      "pinned": null,
+      "scene": "depression-routes:1:",
+      "title": "The left-thalamus route",
+      "visibleTracts": 2
+    },
+    {
+      "errors": [],
+      "highlighted": 6,
+      "pinned": null,
+      "scene": "depression-routes:2:",
+      "title": "The right-thalamus route",
+      "visibleTracts": 2
+    },
+    {
+      "errors": [],
+      "highlighted": 5,
+      "pinned": null,
+      "scene": "depression-routes:3:",
+      "title": "What supports these routes?",
+      "visibleTracts": 4
+    },
+    {
+      "errors": [],
+      "highlighted": 3,
+      "pinned": null,
+      "scene": "ocd-tms:0:",
+      "title": "Locate the cortical entry point",
+      "visibleTracts": 0
+    },
+    {
+      "errors": [],
+      "highlighted": 6,
+      "pinned": null,
+      "scene": "ocd-tms:1:",
+      "title": "Reveal the deep partners",
+      "visibleTracts": 2
+    },
+    {
+      "errors": [],
+      "highlighted": 6,
+      "pinned": null,
+      "scene": "ocd-tms:2:",
+      "title": "Separate the rationale from the trial result",
+      "visibleTracts": 2
+    },
+    {
+      "errors": [],
+      "highlighted": 3,
+      "pinned": null,
+      "scene": "ocd-tms:3:",
+      "title": "Distinguish neighboring cortical approaches",
+      "visibleTracts": 0
+    },
+    {
+      "errors": [],
+      "highlighted": 1,
+      "pinned": null,
+      "scene": "ocd-presma:0:",
+      "title": "Start at pre-SMA",
+      "visibleTracts": 0
+    },
+    {
+      "errors": [],
+      "highlighted": 4,
+      "pinned": null,
+      "scene": "ocd-presma:1:",
+      "title": "Add striatum and STN",
+      "visibleTracts": 2
+    },
+    {
+      "errors": [],
+      "highlighted": 2,
+      "pinned": null,
+      "scene": "ocd-presma:2:",
+      "title": "Understand the targeting experiment",
+      "visibleTracts": 1
+    },
+    {
+      "errors": [],
+      "highlighted": 2,
+      "pinned": null,
+      "scene": "ocd-presma:3:",
+      "title": "Keep the evidence proportional",
+      "visibleTracts": 1
+    },
+    {
+      "errors": [],
+      "highlighted": 2,
+      "pinned": null,
+      "scene": "ocd-dbs:0:",
+      "title": "Locate the white-matter corridor",
+      "visibleTracts": 4
+    },
+    {
+      "errors": [],
+      "highlighted": 4,
+      "pinned": null,
+      "scene": "ocd-dbs:1:",
+      "title": "Follow the ventral-capsule network",
+      "visibleTracts": 4
+    },
+    {
+      "errors": [],
+      "highlighted": 8,
+      "pinned": null,
+      "scene": "ocd-dbs:2:",
+      "title": "Compare the subthalamic entry point",
+      "visibleTracts": 4
+    },
+    {
+      "errors": [],
+      "highlighted": 12,
+      "pinned": null,
+      "scene": "ocd-dbs:3:",
+      "title": "From target labels to individual connections",
+      "visibleTracts": 6
+    },
+    {
+      "errors": [],
+      "highlighted": 0,
+      "pinned": null,
+      "scene": "depression-dbs:0:",
+      "title": "Distinguish cortex from white matter",
+      "visibleTracts": 0
+    },
+    {
+      "errors": [],
+      "highlighted": 4,
+      "pinned": null,
+      "scene": "depression-dbs:1:",
+      "title": "Reveal the converging fiber systems",
+      "visibleTracts": 5
+    },
+    {
+      "errors": [],
+      "highlighted": 4,
+      "pinned": null,
+      "scene": "depression-dbs:2:",
+      "title": "Understand the evidence for targeting",
+      "visibleTracts": 4
+    },
+    {
+      "errors": [],
+      "highlighted": 4,
+      "pinned": null,
+      "scene": "depression-dbs:3:",
+      "title": "Connect the trial to longer follow-up",
+      "visibleTracts": 4
+    }
+  ],
+  "interactionChecks": [
+    {
+      "test": "sgACC pointer leaves",
+      "description": "A deep part of the cingulate cortex involved in mood. Depression TMS is applied over the DLPFC; researchers study its functional connection with sgACC to help explain treatment effects.",
+      "descriptionVisible": true,
+      "labelsOn": false,
+      "names": [
+        "Subgenual anterior cingulate cortex (L)"
+      ],
+      "pin": {
+        "anchor": [
+          -8.47862271763205,
+          27.201632725476735,
+          -6.166487265941914
+        ],
+        "id": "aal3-sgacc-l",
+        "kind": "mesh"
+      },
+      "scene": "depression-tms:1:",
+      "tooltip": false
+    },
+    {
+      "test": "all labels on",
+      "description": "A deep part of the cingulate cortex involved in mood. Depression TMS is applied over the DLPFC; researchers study its functional connection with sgACC to help explain treatment effects.",
+      "descriptionVisible": true,
+      "labelsOn": true,
+      "names": [
+        "Subgenual anterior cingulate cortex (L)"
+      ],
+      "pin": {
+        "anchor": [
+          -8.47862271763205,
+          27.201632725476735,
+          -6.166487265941914
+        ],
+        "id": "aal3-sgacc-l",
+        "kind": "mesh"
+      },
+      "scene": "depression-tms:1:",
+      "tooltip": false
+    },
+    {
+      "test": "labels off and camera changed",
+      "description": "A deep part of the cingulate cortex involved in mood. Depression TMS is applied over the DLPFC; researchers study its functional connection with sgACC to help explain treatment effects.",
+      "descriptionVisible": true,
+      "labelsOn": false,
+      "names": [
+        "Subgenual anterior cingulate cortex (L)"
+      ],
+      "pin": {
+        "anchor": [
+          -8.47862271763205,
+          27.201632725476735,
+          -6.166487265941914
+        ],
+        "id": "aal3-sgacc-l",
+        "kind": "mesh"
+      },
+      "scene": "depression-tms:1:",
+      "tooltip": false
+    },
+    {
+      "test": "drag and zoom",
+      "description": "A deep part of the cingulate cortex involved in mood. Depression TMS is applied over the DLPFC; researchers study its functional connection with sgACC to help explain treatment effects.",
+      "descriptionVisible": true,
+      "labelsOn": false,
+      "names": [
+        "Subgenual anterior cingulate cortex (L)"
+      ],
+      "pin": {
+        "anchor": [
+          -8.47862271763205,
+          27.201632725476735,
+          -6.166487265941914
+        ],
+        "id": "aal3-sgacc-l",
+        "kind": "mesh"
+      },
+      "scene": "depression-tms:1:",
+      "tooltip": false
+    },
+    {
+      "test": "Clear focus",
+      "description": "",
+      "descriptionVisible": false,
+      "labelsOn": false,
+      "names": [],
+      "pin": null,
+      "scene": "depression-tms:1:",
+      "tooltip": false
+    },
+    {
+      "test": "OCD DBS DLPFC explanation",
+      "description": "DLPFC is a cortical destination in the network associated with amSTN DBS. In this example the implanted stimulation site is deep; DLPFC is connected cortex.",
+      "descriptionVisible": true,
+      "labelsOn": false,
+      "names": [
+        "Rostral middle frontal gyrus (L)"
+      ],
+      "pin": {
+        "id": "dkt-rostral-middle-frontal-l",
+        "kind": "mesh"
+      },
+      "scene": "ocd-dbs:2:",
+      "tooltip": false
+    },
+    {
+      "test": "changing teaching step clears pin",
+      "description": "",
+      "descriptionVisible": false,
+      "labelsOn": false,
+      "names": [],
+      "pin": null,
+      "scene": "ocd-dbs:3:",
+      "tooltip": false
+    },
+    {
+      "test": "SCC DBS neighboring cortex description",
+      "description": "The depression DBS target is white matter near the subgenual cingulate. The pink 3D surface is neighboring sgACC gray matter; it does not outline the stimulation site.",
+      "descriptionVisible": true,
+      "labelsOn": false,
+      "names": [
+        "Subgenual anterior cingulate cortex (L)"
+      ],
+      "pin": {
+        "anchor": [
+          1.3457041878813245,
+          29.003985667317018,
+          -5.8981705510250215
+        ],
+        "id": "aal3-sgacc-l",
+        "kind": "mesh"
+      },
+      "scene": "depression-dbs:0:",
+      "tooltip": false
+    },
+    {
+      "test": "Escape releases pinned label",
+      "description": "",
+      "descriptionVisible": false,
+      "labelsOn": false,
+      "names": [],
+      "pin": null,
+      "scene": "depression-dbs:0:",
+      "tooltip": false
+    },
+    {
+      "test": "published point in full atlas",
+      "description": "A published analysis coordinate used to examine connectivity. It is not a stimulation site or the boundary of an anatomical region.",
+      "descriptionVisible": true,
+      "labelsOn": false,
+      "names": [
+        "sgACC · analysis seed"
+      ],
+      "pin": {
+        "anchor": [
+          4.059502351991933,
+          15.996548987888774,
+          -9.850123883487656
+        ],
+        "id": "fox-sgacc-seed",
+        "kind": "point"
+      },
+      "tooltip": false
+    },
+    {
+      "test": "tract in full atlas",
+      "description": "Anterior corticostriatal reference fibers connect prefrontal and striatal territories. Included for capsular DBS and downstream TMS circuit context; these are population fibers, not a patient’s treatment pathway.",
+      "descriptionVisible": true,
+      "labelsOn": false,
+      "names": [
+        "Anterior corticostriatal tract · Left"
+      ],
+      "pin": {
+        "anchor": [
+          -42.1875,
+          50.9375,
+          -2
+        ],
+        "id": "CS_A_L",
+        "kind": "tract"
+      },
+      "tooltip": false
+    },
+    {
+      "test": "click same tract releases pin",
+      "description": "",
+      "descriptionVisible": false,
+      "labelsOn": false,
+      "names": [],
+      "pin": null,
+      "tooltip": false
+    },
+    {
+      "test": "empty space releases pin",
+      "description": "",
+      "descriptionVisible": false,
+      "labelsOn": false,
+      "names": [],
+      "pin": null,
+      "tooltip": false
+    },
+    {
+      "test": "point after final changes",
+      "description": "A published analysis coordinate used to examine connectivity. It is not a stimulation site or the boundary of an anatomical region.",
+      "descriptionVisible": true,
+      "labelsOn": false,
+      "names": [
+        "sgACC · analysis seed"
+      ],
+      "pin": {
+        "anchor": [
+          4.059502351991933,
+          15.996548987888774,
+          -9.850123883487656
+        ],
+        "id": "fox-sgacc-seed",
+        "kind": "point"
+      },
+      "tooltip": false
+    },
+    {
+      "test": "final sgACC label and teaching copy",
+      "description": "A deep part of the cingulate cortex involved in mood. Depression TMS is applied over the DLPFC; researchers study its functional connection with sgACC to help explain treatment effects.",
+      "descriptionVisible": true,
+      "labelsOn": false,
+      "names": [
+        "Subgenual anterior cingulate cortex (L)"
+      ],
+      "pin": {
+        "anchor": [
+          1.5287273935799703,
+          28.40224864954372,
+          -7.430501184722633
+        ],
+        "id": "aal3-sgacc-l",
+        "kind": "mesh"
+      },
+      "scene": "depression-tms:1:",
+      "tooltip": false
+    },
+    {
+      "test": "reselecting current teaching step preserves pin",
+      "description": "A deep part of the cingulate cortex involved in mood. Depression TMS is applied over the DLPFC; researchers study its functional connection with sgACC to help explain treatment effects.",
+      "descriptionVisible": true,
+      "labelsOn": false,
+      "names": [
+        "Subgenual anterior cingulate cortex (L)"
+      ],
+      "pin": {
+        "anchor": [
+          1.5287273935799703,
+          28.40224864954372,
+          -7.430501184722633
+        ],
+        "id": "aal3-sgacc-l",
+        "kind": "mesh"
+      },
+      "scene": "depression-tms:1:",
+      "tooltip": false
+    }
+  ]
+}

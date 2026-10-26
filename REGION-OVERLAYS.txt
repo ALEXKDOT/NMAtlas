@@ -1,0 +1,74 @@
+NMAtlas v0.7 — composable anatomical estimates
+Reviewed and prepared 2026-09-30
+
+DISPLAY
+Seven region checkboxes are beside the fiber controls in every focus. Multiple
+regions coexist, preserve the current camera and tract selection on toggling,
+and persist across target/finding changes. Region opacity defaults to 0.16;
+background cortex remains #859b82. Cortical shading uses the existing material
+and lighting. The image legend identifies all checked colors and hidden states.
+Shared VLPFC/OFC pars orbitalis carries spatial bands of both colors. Right OFC
+uses the parent OFC blue. Broad regions have no newly created point markers or
+centroid labels. Specific existing parcel labels and published point roles remain.
+
+Functional maps pause region colors with an explicit message. They are restored
+when the map is switched off. Shared URLs record all region selections, opacity
+and tracts. Legacy region= links restore their region at the new 0.16 default.
+
+BOUNDARY DEFINITIONS
+DLPFC: CerebrA/DKT rostral + caudal middle-frontal parcels.
+VLPFC: CerebrA/DKT pars opercularis + triangularis + orbitalis.
+OFC: CerebrA/DKT medial + lateral OFC + pars orbitalis; overlap is explicit.
+Right OFC: right-sided subset, not a different broad cortical region.
+These are gross-anatomical approximations, not exact BA9/46, BA44/45/47 or
+study-specific cortical stimulation masks. Existing upstream geometry is reused.
+
+CerebrA source: Manera et al. 2020, Scientific Data 7:237.
+https://www.nature.com/articles/s41597-020-0557-9
+Prepared-mesh source and prior registration remain in assets/atlas.json.
+
+New bilateral AAL3 surfaces:
+- dmPFC: Frontal_Sup_Medial labels 19/20. This non-orbital medial superior-frontal
+  proxy includes anterior medial cortex; its edges are not a unique functional
+  or cytoarchitectonic dmPFC definition.
+- Pre-SMA: Supp_Motor_Area labels 15/16, restricted to MNI y > 0 (anterior AC
+  plane). The anterior-SMA anatomical rule follows Ji 2021 Methods 2.5.
+  No patient-specific 15 mm superficial-distance restriction, inverse warping
+  or connectivity-maximizing target is reproduced. Ji treated right pre-SMA;
+  the optional overlay is bilateral anatomy, with sides filterable separately.
+- sgACC: ACC_sub labels 151/152. Gray matter, not SCC white-matter DBS.
+
+AAL3 source: Rolls et al. 2020, NeuroImage 206:116189.
+https://doi.org/10.1016/j.neuroimage.2019.116189
+https://www.oxcns.org/aal3.html
+https://www.oxcns.org/AAL3v1_for_SPM12.zip
+Ji Methods: https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.25468
+
+PREPARATION AND LIMITS
+Unmodified AAL3v1_1mm labels are bundled in assets/atlas-inputs. One-millimetre
+sampling does not add precision to older AAL labels. Source laterality is retained,
+including slight midline asymmetry. tools/build-region-surfaces.py selects labels,
+uses marching cubes at 0.5, then four Taubin iterations (lambda .5, nu .53).
+Maximum vertex movement is below 1.5 mm. There is no decimation or shape dilation.
+Parameters, package versions, source affine, voxel counts, bounds and hashes are
+recorded in assets/region-surfaces.json. Only the six additional meshes are built;
+no clinical records or previous geometry are regenerated.
+
+AAL3 MNI single-subject coordinates are placed by their source affine alongside
+the existing MNI2009c background. No nonlinear inter-template registration was
+performed or validated. Boundaries can mismatch the background and should be
+read at regional, not millimetre precision. Anatomical estimates now replace the
+v0.6 whole-superior-frontal/seed-only placeholders. The same bounded masks can
+provide finding-specific anatomy with the reported side, without asserting a
+participant-specific stimulation location or field.
+
+All 76 finding/limitation texts remain unchanged. Supplemental anatomical sources
+do not increase the clinical source count. VLPFC-amygdala sources retain their
+mechanistic/experimental roles. The recalled bitemporofrontal/bifrontal name is
+unresolved; right OFC is a documented possible match, not a confirmed identification.
+
+ATTRIBUTION
+AAL3 license notice and GNU license text are under assets/licenses. Corresponding
+input data and generation source are included. Other prepared meshes retain their
+existing source licenses. No study full texts or private files are redistributed.
+Historical v0.6 representation notes are in docs/region-overlays-v0.6.txt.

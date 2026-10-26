@@ -1,0 +1,324 @@
+{
+  "version": "0.13.0",
+  "date": "2026-10-02",
+  "automated": {
+    "atlasGroups": 52,
+    "citationSources": 39,
+    "citationFindings": 94,
+    "teachingGroups": 9,
+    "lessons": 6,
+    "steps": 24
+  },
+  "routeChecks": [
+    {
+      "state": {
+        "mode": "learn",
+        "lesson": "depression-routes",
+        "step": 0,
+        "element": null,
+        "a": 1,
+        "b": 2,
+        "example": "tsai",
+        "side": "right",
+        "cluster": 1
+      },
+      "scene": {
+        "id": "depression-routes:0:",
+        "lessonId": "depression-routes",
+        "index": 0,
+        "element": null,
+        "topic": "tms-depression",
+        "target": "dlpfc",
+        "view": "oblique",
+        "hemisphere": "both",
+        "entities": [
+          "DLPFC",
+          "SFG",
+          "dACC",
+          "SCC_GM"
+        ],
+        "sides": {
+          "DLPFC": "left",
+          "SFG": "right",
+          "dACC": "right",
+          "SCC_GM": "right"
+        },
+        "colors": {
+          "DLPFC": "#cd8759",
+          "SFG": "#9277ad",
+          "dACC": "#b19753",
+          "SCC_GM": "#bf7390"
+        },
+        "bundles": [
+          "C_FP",
+          "C_PO"
+        ],
+        "title": "Depression \u00b7 TMS",
+        "note": "The diagram follows the proposed route. Broad 3D regions and reference bundles do not reproduce its individual streamlines."
+      },
+      "errors": []
+    },
+    {
+      "state": {
+        "mode": "learn",
+        "lesson": "depression-routes",
+        "step": 1,
+        "element": null,
+        "a": 1,
+        "b": 2,
+        "example": "tsai",
+        "side": "right",
+        "cluster": 1
+      },
+      "scene": {
+        "id": "depression-routes:1:",
+        "lessonId": "depression-routes",
+        "index": 1,
+        "element": null,
+        "topic": "tms-depression",
+        "target": "dlpfc",
+        "view": "oblique",
+        "hemisphere": "both",
+        "entities": [
+          "DLPFC",
+          "thalamus",
+          "dmPFC",
+          "SCC_GM"
+        ],
+        "sides": {
+          "DLPFC": "left",
+          "thalamus": "left",
+          "dmPFC": "bilateral",
+          "SCC_GM": "right"
+        },
+        "colors": {
+          "DLPFC": "#cd8759",
+          "thalamus": "#738cac",
+          "dmPFC": "#b89c5c",
+          "SCC_GM": "#bf7390"
+        },
+        "bundles": [
+          "TR_A"
+        ],
+        "title": "Depression \u00b7 TMS",
+        "note": "The diagram follows the proposed route. Broad 3D regions and reference bundles do not reproduce its individual streamlines."
+      },
+      "errors": []
+    },
+    {
+      "state": {
+        "mode": "learn",
+        "lesson": "depression-routes",
+        "step": 2,
+        "element": null,
+        "a": 1,
+        "b": 2,
+        "example": "tsai",
+        "side": "right",
+        "cluster": 1
+      },
+      "scene": {
+        "id": "depression-routes:2:",
+        "lessonId": "depression-routes",
+        "index": 2,
+        "element": null,
+        "topic": "tms-depression",
+        "target": "dlpfc",
+        "view": "oblique",
+        "hemisphere": "both",
+        "entities": [
+          "DLPFC",
+          "SFG",
+          "thalamus",
+          "dmPFC",
+          "SCC_GM"
+        ],
+        "sides": {
+          "DLPFC": "left",
+          "SFG": "right",
+          "thalamus": "right",
+          "dmPFC": "right",
+          "SCC_GM": "right"
+        },
+        "colors": {
+          "DLPFC": "#cd8759",
+          "SFG": "#9277ad",
+          "thalamus": "#738cac",
+          "dmPFC": "#b89c5c",
+          "SCC_GM": "#bf7390"
+        },
+        "bundles": [
+          "TR_A"
+        ],
+        "title": "Depression \u00b7 TMS",
+        "note": "The diagram follows the proposed route. Broad 3D regions and reference bundles do not reproduce its individual streamlines."
+      },
+      "errors": []
+    },
+    {
+      "state": {
+        "mode": "learn",
+        "lesson": "depression-routes",
+        "step": 3,
+        "element": null,
+        "a": 1,
+        "b": 2,
+        "example": "tsai",
+        "side": "right",
+        "cluster": 1
+      },
+      "scene": {
+        "id": "depression-routes:3:",
+        "lessonId": "depression-routes",
+        "index": 3,
+        "element": null,
+        "topic": "tms-depression",
+        "target": "dlpfc",
+        "view": "oblique",
+        "hemisphere": "both",
+        "entities": [
+          "DLPFC",
+          "SFG",
+          "dACC",
+          "SCC_GM"
+        ],
+        "sides": {
+          "DLPFC": "left",
+          "SFG": "right",
+          "dACC": "right",
+          "SCC_GM": "right"
+        },
+        "colors": {
+          "DLPFC": "#cd8759",
+          "SFG": "#9277ad",
+          "dACC": "#b19753",
+          "SCC_GM": "#bf7390"
+        },
+        "bundles": [
+          "C_FP",
+          "C_PO"
+        ],
+        "title": "Depression \u00b7 TMS",
+        "note": "The diagram follows the proposed route. Broad 3D regions and reference bundles do not reproduce its individual streamlines."
+      },
+      "errors": []
+    }
+  ],
+  "findingChecks": [
+    {
+      "selected": "R4-S-1",
+      "highlighted": [
+        "dkt-rostral-middle-frontal-l",
+        "dkt-caudal-middle-frontal-l",
+        "aal3-sgacc-r"
+      ],
+      "errors": []
+    },
+    {
+      "selected": "R4-S-2",
+      "highlighted": [
+        "dkt-rostral-middle-frontal-l",
+        "dkt-caudal-middle-frontal-l",
+        "dkt-superior-frontal-r",
+        "dkt-caudal-anterior-cingulate-r",
+        "aal3-sgacc-r"
+      ],
+      "errors": []
+    },
+    {
+      "selected": "R4-S-3",
+      "highlighted": [
+        "dkt-rostral-middle-frontal-l",
+        "dkt-caudal-middle-frontal-l",
+        "thalamus-l",
+        "thalamus-r",
+        "aal3-dmpfc-l",
+        "aal3-dmpfc-r",
+        "dkt-superior-frontal-r",
+        "aal3-sgacc-r"
+      ],
+      "errors": []
+    },
+    {
+      "selected": "R4-M-1",
+      "highlighted": [
+        "internal-capsule-l",
+        "internal-capsule-r",
+        "nucleus-accumbens-l",
+        "nucleus-accumbens-r"
+      ],
+      "errors": []
+    },
+    {
+      "selected": "R4-M-2",
+      "highlighted": [
+        "internal-capsule-l",
+        "internal-capsule-r",
+        "nucleus-accumbens-l",
+        "nucleus-accumbens-r"
+      ],
+      "errors": []
+    },
+    {
+      "selected": "R4-M-3",
+      "highlighted": [
+        "internal-capsule-l",
+        "internal-capsule-r",
+        "dkt-medial-orbitofrontal-l",
+        "dkt-medial-orbitofrontal-r",
+        "dkt-lateral-orbitofrontal-l",
+        "dkt-lateral-orbitofrontal-r",
+        "dkt-pars-orbitalis-l",
+        "dkt-pars-orbitalis-r",
+        "nucleus-accumbens-l",
+        "nucleus-accumbens-r"
+      ],
+      "errors": []
+    }
+  ],
+  "clusterChecks": [
+    {
+      "side": "right",
+      "cluster": 0,
+      "text": "RIGHT \u00b7 CC0\n\nVentral striatal region\n\nMood elevation: consistent (4\u20136 participants)\n\nDizziness, anxiety, alertness and energy were frequent (2\u20133 participants).\n\nPossible circuit explanation\n\nSeveral nearby structures may contribute: ventral striatum/pallidum, anterior commissure, fornix and ventral capsular fibers. This study could not isolate their contributions.\n\nReported cluster center: x 7.7, y 1.1, z -2.8 mm relative to the AC. These are not MNI coordinates.\n\nExplore the VC/VS neighborhood \u2192"
+    },
+    {
+      "side": "right",
+      "cluster": 1,
+      "text": "RIGHT \u00b7 CC1\n\nVentral capsule above the AC\n\nMood elevation: consistent (4\u20136 participants)\n\nEnergy, alertness, laughter, dizziness and talking were frequent.\n\nPossible circuit explanation\n\nThe authors proposed engagement of orbitofrontal-connected ventral capsular fibers and associated loops. This is an anatomical explanation, not a measured tract-specific cause.\n\nReported cluster center: x 11.6, y 3.5, z 2.7 mm relative to the AC. These are not MNI coordinates.\n\nExplore the VC/VS neighborhood \u2192"
+    },
+    {
+      "side": "right",
+      "cluster": 2,
+      "text": "RIGHT \u00b7 CC2\n\nMiddle portion of the ALIC\n\nMood elevation: isolated (1 participant)\n\nDizziness, anxiety, calmness, reduced mood and fatigue were frequent.\n\nPossible circuit explanation\n\nThe response pattern differed from the ventral clusters. Absence of a reported category is not a prediction of no effect in another patient.\n\nReported cluster center: x 15.6, y 5.1, z 7.9 mm relative to the AC. These are not MNI coordinates.\n\nExplore the VC/VS neighborhood \u2192"
+    },
+    {
+      "side": "left",
+      "cluster": 0,
+      "text": "LEFT \u00b7 CC0\n\nVentral striatal region\n\nMood elevation: consistent (4\u20136 participants)\n\nWarmth was consistent; dizziness, anxiety and flushing were frequent.\n\nPossible circuit explanation\n\nSeveral nearby structures may contribute: ventral striatum/pallidum, anterior commissure, fornix and ventral capsular fibers. This study could not isolate their contributions.\n\nReported cluster center: x -5.0, y 1.6, z -2.6 mm relative to the AC. These are not MNI coordinates.\n\nExplore the VC/VS neighborhood \u2192"
+    },
+    {
+      "side": "left",
+      "cluster": 1,
+      "text": "LEFT \u00b7 CC1\n\nVentral capsule above the AC\n\nMood elevation: frequent (2\u20133 participants)\n\nEnergy, alertness, warmth, calmness and nausea were frequent.\n\nPossible circuit explanation\n\nThe authors proposed engagement of orbitofrontal-connected ventral capsular fibers and associated loops. This is an anatomical explanation, not a measured tract-specific cause.\n\nReported cluster center: x -7.9, y 4.0, z 2.6 mm relative to the AC. These are not MNI coordinates.\n\nExplore the VC/VS neighborhood \u2192"
+    },
+    {
+      "side": "left",
+      "cluster": 2,
+      "text": "LEFT \u00b7 CC2\n\nMiddle portion of the ALIC\n\nNo mood-elevation category reported\n\nNo consistent or frequent effects. Warmth, energy, dizziness and calmness were isolated.\n\nPossible circuit explanation\n\nThe response pattern differed from the ventral clusters. Absence of a reported category is not a prediction of no effect in another patient.\n\nReported cluster center: x -11.0, y 6.3, z 7.6 mm relative to the AC. These are not MNI coordinates.\n\nExplore the VC/VS neighborhood \u2192"
+    }
+  ],
+  "additional": [
+    "Mixed-laterality material colors verified: right DLPFC and left SFG remain background green in the cortical route.",
+    "Left medial SFG selection isolates left hemisphere in medial view.",
+    "Reload preserves Machado, left side and CC2.",
+    "Diagrams and contact map visually reviewed at narrow and wide desktop layouts.",
+    "No errors reported by the atlas renderer or research browser console.",
+    "Original Tsai comparison still displays 3 mm and preserves contact 1 versus 2 experiences.",
+    "Both new local source PDF GET links returned 200 application/pdf; the new access document returned 200."
+  ],
+  "limits": [
+    "Targeted QA of changed views, not an exhaustive repetition of every historical interaction.",
+    "Independent source-data checks do not reproduce all upstream null models or restricted cohort II analyses."
+  ]
+}

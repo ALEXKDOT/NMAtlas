@@ -1,0 +1,488 @@
+{
+  "version": "0.11.0",
+  "checked": "2026-10-01",
+  "scope": "All five supplied Round 3 article families plus a public qualified replication; not completion of the broader Handoff backlog.",
+  "supplied_assets": [
+    {
+      "id": "R3F01",
+      "relative_path": "Bahramisharif 2016/1-s2.0-S0006322315004709-main.pdf",
+      "sha256": "c2ecd4bf109c2aea87ee8c6d857985434cfc3fbd87d721829c678e3ee95fcd09",
+      "bytes": 512943,
+      "pages": 2
+    },
+    {
+      "id": "R3F02",
+      "relative_path": "Fitzsimmons 2025 part I/1-s2.0-S0006322324014884-main.pdf",
+      "sha256": "1028c76f52f35db1d39692363ce3bdc08eac4eac85e3916bf54d775372aa14a0",
+      "bytes": 1130817,
+      "pages": 10
+    },
+    {
+      "id": "R3F03",
+      "relative_path": "Fitzsimmons 2025 part I/1-s2.0-S0006322324014884-mmc1.xlsx",
+      "sha256": "b85ff37df1fe09b175b5710ebe3d2d009833cded2620f0ce56cbda82c7ddb98b",
+      "bytes": 20999
+    },
+    {
+      "id": "R3F04",
+      "relative_path": "Fitzsimmons 2025 part I/1-s2.0-S0006322324014884-mmc2.pdf",
+      "sha256": "a37fc3a0fb9c87ff76eea20eba3e590b74a34e8f1ed600322811541f4b3ff567",
+      "bytes": 1221812,
+      "pages": 39
+    },
+    {
+      "id": "R3F05",
+      "relative_path": "GPe alpha band activity /1-s2.0-S1094715926013590-main.pdf",
+      "sha256": "24b154d0ebbc891d04e17e9b7cd7d3efffec75c98d3aee739cdb2d8e179e2996",
+      "bytes": 2266098,
+      "pages": 22
+    },
+    {
+      "id": "R3F06",
+      "relative_path": "Himes 2025/1-s2.0-S1935861X25003109-mainext.pdf",
+      "sha256": "999d1d793bf26426a36dfeb63aed7b83eecde13944035bf3e0cfb5e752437e4e",
+      "bytes": 3771223,
+      "pages": 11
+    },
+    {
+      "id": "R3F07",
+      "relative_path": "Himes 2025/1-s2.0-S1935861X25003109-mmc1.docx",
+      "sha256": "b470dbfbb3c35972cb2729f8b0831f703e3b8d0800ab1075efbadce721cbbc69",
+      "bytes": 685777
+    },
+    {
+      "id": "R3F08",
+      "relative_path": "Himes 2025/1-s2.0-S1935861X26001130-main.pdf",
+      "sha256": "14ebd0960c8c9039119852e617b39eaa64b54a1257b20002c752157a5e4d6ea6",
+      "bytes": 286859,
+      "pages": 1
+    },
+    {
+      "id": "R3F09",
+      "relative_path": "Smolders 2013/1-s2.0-S0006322313002655-main.pdf",
+      "sha256": "c73afac53a7e8b9746d5d94276ba0ecce32531efdb3c2217db4b7e073e82872c",
+      "bytes": 262147,
+      "pages": 2
+    }
+  ],
+  "clinical_sources": [
+    {
+      "id": "P39089567",
+      "title": "Transcranial Magnetic Stimulation–Induced Plasticity Improving Cognitive Control in Obsessive-Compulsive Disorder, Part I: Clinical and Neuroimaging Outcomes From a Randomized Trial",
+      "doi": "10.1016/j.biopsych.2024.06.029",
+      "pmid": "39089567",
+      "metadata_basis": "Supplied journal title/DOI page; PubMed identity checked for indexed sources",
+      "citation_support_basis": "Supplied full text and relevant figures/tables reviewed; Round 3, 2026-10-01; 39-page supplement and resources workbook reviewed"
+    },
+    {
+      "id": "D874dae9256",
+      "title": "Globus pallidus externus (GPe) alpha band activity decreases after deep brain stimulation in clinically responsive obsessive-compulsive disorder patients",
+      "doi": "10.1016/j.neurom.2026.09.006",
+      "pmid": null,
+      "metadata_basis": "Supplied journal title/DOI page; PubMed identity checked for indexed sources",
+      "citation_support_basis": "Supplied full text and relevant figures/tables reviewed; Round 3, 2026-10-01; embedded Supplemental Tables 1–2 and Figures 1–3 reviewed; not the definitive version of record"
+    },
+    {
+      "id": "P40854479",
+      "title": "Revisiting subcallosal cingulate deep brain stimulation for depression: Long-term safety and effectiveness outcomes from a pooled analysis of 172 implanted patients",
+      "doi": "10.1016/j.brs.2025.08.017",
+      "pmid": "40854479",
+      "metadata_basis": "Supplied journal title/DOI page; PubMed identity checked for indexed sources",
+      "citation_support_basis": "Supplied full text and relevant figures/tables reviewed; Round 3, 2026-10-01"
+    },
+    {
+      "id": "P23623188",
+      "title": "Deep brain stimulation targeted at the nucleus accumbens decreases the potential for pathologic network communication",
+      "doi": "10.1016/j.biopsych.2013.03.012",
+      "pmid": "23623188",
+      "metadata_basis": "Supplied journal title/DOI page; PubMed identity checked for indexed sources",
+      "citation_support_basis": "Supplied full text and relevant figures/tables reviewed; Round 3, 2026-10-01"
+    },
+    {
+      "id": "P26166231",
+      "title": "Deep Brain Stimulation Diminishes Cross-Frequency Coupling in Obsessive-Compulsive Disorder",
+      "doi": "10.1016/j.biopsych.2015.05.021",
+      "pmid": "26166231",
+      "metadata_basis": "Supplied journal title/DOI page; PubMed identity checked for indexed sources",
+      "citation_support_basis": "Supplied full text and relevant figures/tables reviewed; Round 3, 2026-10-01"
+    },
+    {
+      "id": "P26852071",
+      "title": "Ventral Capsule/Ventral Striatum Deep Brain Stimulation Does Not Consistently Diminish Occipital Cross-Frequency Coupling",
+      "doi": "10.1016/j.biopsych.2015.10.029",
+      "pmid": "26852071",
+      "metadata_basis": "PubMed metadata and public primary full text",
+      "citation_support_basis": "Public primary full text reviewed, 2026-10-01; added to qualify the Round 3 cross-frequency coupling claim"
+    }
+  ],
+  "finding_checks": [
+    {
+      "id": "R2-12-1",
+      "source_id": "P39089567",
+      "status": "Supplied full text and relevant figures/tables reviewed; Round 3, 2026-10-01; 39-page supplement and resources workbook reviewed",
+      "locator": {
+        "asset_id": "R3F02",
+        "pdf_page": 7,
+        "detail": "Table 2; Results: Clinical Outcome (PDF page 4)"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-12-2",
+      "source_id": "P39089567",
+      "status": "Supplied full text and relevant figures/tables reviewed; Round 3, 2026-10-01; 39-page supplement and resources workbook reviewed",
+      "locator": {
+        "asset_id": "R3F02",
+        "pdf_page": 8,
+        "detail": "Figure 4; Results: TOL Planning on PDF pages 4–5"
+      },
+      "supporting_locators": [
+        {
+          "source_id": "P39089567",
+          "label": "Planning results · Table S11",
+          "asset_id": "R3F04",
+          "pdf_page": 23,
+          "detail": "DLPFC versus vertex P+: R IPC .021, precuneus .025, R insula .037, R DLPFC .040, L IPC .044"
+        },
+        {
+          "source_id": "P39089567",
+          "label": "ROI coordinates · Table S2",
+          "asset_id": "R3F04",
+          "pdf_page": 14,
+          "detail": "Planning-contrast analysis centers and sphere radii"
+        }
+      ]
+    },
+    {
+      "id": "R3-FITZ-TARGETS",
+      "source_id": "P39089567",
+      "status": "Supplied full text and relevant figures/tables reviewed; Round 3, 2026-10-01; 39-page supplement and resources workbook reviewed",
+      "locator": {
+        "asset_id": "R3F02",
+        "pdf_page": 3,
+        "detail": "Figure 1: target distribution and mean MNI coordinates"
+      },
+      "supporting_locators": [
+        {
+          "source_id": "P39089567",
+          "label": "Target-selection methods",
+          "asset_id": "R3F04",
+          "pdf_page": 4,
+          "detail": "Supplementary Materials: rTMS targeting"
+        }
+      ]
+    },
+    {
+      "id": "R3-FITZ-PLANNING",
+      "source_id": "P39089567",
+      "status": "Supplied full text and relevant figures/tables reviewed; Round 3, 2026-10-01; 39-page supplement and resources workbook reviewed",
+      "locator": {
+        "asset_id": "R3F02",
+        "pdf_page": 8,
+        "detail": "Figure 5; Results on PDF page 5"
+      },
+      "supporting_locators": [
+        {
+          "source_id": "P39089567",
+          "label": "Within-arm estimates · Table S11",
+          "asset_id": "R3F04",
+          "pdf_page": 23,
+          "detail": "Association between activation change and Y-BOCS change, DLPFC column"
+        }
+      ]
+    },
+    {
+      "id": "R3-FITZ-PRESMA",
+      "source_id": "P39089567",
+      "status": "Supplied full text and relevant figures/tables reviewed; Round 3, 2026-10-01; 39-page supplement and resources workbook reviewed",
+      "locator": {
+        "asset_id": "R3F02",
+        "pdf_page": 6,
+        "detail": "Results: SST Response Inhibition and Error Processing (PDF pages 5–6); Supplementary Tables S13–S14"
+      },
+      "supporting_locators": [
+        {
+          "source_id": "P39089567",
+          "label": "Null contrasts · Table S13",
+          "asset_id": "R3F04",
+          "pdf_page": 25,
+          "detail": "Pre-SMA versus vertex response-inhibition estimates; continued on page 26"
+        },
+        {
+          "source_id": "P39089567",
+          "label": "Weak associations · Table S14",
+          "asset_id": "R3F04",
+          "pdf_page": 26,
+          "detail": "Error-processing between-arm and within-arm estimates"
+        }
+      ]
+    },
+    {
+      "id": "R3-GPE-PLACEMENT",
+      "source_id": "D874dae9256",
+      "status": "Supplied full text and relevant figures/tables reviewed; Round 3, 2026-10-01; embedded Supplemental Tables 1–2 and Figures 1–3 reviewed; not the definitive version of record",
+      "locator": {
+        "asset_id": "R3F05",
+        "pdf_page": 5,
+        "detail": "Methods: DBS surgery and LFP acquisition; Figure 2 on PDF page 11"
+      },
+      "supporting_locators": [
+        {
+          "source_id": "D874dae9256",
+          "label": "Contact coordinates · Table S1",
+          "asset_id": "R3F05",
+          "pdf_page": 15,
+          "detail": "AC-relative patient coordinates; not MNI"
+        }
+      ]
+    },
+    {
+      "id": "R3-GPE-ALPHA",
+      "source_id": "D874dae9256",
+      "status": "Supplied full text and relevant figures/tables reviewed; Round 3, 2026-10-01; embedded Supplemental Tables 1–2 and Figures 1–3 reviewed; not the definitive version of record",
+      "locator": {
+        "asset_id": "R3F05",
+        "pdf_page": 6,
+        "detail": "Results: Alpha power; Figure 3 on PDF page 12"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R3-GPE-CLINICAL",
+      "source_id": "D874dae9256",
+      "status": "Supplied full text and relevant figures/tables reviewed; Round 3, 2026-10-01; embedded Supplemental Tables 1–2 and Figures 1–3 reviewed; not the definitive version of record",
+      "locator": {
+        "asset_id": "R3F05",
+        "pdf_page": 7,
+        "detail": "Results: Relationship between alpha power and clinical severity; clinical outcomes on PDF page 6"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R3-HIMES-OUTCOMES",
+      "source_id": "P40854479",
+      "status": "Supplied full text and relevant figures/tables reviewed; Round 3, 2026-10-01",
+      "locator": {
+        "asset_id": "R3F06",
+        "pdf_page": 4,
+        "detail": "Figure 1, MADRS observed-case denominators and response/remission; Methods on PDF page 3"
+      },
+      "supporting_locators": [
+        {
+          "source_id": "P28988904",
+          "label": "Controlled SCC trial",
+          "asset_id": "",
+          "pdf_page": null,
+          "detail": "Holtzheimer 2017: blinded primary comparison did not establish active-versus-sham benefit"
+        }
+      ]
+    },
+    {
+      "id": "R3-HIMES-RETENTION",
+      "source_id": "P40854479",
+      "status": "Supplied full text and relevant figures/tables reviewed; Round 3, 2026-10-01",
+      "locator": {
+        "asset_id": "R3F06",
+        "pdf_page": 6,
+        "detail": "Limitations: retention and extension selection; supplementary figures SF1–SF5 in the linked DOCX"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R3-HIMES-SAFETY",
+      "source_id": "P40854479",
+      "status": "Supplied full text and relevant figures/tables reviewed; Round 3, 2026-10-01",
+      "locator": {
+        "asset_id": "R3F06",
+        "pdf_page": 5,
+        "detail": "Results, section 3.5: Safety results"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R3-SMOLDERS-EEG",
+      "source_id": "P23623188",
+      "status": "Supplied full text and relevant figures/tables reviewed; Round 3, 2026-10-01",
+      "locator": {
+        "asset_id": "R3F09",
+        "pdf_page": 1,
+        "detail": "Methods and Figure 1; Results continue on PDF page 2"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R3-BAHRAMI-CFC",
+      "source_id": "P26166231",
+      "status": "Supplied full text and relevant figures/tables reviewed; Round 3, 2026-10-01",
+      "locator": {
+        "asset_id": "R3F01",
+        "pdf_page": 1,
+        "detail": "Methods and Figure 1; Results on PDF page 2"
+      },
+      "supporting_locators": [
+        {
+          "source_id": "P26852071",
+          "label": "Qualified replication",
+          "asset_id": "",
+          "pdf_page": null,
+          "detail": "Five responders: four depression, one OCD; shorter OFF interval"
+        }
+      ]
+    },
+    {
+      "id": "R3-WIDGE-CFC",
+      "source_id": "P26852071",
+      "status": "Public primary full text reviewed, 2026-10-01; added to qualify the Round 3 cross-frequency coupling claim",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Public primary full text: Methods, Results and Figure 1",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5770190/"
+      },
+      "supporting_locators": [
+        {
+          "source_id": "P26166231",
+          "label": "Original OCD report",
+          "asset_id": "R3F01",
+          "pdf_page": 1,
+          "detail": "Seven OCD responders, one-week OFF interval"
+        }
+      ]
+    }
+  ],
+  "coordinate_checks": [
+    {
+      "id": "fitz-dlpfc-mean",
+      "source_id": "P39089567",
+      "xyz": [
+        -50,
+        28,
+        33
+      ],
+      "role": "Mean treatment coordinate",
+      "locator": "Fitzsimmons 2025, main PDF page 3, Figure 1",
+      "status": "Numeric coordinate and stimulation/analysis/control role checked against supplied source"
+    },
+    {
+      "id": "fitz-presma-fallback",
+      "source_id": "P39089567",
+      "xyz": [
+        -4,
+        14,
+        58
+      ],
+      "role": "Published fallback used in treatment",
+      "locator": "Fitzsimmons 2025, supplement PDF page 4, rTMS targeting",
+      "status": "Numeric coordinate and stimulation/analysis/control role checked against supplied source"
+    },
+    {
+      "id": "fitz-vertex-control",
+      "source_id": "P39089567",
+      "xyz": [
+        0,
+        -34,
+        72
+      ],
+      "role": "Low-intensity control coordinate",
+      "locator": "Fitzsimmons 2025, main PDF page 3, Figure 1",
+      "status": "Numeric coordinate and stimulation/analysis/control role checked against supplied source"
+    },
+    {
+      "id": "fitz-roi-rdlpfc",
+      "source_id": "P39089567",
+      "xyz": [
+        41.4,
+        35.5,
+        29.9
+      ],
+      "role": "Task-fMRI analysis ROI center",
+      "locator": "Fitzsimmons 2025, supplement PDF page 14, Table S2, planning contrast",
+      "status": "Numeric coordinate and stimulation/analysis/control role checked against supplied source"
+    },
+    {
+      "id": "fitz-roi-precuneus",
+      "source_id": "P39089567",
+      "xyz": [
+        0,
+        -61.5,
+        57.3
+      ],
+      "role": "Task-fMRI analysis ROI center",
+      "locator": "Fitzsimmons 2025, supplement PDF page 14, Table S2, planning contrast",
+      "status": "Numeric coordinate and stimulation/analysis/control role checked against supplied source"
+    },
+    {
+      "id": "fitz-roi-rinsula",
+      "source_id": "P39089567",
+      "xyz": [
+        33.1,
+        24.3,
+        -4.2
+      ],
+      "role": "Task-fMRI analysis ROI center",
+      "locator": "Fitzsimmons 2025, supplement PDF page 14, Table S2, planning contrast",
+      "status": "Numeric coordinate and stimulation/analysis/control role checked against supplied source"
+    },
+    {
+      "id": "fitz-roi-lipc",
+      "source_id": "P39089567",
+      "xyz": [
+        -38.2,
+        -45.6,
+        44.9
+      ],
+      "role": "Task-fMRI analysis ROI center",
+      "locator": "Fitzsimmons 2025, supplement PDF page 14, Table S2, planning contrast",
+      "status": "Numeric coordinate and stimulation/analysis/control role checked against supplied source"
+    },
+    {
+      "id": "fitz-roi-ripc",
+      "source_id": "P39089567",
+      "xyz": [
+        46.3,
+        -39.8,
+        47.2
+      ],
+      "role": "Task-fMRI analysis ROI center",
+      "locator": "Fitzsimmons 2025, supplement PDF page 14, Table S2, planning contrast",
+      "status": "Numeric coordinate and stimulation/analysis/control role checked against supplied source"
+    }
+  ],
+  "implementation_verification": {
+    "syntax": [
+      "node --check app.js",
+      "node --check atlas-model.mjs"
+    ],
+    "regression_groups_passed": 50,
+    "citation_checked_sources": 37,
+    "citation_checked_findings": 88,
+    "citation_checked_coordinates": 13,
+    "live_finding_selections": [
+      "R2-12-1",
+      "R2-12-2",
+      "R3-FITZ-TARGETS",
+      "R3-FITZ-PLANNING",
+      "R3-FITZ-PRESMA",
+      "R3-GPE-PLACEMENT",
+      "R3-GPE-ALPHA",
+      "R3-GPE-CLINICAL",
+      "R3-HIMES-OUTCOMES",
+      "R3-HIMES-RETENTION",
+      "R3-HIMES-SAFETY",
+      "R3-SMOLDERS-EEG",
+      "R3-BAHRAMI-CFC",
+      "R3-WIDGE-CFC"
+    ],
+    "live_result": "All 14 new/revised findings selected through the interface; source filters, laterality highlights, SCC landmarks and coordinate roles checked. No atlas loading errors.",
+    "live_additional_checks": [
+      "Treatment mean and vertex control hover descriptions with Show labels off",
+      "Markers remain visible when floating labels are hidden",
+      "Pre-SMA medial view uses the left hemisphere",
+      "Source-specific legends separate mean treatment, control and analysis coordinates",
+      "Narrow stacked layout and desktop columns visually inspected"
+    ],
+    "source_server": "Allowlist refresh, PDF/DOCX/XLSX MIME and disposition, missing/private/traversal routes tested with temporary fixtures.",
+    "source_files": "All nine local downloads returned HTTP 200 with SHA-256 matching the supplied original; all originals unchanged.",
+    "limits": "Targeted live verification of this release, not a rerun of the historical 200-selection display audit."
+  }
+}

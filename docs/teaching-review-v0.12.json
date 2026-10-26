@@ -1,0 +1,902 @@
+{
+  "version": "0.12.0",
+  "reviewed": "2026-10-02",
+  "scope": "Curated teaching synthesis, not a systematic review or a patient-specific stimulation model.",
+  "sources": [
+    {
+      "id": "P22658708",
+      "label": "Fox 2012",
+      "title": "Efficacy of transcranial magnetic stimulation targets for depression is related to intrinsic functional connectivity with the subgenual cingulate",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4120275/",
+      "review": "Map-relevant full text reviewed",
+      "currentRun": "Previously reviewed atlas source; claim checked against the curated evidence/provenance record"
+    },
+    {
+      "id": "P29274805",
+      "label": "Weigand 2018",
+      "title": "Prospective Validation That Subgenual Connectivity Predicts Antidepressant Efficacy of Transcranial Magnetic Stimulation Sites",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6091227/",
+      "review": "Map-relevant full text reviewed",
+      "currentRun": "Previously reviewed atlas source; claim checked against the curated evidence/provenance record"
+    },
+    {
+      "id": "strafella2001",
+      "label": "Strafella 2001 · TMS–PET",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11459878/",
+      "review": "Published abstract",
+      "currentRun": "Previously reviewed atlas source; claim checked against the curated evidence/provenance record"
+    },
+    {
+      "id": "yeh2022",
+      "label": "Yeh 2022 · population tractography",
+      "url": "https://www.nature.com/articles/s41467-022-32595-4",
+      "review": "Publisher article and atlas documentation",
+      "currentRun": "Previously reviewed atlas source; claim checked against the curated evidence/provenance record"
+    },
+    {
+      "id": "P31109199",
+      "label": "Carmi 2019",
+      "title": "Efficacy and Safety of Deep Transcranial Magnetic Stimulation for Obsessive-Compulsive Disorder: A Prospective Multicenter Randomized Double-Blind Placebo-Controlled Trial",
+      "url": "https://doi.org/10.1176/appi.ajp.2019.18101180",
+      "review": "Map-relevant full text reviewed",
+      "currentRun": "Previously reviewed atlas source; claim checked against the curated evidence/provenance record"
+    },
+    {
+      "id": "P26440813",
+      "label": "Dunlop 2016",
+      "title": "Reductions in Cortico-Striatal Hyperconnectivity Accompany Successful Treatment of Obsessive-Compulsive Disorder with Dorsomedial Prefrontal rTMS",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4793124/",
+      "review": "Map-relevant full text reviewed",
+      "currentRun": "Previously reviewed atlas source; claim checked against the curated evidence/provenance record"
+    },
+    {
+      "id": "ji2021",
+      "label": "Ji 2021 · pre-SMA–STN targeting",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8288080/",
+      "review": "Methods reviewed for region work; published article and abstract rechecked",
+      "currentRun": "Public primary source rechecked in this run"
+    },
+    {
+      "id": "lehericy2004",
+      "label": "Lehéricy 2004 · pre-SMA–striatum",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15166103/",
+      "review": "Published abstract; eight healthy participants",
+      "currentRun": "Previously reviewed atlas source; claim checked against the curated evidence/provenance record"
+    },
+    {
+      "id": "presma_derivation",
+      "label": "Pre-SMA–STN · anatomical estimate",
+      "url": "docs/PUBLIC-DATA-AUDIT-v0.10.md",
+      "review": "Original motor/associative STN streamlines retained only when their superior endpoint is in AAL3 anterior SMA and the other in the bundled STN mask. Cross-template native affines; no nonlinear registration or Ji-specific target reconstruction.",
+      "currentRun": "Previously reviewed atlas source; claim checked against the curated evidence/provenance record"
+    },
+    {
+      "id": "P19691873",
+      "label": "Mantovani 2010",
+      "title": "Randomized sham-controlled trial of repetitive transcranial magnetic stimulation in treatment-resistant obsessive–compulsive disorder",
+      "url": "https://academic.oup.com/ijnp/article/13/2/217/663177",
+      "review": "Map-relevant full text reviewed",
+      "currentRun": "Previously reviewed atlas source; claim checked against the curated evidence/provenance record"
+    },
+    {
+      "id": "P39089567",
+      "label": "Fitzsimmons 2025",
+      "title": "Transcranial Magnetic Stimulation–Induced Plasticity Improving Cognitive Control in Obsessive-Compulsive Disorder, Part I: Clinical and Neuroimaging Outcomes From a Randomized Trial",
+      "url": "https://www.biologicalpsychiatryjournal.com/article/S0006-3223%2824%2901488-4/fulltext",
+      "review": "Supplied full text and relevant figures/tables reviewed; Round 3, 2026-10-01; 39-page supplement and resources workbook reviewed",
+      "currentRun": "Previously reviewed atlas source; claim checked against the curated evidence/provenance record"
+    },
+    {
+      "id": "P30853111",
+      "label": "Tyagi 2019",
+      "title": "A Randomized Trial Directly Comparing Ventral Capsule and Anteromedial Subthalamic Nucleus Stimulation in Obsessive-Compulsive Disorder: Clinical and Imaging Evidence for Dissociable Effects",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6467837/",
+      "review": "Map-relevant full text reviewed",
+      "currentRun": "Public primary source rechecked in this run"
+    },
+    {
+      "id": "P24421642",
+      "label": "Tsai 2014",
+      "title": "Acute stimulation effect of the ventral capsule/ventral striatum in patients with refractory obsessive–compulsive disorder – a double-blinded trial",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3888347/",
+      "review": "Public full text read through Europe PMC XML; Methods, Results, Table 2 and Discussion.",
+      "currentRun": "Public primary source rechecked in this run"
+    },
+    {
+      "id": "P24832866",
+      "label": "Riva-Posse 2014",
+      "title": "Defining Critical White Matter Pathways Mediating Successful Subcallosal Cingulate Deep Brain Stimulation for Treatment-Resistant Depression",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4487804/",
+      "review": "Map-relevant full text reviewed",
+      "currentRun": "Previously reviewed atlas source; claim checked against the curated evidence/provenance record"
+    },
+    {
+      "id": "P28397839",
+      "label": "Riva-Posse 2018",
+      "title": "A connectomic approach for subcallosal cingulate deep brain stimulation surgery: prospective targeting in treatment-resistant depression",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5636645/",
+      "review": "Map-relevant full text reviewed",
+      "currentRun": "Previously reviewed atlas source; claim checked against the curated evidence/provenance record"
+    },
+    {
+      "id": "P28988904",
+      "label": "Holtzheimer 2017",
+      "title": "Subcallosal cingulate deep brain stimulation for treatment-resistant depression: a multisite, randomised, sham-controlled trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28988904/",
+      "review": "Published abstract reviewed; full text not independently reviewed for this addition",
+      "currentRun": "Previously reviewed atlas source; claim checked against the curated evidence/provenance record"
+    },
+    {
+      "id": "lead-spec",
+      "label": "3387 / 3389 lead dimensions",
+      "title": "FDA SSED P150031/S028: comparison of lead specifications, printed page 22",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf15/P150031S028B.pdf",
+      "review": "Public device-comparison table; checked against Tsai’s methods. Used only for hardware dimensions.",
+      "currentRun": "Public primary source rechecked in this run"
+    }
+  ],
+  "publicFullTexts": [
+    {
+      "pmc": "PMC6467837",
+      "retrieval": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6467837/fullTextXML",
+      "sha256": "975ea8fbf38d98d0229196d35af3b5f1e3d0661a86f1ffbf7b18bc3ea7f9a8bf"
+    },
+    {
+      "pmc": "PMC3888347",
+      "retrieval": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3888347/fullTextXML",
+      "sha256": "6f815b2f1f9ffc67152845c351abda201d764afe013a030e8f3a295081b5bb19"
+    },
+    {
+      "pmc": "PMC8288080",
+      "retrieval": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8288080/fullTextXML",
+      "sha256": "45b1fba09ddbbc49f59558c60d208be647a6d31f2489382d49c2681feb93d053"
+    },
+    {
+      "pmc": "PMC7241947",
+      "retrieval": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7241947/fullTextXML",
+      "sha256": "e9925ef4808a5ea221716ac6e28a2254fc4ed2b95a50dde830098f61eacd4bf3"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "depression-tms",
+      "category": "Depression · TMS",
+      "question": "Why stimulate the DLPFC?",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Start at the cortical target",
+          "claim": "The coil is positioned over left DLPFC. “DLPFC” covers a broad cortical region; the precise stimulation site varies across targeting approaches.",
+          "sources": [
+            "P22658708"
+          ],
+          "locator": "Introduction; Figure 1",
+          "nodes": [
+            "dlpfc"
+          ],
+          "connections": [],
+          "referenceBundles": [],
+          "displayLimit": "Left middle-frontal parcels approximate DLPFC; no coil field is shown."
+        },
+        {
+          "step": 2,
+          "title": "Connect the target to sgACC",
+          "claim": "Fox and Weigand linked antidepressant response to the functional relationship between the stimulation site and sgACC. More negative resting-state connectivity was associated with better response.",
+          "sources": [
+            "P22658708",
+            "P29274805"
+          ],
+          "locator": "Fox Results; Weigand Results",
+          "nodes": [
+            "dlpfc",
+            "sgacc"
+          ],
+          "connections": [
+            "dlpfc-sgacc"
+          ],
+          "referenceBundles": [],
+          "displayLimit": "The dashed line is functional. Left-side sgACC is an orientation surface, not the reported seed location. No direct DLPFC–sgACC fiber is drawn."
+        },
+        {
+          "step": 3,
+          "title": "Keep the deep circuit in view",
+          "claim": "Prefrontal stimulation can affect deeper structures. A TMS–PET experiment in healthy volunteers found a dopamine response in the ipsilateral caudate. The atlas’s corticostriatal tract gives this relationship anatomical context.",
+          "sources": [
+            "strafella2001",
+            "yeh2022"
+          ],
+          "locator": "Strafella abstract; population-tract atlas",
+          "nodes": [
+            "dlpfc",
+            "sgacc",
+            "caudate"
+          ],
+          "connections": [
+            "dlpfc-sgacc",
+            "dlpfc-caudate"
+          ],
+          "referenceBundles": [
+            "CS_A"
+          ],
+          "displayLimit": "The displayed tract is a whole reference bundle, not a patient’s stimulated fibers."
+        },
+        {
+          "step": 4,
+          "title": "Carry the right explanation into clinic",
+          "claim": "DLPFC TMS is a cortical intervention with network effects. Functional targeting studies support the sgACC relationship, while the exact anatomical routes and causal mechanisms require additional evidence.",
+          "sources": [
+            "P22658708",
+            "P29274805"
+          ],
+          "locator": "Conclusions; interpretation of the cited studies",
+          "nodes": [
+            "dlpfc",
+            "sgacc",
+            "caudate"
+          ],
+          "connections": [
+            "dlpfc-sgacc",
+            "dlpfc-caudate"
+          ],
+          "referenceBundles": [
+            "CS_A"
+          ],
+          "displayLimit": "No treatment strength, direction of electrical flow, or individual response is encoded."
+        }
+      ],
+      "connections": [
+        {
+          "id": "dlpfc-sgacc",
+          "from": "dlpfc",
+          "to": "sgacc",
+          "label": "Functional anticorrelation",
+          "kind": "functional",
+          "sources": [
+            "P22658708",
+            "P29274805"
+          ],
+          "description": "Better outcomes were associated with more negative resting-state connectivity between the stimulated DLPFC site and sgACC. This relationship does not identify a direct fiber or establish a complete treatment mechanism.",
+          "bundles": []
+        },
+        {
+          "id": "dlpfc-caudate",
+          "from": "dlpfc",
+          "to": "caudate",
+          "label": "Frontostriatal context",
+          "kind": "structural",
+          "sources": [
+            "strafella2001",
+            "yeh2022"
+          ],
+          "description": "Reference corticostriatal fibers supply anatomical context. Healthy-volunteer TMS–PET supports a downstream caudate effect, not proof that this bundle mediates depression improvement.",
+          "bundles": [
+            "CS_A"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ocd-tms",
+      "category": "OCD · TMS",
+      "question": "Why target medial frontal cortex?",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Locate the cortical entry point",
+          "claim": "Carmi’s H7 deep-TMS protocol targeted medial prefrontal/anterior cingulate circuitry and paired treatment with individualized symptom provocation.",
+          "sources": [
+            "P31109199"
+          ],
+          "locator": "Methods; targeting protocol",
+          "nodes": [
+            "mpfc"
+          ],
+          "connections": [],
+          "referenceBundles": [],
+          "displayLimit": "A medial cortical approximation is shown, not an H7 field or isolated direct ACC stimulation."
+        },
+        {
+          "step": 2,
+          "title": "Reveal the deep partners",
+          "claim": "The rationale involves frontal–striatal–thalamic circuitry. These deep partners help explain the choice of cortical territory even though the coil is outside the skull.",
+          "sources": [
+            "P31109199",
+            "yeh2022"
+          ],
+          "locator": "Carmi Introduction; atlas tract definitions",
+          "nodes": [
+            "mpfc",
+            "striatum",
+            "thalamus"
+          ],
+          "connections": [
+            "medial-striatal",
+            "medial-thalamic"
+          ],
+          "referenceBundles": [
+            "CS_A",
+            "TR_A"
+          ],
+          "displayLimit": "Only two circuit arms are shown. Pallidal relays and a complete synaptic loop are omitted."
+        },
+        {
+          "step": 3,
+          "title": "Separate the rationale from the trial result",
+          "claim": "The randomized trial reported more OCD responders with active than sham treatment. This supports the tested protocol; it does not determine which individual tract carried the benefit.",
+          "sources": [
+            "P31109199"
+          ],
+          "locator": "Results; 38.1% versus 11.1% post-treatment response among assessed participants",
+          "nodes": [
+            "mpfc",
+            "striatum",
+            "thalamus"
+          ],
+          "connections": [
+            "medial-striatal",
+            "medial-thalamic"
+          ],
+          "referenceBundles": [
+            "CS_A",
+            "TR_A"
+          ],
+          "displayLimit": "Reference bundles are shown; no trial-specific stimulated fibers are available."
+        },
+        {
+          "step": 4,
+          "title": "Distinguish neighboring cortical approaches",
+          "claim": "Pre-SMA and dmPFC approaches use different targets and protocols. They should be taught separately from the H7 medial-prefrontal/ACC approach. Open the pre-SMA lesson to follow its STN connection.",
+          "sources": [
+            "P31109199",
+            "P26440813",
+            "ji2021"
+          ],
+          "locator": "Methods of the respective protocols",
+          "nodes": [
+            "mpfc"
+          ],
+          "connections": [],
+          "referenceBundles": [],
+          "displayLimit": "Left hemisphere is isolated to show the medial surface; it does not imply unilateral H7 treatment."
+        }
+      ],
+      "connections": [
+        {
+          "id": "medial-striatal",
+          "from": "mpfc",
+          "to": "striatum",
+          "label": "Corticostriatal arm",
+          "kind": "rationale",
+          "sources": [
+            "P31109199",
+            "yeh2022"
+          ],
+          "description": "A selected arm of the circuit motivating the H7 protocol. The study tested a treatment protocol, not selective activation of this displayed fiber bundle.",
+          "bundles": [
+            "CS_A"
+          ]
+        },
+        {
+          "id": "medial-thalamic",
+          "from": "mpfc",
+          "to": "thalamus",
+          "label": "Thalamocortical arm",
+          "kind": "rationale",
+          "sources": [
+            "P31109199",
+            "yeh2022"
+          ],
+          "description": "The thalamic relationship supplies broader circuit context. Intermediate basal-ganglia relays are omitted; this drawing is not a complete closed loop.",
+          "bundles": [
+            "TR_A"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ocd-presma",
+      "category": "OCD · TMS",
+      "question": "Why connect pre-SMA to the STN?",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Start at pre-SMA",
+          "claim": "Pre-SMA is a medial frontal action-control region, posterior to the dmPFC approach. Ji’s OCD trial stimulated an individually selected right pre-SMA site.",
+          "sources": [
+            "ji2021"
+          ],
+          "locator": "Methods: individualized target and 1-Hz rTMS",
+          "nodes": [
+            "presma"
+          ],
+          "connections": [],
+          "referenceBundles": [],
+          "displayLimit": "An anterior-SMA anatomical estimate is shown, not Ji’s individual target."
+        },
+        {
+          "step": 2,
+          "title": "Add striatum and STN",
+          "claim": "Pre-SMA participates in striatal and subthalamic circuitry. The striatal arm and the STN-linked targeting relationship are distinct connections, shown with different line styles.",
+          "sources": [
+            "ji2021",
+            "lehericy2004",
+            "presma_derivation"
+          ],
+          "locator": "Ji Introduction/Methods; atlas derivation record",
+          "nodes": [
+            "presma",
+            "striatum",
+            "stn"
+          ],
+          "connections": [
+            "presma-striatum",
+            "presma-stn"
+          ],
+          "referenceBundles": [
+            "CS_S",
+            "HDP_PRE_SMA"
+          ],
+          "displayLimit": "The pre-SMA–STN 3D subset is an anatomical estimate with asymmetric source coverage."
+        },
+        {
+          "step": 3,
+          "title": "Understand the targeting experiment",
+          "claim": "In a randomized study of 37 people, Ji used STN connectivity to choose the cortical target. Active treatment improved OCD symptoms more than sham, with associated changes in the functional target network.",
+          "sources": [
+            "ji2021"
+          ],
+          "locator": "Abstract; Results; clinical and connectivity analyses",
+          "nodes": [
+            "presma",
+            "stn"
+          ],
+          "connections": [
+            "presma-stn"
+          ],
+          "referenceBundles": [
+            "HDP_PRE_SMA"
+          ],
+          "displayLimit": "One small trial does not establish this pathway as the universal mediator of OCD TMS."
+        },
+        {
+          "step": 4,
+          "title": "Keep the evidence proportional",
+          "claim": "Pre-SMA studies differ in laterality and targeting. Mantovani used bilateral stimulation; Fitzsimmons used left pre-SMA in a different protocol. The right-sided example here belongs specifically to Ji.",
+          "sources": [
+            "ji2021",
+            "P19691873",
+            "P39089567"
+          ],
+          "locator": "Targeting methods across studies",
+          "nodes": [
+            "presma",
+            "stn"
+          ],
+          "connections": [
+            "presma-stn"
+          ],
+          "referenceBundles": [
+            "HDP_PRE_SMA"
+          ],
+          "displayLimit": "The right-side display follows Ji’s target; it is not a claim of right-hemisphere superiority."
+        }
+      ],
+      "connections": [
+        {
+          "id": "presma-striatum",
+          "from": "presma",
+          "to": "striatum",
+          "label": "Striatal connection",
+          "kind": "structural",
+          "sources": [
+            "lehericy2004"
+          ],
+          "description": "Anatomical work places pre-SMA in associative striatal circuitry. The superior corticostriatal bundle is broad reference anatomy.",
+          "bundles": [
+            "CS_S"
+          ]
+        },
+        {
+          "id": "presma-stn",
+          "from": "presma",
+          "to": "stn",
+          "label": "STN-linked targeting",
+          "kind": "functional",
+          "sources": [
+            "ji2021"
+          ],
+          "description": "Ji selected a right pre-SMA TMS site using individual STN functional connectivity. The separate 3D hyperdirect-pathway estimate is population anatomy, not the study’s targeting map.",
+          "bundles": [
+            "HDP_PRE_SMA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ocd-dbs",
+      "category": "OCD · DBS",
+      "question": "Why does the DBS location matter?",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Locate the white-matter corridor",
+          "claim": "Capsular DBS places contacts near multiple fiber populations. The ventral capsule and neighboring ventral striatum are close together, so the broad target label alone does not specify the stimulated network.",
+          "sources": [
+            "P30853111"
+          ],
+          "locator": "Methods: neurosurgery; Discussion",
+          "nodes": [
+            "capsule"
+          ],
+          "connections": [],
+          "referenceBundles": [
+            "CS_A",
+            "TR_A"
+          ],
+          "displayLimit": "The whole internal capsule provides orientation. It does not delineate vALIC or a stimulation volume."
+        },
+        {
+          "step": 2,
+          "title": "Follow the ventral-capsule network",
+          "claim": "In Tyagi’s six-person comparison, effective ventral-capsule stimulation connected predominantly with medial OFC. VC stimulation had a stronger mood effect than amSTN stimulation.",
+          "sources": [
+            "P30853111"
+          ],
+          "locator": "Results: Tractography; mood comparison; Figure 3",
+          "nodes": [
+            "capsule",
+            "mofc"
+          ],
+          "connections": [
+            "vc-mofc"
+          ],
+          "referenceBundles": [
+            "CS_A",
+            "TR_A"
+          ],
+          "displayLimit": "General capsular bundles provide context; the study-specific medial OFC pathway is not reconstructed."
+        },
+        {
+          "step": 3,
+          "title": "Compare the subthalamic entry point",
+          "claim": "The amSTN-connected network included lateral OFC, dACC and DLPFC. Both DBS sites reduced OCD symptoms; improved cognitive flexibility was found with amSTN stimulation.",
+          "sources": [
+            "P30853111"
+          ],
+          "locator": "Results: Tractography and cognitive flexibility; Figure 3",
+          "nodes": [
+            "amstn",
+            "lofc",
+            "dlpfc"
+          ],
+          "connections": [
+            "stn-lofc",
+            "stn-dlpfc"
+          ],
+          "referenceBundles": [
+            "STN_ASSOC",
+            "STN_LIMBIC"
+          ],
+          "displayLimit": "The whole STN and population pathways are shown; the precise amSTN treatment volume is unavailable."
+        },
+        {
+          "step": 4,
+          "title": "Zoom from target names to contacts",
+          "claim": "Tyagi reported the most effective contacts at the dorsal end of the VC/VS lead and the deepest end of the amSTN lead. The contact comparison shows a separate published example of different acute experiences at adjacent contacts.",
+          "sources": [
+            "P30853111",
+            "P24421642"
+          ],
+          "locator": "Tyagi Results: active contacts; Tsai Results/Table 2",
+          "nodes": [
+            "capsule",
+            "mofc",
+            "amstn",
+            "lofc",
+            "dlpfc"
+          ],
+          "connections": [
+            "vc-mofc",
+            "stn-lofc",
+            "stn-dlpfc"
+          ],
+          "referenceBundles": [
+            "CS_A",
+            "TR_A",
+            "STN_ASSOC"
+          ],
+          "displayLimit": "No “contact 4” rule is inferred. Contact numbering and implanted trajectories vary."
+        }
+      ],
+      "connections": [
+        {
+          "id": "vc-mofc",
+          "from": "capsule",
+          "to": "mofc",
+          "label": "VC-connected network",
+          "kind": "structural",
+          "sources": [
+            "P30853111"
+          ],
+          "description": "Effective ventral-capsule stimulation volumes were linked predominantly with medial OFC in Tyagi’s tractography analysis.",
+          "bundles": []
+        },
+        {
+          "id": "stn-lofc",
+          "from": "amstn",
+          "to": "lofc",
+          "label": "amSTN-connected network",
+          "kind": "structural",
+          "sources": [
+            "P30853111"
+          ],
+          "description": "Tractography associated the effective amSTN site with lateral OFC, dACC and DLPFC. The diagram omits dACC to keep this comparison compact.",
+          "bundles": [
+            "STN_ASSOC",
+            "STN_LIMBIC"
+          ]
+        },
+        {
+          "id": "stn-dlpfc",
+          "from": "amstn",
+          "to": "dlpfc",
+          "label": "Prefrontal connection",
+          "kind": "structural",
+          "sources": [
+            "P30853111"
+          ],
+          "description": "DLPFC was among the cortical destinations from the effective amSTN stimulation volume. Reference STN pathways are not those individual treatment fibers.",
+          "bundles": [
+            "STN_ASSOC"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "depression-dbs",
+      "category": "Depression · DBS",
+      "question": "Why target SCC white matter?",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Distinguish cortex from white matter",
+          "claim": "SCC DBS targets white matter beside the subgenual cingulate cortex. The nearby sgACC helps orient us, but a cortical surface is not the DBS stimulation site.",
+          "sources": [
+            "P24832866"
+          ],
+          "locator": "Methods; stimulation-volume tractography",
+          "nodes": [
+            "scc"
+          ],
+          "connections": [],
+          "referenceBundles": [],
+          "displayLimit": "The precise SCC white-matter target has no boundary mask in this atlas."
+        },
+        {
+          "step": 2,
+          "title": "Reveal the converging fiber systems",
+          "claim": "Riva-Posse’s work associated response with pathways toward medial frontal, cingulate and subcortical destinations. Prospective targeting sought convergence of four fiber systems: forceps minor, uncinate, cingulum and frontostriatal fibers.",
+          "sources": [
+            "P24832866",
+            "P28397839"
+          ],
+          "locator": "2014 Results/Figure 2; 2018 targeting methods",
+          "nodes": [
+            "scc",
+            "medial",
+            "cingulate",
+            "subcortical"
+          ],
+          "connections": [
+            "scc-frontal",
+            "scc-cingulate",
+            "scc-deep"
+          ],
+          "referenceBundles": [
+            "FMI",
+            "UF",
+            "C_FP",
+            "C_PO",
+            "CS_A"
+          ],
+          "displayLimit": "Reference bundles are shown. Their visual overlap does not define a validated stimulation sweet spot."
+        },
+        {
+          "step": 3,
+          "title": "Understand the evidence for targeting",
+          "claim": "A prospective open-label cohort used tractography to guide targeting. Its encouraging outcomes support further study of this approach, while the absence of a sham comparison limits causal interpretation.",
+          "sources": [
+            "P28397839"
+          ],
+          "locator": "Prospective cohort Results; open-label design",
+          "nodes": [
+            "scc",
+            "medial",
+            "cingulate",
+            "subcortical"
+          ],
+          "connections": [
+            "scc-frontal",
+            "scc-cingulate",
+            "scc-deep"
+          ],
+          "referenceBundles": [
+            "FMI",
+            "UF",
+            "C_FP",
+            "CS_A"
+          ],
+          "displayLimit": "The 3D anatomy does not reproduce the cohort’s electrodes or activation volumes."
+        },
+        {
+          "step": 4,
+          "title": "Include the controlled result",
+          "claim": "The larger Holtzheimer sham-controlled SCC trial did not find a significant active-versus-sham benefit during the blinded phase. A compelling circuit model does not erase that result.",
+          "sources": [
+            "P28988904",
+            "P28397839"
+          ],
+          "locator": "Holtzheimer abstract: primary blinded comparison; Riva-Posse cohort",
+          "nodes": [
+            "scc",
+            "medial",
+            "cingulate",
+            "subcortical"
+          ],
+          "connections": [
+            "scc-frontal",
+            "scc-cingulate",
+            "scc-deep"
+          ],
+          "referenceBundles": [
+            "FMI",
+            "UF",
+            "C_FP",
+            "CS_A"
+          ],
+          "displayLimit": "The left medial view is for visibility; these DBS studies used bilateral implantation."
+        }
+      ],
+      "connections": [
+        {
+          "id": "scc-frontal",
+          "from": "scc",
+          "to": "medial",
+          "label": "Forceps minor / uncinate",
+          "kind": "structural",
+          "sources": [
+            "P24832866",
+            "P28397839"
+          ],
+          "description": "SCC responder tractography included medial frontal connections through forceps minor and uncinate. These are two distinct fiber systems.",
+          "bundles": [
+            "FMI",
+            "UF"
+          ]
+        },
+        {
+          "id": "scc-cingulate",
+          "from": "scc",
+          "to": "cingulate",
+          "label": "Cingulum",
+          "kind": "structural",
+          "sources": [
+            "P24832866",
+            "P28397839"
+          ],
+          "description": "Cingulum pathways connect the SCC region with rostral and dorsal cingulate territories.",
+          "bundles": [
+            "C_FP",
+            "C_PO"
+          ]
+        },
+        {
+          "id": "scc-deep",
+          "from": "scc",
+          "to": "subcortical",
+          "label": "Descending connections",
+          "kind": "structural",
+          "sources": [
+            "P24832866",
+            "P28397839"
+          ],
+          "description": "Subcortical connections were part of responder tractography. The displayed corticostriatal bundle is contextual, not a complete reconstruction of the study’s descending paths.",
+          "bundles": [
+            "CS_A"
+          ]
+        }
+      ]
+    }
+  ],
+  "contactCase": {
+    "id": "tsai-case1-left",
+    "title": "One lead, different immediate experiences",
+    "study": "P24421642",
+    "patient": "Published case 1 · left VC/VS lead",
+    "leadModel": "Medtronic 3387",
+    "contactLengthMm": 1.5,
+    "gapMm": 1.5,
+    "diameterMm": 1.27,
+    "setting": "Reported test: 6 V · 210 μs · 130 Hz · monopolar",
+    "description": "Compare adjacent contacts 1 and 2. Both elicited smiling/laughter, but reported euphoria differed. These are observations in one person, not a prediction for another patient.",
+    "contacts": [
+      {
+        "id": 0,
+        "title": "Deepest contact",
+        "experience": "Smile/laughter with euphoria",
+        "detail": "At 6 V, the report describes smile/laughter with euphoria. Smell and chest tightness were also reported.",
+        "sources": [
+          "P24421642"
+        ],
+        "locator": "Results: Psychiatric responses; Table 2, case 1, contact 0"
+      },
+      {
+        "id": 1,
+        "title": "Second from the tip",
+        "experience": "Smile/laughter with euphoria",
+        "detail": "At 6 V, smile/laughter was accompanied by reported euphoria. The table also lists smell, chest tightness and increased sexual drive at this voltage.",
+        "sources": [
+          "P24421642"
+        ],
+        "locator": "Results: Psychiatric responses; Table 2, case 1, contact 1"
+      },
+      {
+        "id": 2,
+        "title": "Third from the tip",
+        "experience": "Smile/laughter without euphoria",
+        "detail": "At 6 V, smile/laughter occurred without reported euphoria. Smell, chest tightness and increased sexual drive were also listed at this voltage.",
+        "sources": [
+          "P24421642"
+        ],
+        "locator": "Results: Psychiatric responses; Table 2, case 1, contact 2"
+      },
+      {
+        "id": 3,
+        "title": "Most superficial contact",
+        "experience": "No smile/laughter reported",
+        "detail": "Table 2 lists no smile/laughter response for this contact across the tested voltages. Smell was reported at 6 V. The text does not supply an exact euphoria rating for this contact at 6 V.",
+        "sources": [
+          "P24421642"
+        ],
+        "locator": "Table 2, case 1, contact 3; no individual euphoria score inferred from the group figure"
+      }
+    ],
+    "limits": "The lead drawing preserves nominal contact dimensions. It is not implanted into the atlas: the study does not supply a matched patient tractogram or a validated tract assignment for these individual responses. No activation volume is estimated.",
+    "takeaway": "A smile, a subjective mood change, and sustained improvement in OCD are different outcomes. Nearby contacts can differ, and the contact number alone is not an anatomical label."
+  },
+  "unresolvedFullTexts": [
+    {
+      "id": "seguin2026",
+      "priority": "High",
+      "label": "Seguin et al. 2026",
+      "title": "White matter pathways mediating dorsolateral prefrontal TMS therapy for depression",
+      "doi": "10.1038/s41593-026-02248-6",
+      "url": "https://www.nature.com/articles/s41593-026-02248-6",
+      "need": "Published full text and Supplementary Information",
+      "reason": "Evaluate the specific intermediate regions and route definitions before adding a multi-step structural DLPFC–sgACC teaching diagram.",
+      "attempts": [
+        "Publisher abstract and data/code statements accessible; full text subscription-only.",
+        "Public GitHub analysis repository already audited; it does not substitute for reviewing the complete methods.",
+        "Exact-title public full-text/preprint search did not locate an accessible full manuscript."
+      ],
+      "used": "Only the existing abstract-level limitation is retained. No new route topology is inferred."
+    },
+    {
+      "id": "machado2009",
+      "priority": "Medium",
+      "label": "Machado et al. 2009",
+      "title": "Functional topography of the ventral striatum and anterior limb of the internal capsule determined by electrical stimulation of awake patients",
+      "doi": "10.1016/j.clinph.2009.05.030",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19781987/",
+      "need": "Full text, figures/tables and any supplements",
+      "reason": "Extend the contact teaching example to depression and inspect the reported spatial mapping of acute effects.",
+      "attempts": [
+        "PubMed abstract accessible.",
+        "ScienceDirect full-text route returned 403.",
+        "Exact-title and author/PDF searches found no verified public full manuscript."
+      ],
+      "used": "No contact-level results from this paper are added. Tsai’s accessible OCD study supplies the current example."
+    }
+  ],
+  "geometryLimit": "No patient electrode reconstruction, contact-specific tractogram or electric field is added. Hardware dimensions alone are scaled. Existing cross-template geometry is used for orientation."
+}

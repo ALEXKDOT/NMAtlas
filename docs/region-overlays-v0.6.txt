@@ -1,0 +1,53 @@
+NMAtlas v0.6 — regional overlay update — 30 September 2026
+
+REQUEST AND REPRESENTATIONS
+The Anatomy overlay control is independent of the clinical target and evidence
+list. It replaces the anatomy highlight, clears functional color maps and shows
+its own source/role/limitations. Selecting a finding, study or target returns to
+source-linked anatomy. Color, opacity and size do not imply treatment efficacy.
+
+DLPFC: existing broad middle-frontal parcels, now directly selectable by region.
+OFC: existing medial/lateral orbitofrontal and orbital IFG reference parcels.
+Right OFC: a right-only version with Nauczyciel 2014 as supporting OCD TMS evidence.
+VLPFC: broad opercular, triangular and orbital IFG context. Pars orbitalis was
+added to the broad VLPFC mapping; it is relevant to anterior/ventral VLPFC circuit
+literature, but these parcels are not the published connectivity endpoints.
+
+LIMITS THAT REMAIN UNRESOLVED
+- dmPFC: shared superior-frontal context and Dunlop 2016's MNI analysis seed only.
+  The Talairach scalp/coil landmark is not plotted as MNI or as cortex.
+- Pre-SMA: shared superior-frontal context only. A validated target boundary and
+  common stimulation point are unavailable. Ji 2021 used individually selected
+  pre-SMA sites; its STN seed is not a pre-SMA treatment coordinate.
+- sgACC: Fox 2012's MNI analysis seed only. No precise gray-matter mask or SCC
+  white-matter DBS geometry is supplied. Its right-sided centroid is not a claim
+  that all sgACC/SCC treatment targets are unilateral.
+- No individual coil locations, electric fields, patient tractograms, measured
+  connectivity-strength overlays or validated new registrations were created.
+
+TERMINOLOGY
+“Subglossal cingulate” is interpreted as subgenual cingulate (sgACC). The existing
+subcallosal white-matter DBS view remains separate.
+“Right bitemporofrontal/bifrontal cortex” could not be identified confidently.
+Right OFC is a plausible match and independently supported OCD target; the
+uncertain phrase has not been converted into an anatomical structure.
+
+LITERATURE AND REVIEW DEPTH
+Existing source-linked findings cover Fox, Nauczyciel, Mantovani, Fitzsimmons,
+Dunlop 2016, Tyagi and OCD DBS VLPFC connections.
+Dunlop 2020 (PMID 31711880; doi:10.1016/j.brs.2019.10.020) adds one negative
+controlled depression TMS outcome card. Published abstract reviewed; no new
+spatial data obtained. All 75 previous finding/limitation texts are retained.
+Sydnor 2022 (PMID 35731882; doi:10.1126/sciadv.abn5803) supports the mechanistic
+VLPFC–amygdala rationale in healthy participants, not depression/OCD efficacy.
+Oathes 2023 (doi:10.1038/s44220-023-00165-2) provides depression circuit-probing
+context; the VLPFC site is an experimental comparator, not a demonstrated
+therapeutic target. Ji 2021 (doi:10.1002/hbm.25468) informs pre-SMA targeting limits.
+For these supplemental references, relevant abstracts/indexed primary-paper
+methods/results were reviewed; unrestricted direct full-text retrieval was not
+available for every paper. Precise review roles are stored per citation.
+Nauczyciel's full publisher text was checked again, including the Fp2 scalp
+landmark and separation of right stimulation from bilateral metabolic effects.
+
+Supporting links and representation rules: assets/region-overlays.json.
+Automated and browser validation: verification.json (v0.6 entry).

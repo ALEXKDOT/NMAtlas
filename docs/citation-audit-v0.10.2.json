@@ -1,0 +1,3187 @@
+{
+  "version": "0.10.2",
+  "checked": "2026-10-01",
+  "scope": "Active atlas data and live rendered evidence, including supplemental citations and dataset attributions; historical release reports are not silently rewritten. Citation support review, not independent replication or complete clinical systematic review.",
+  "coverage": {
+    "findings": 76,
+    "clinical_sources": 32,
+    "pubmed_doi_pairs_matched": 31,
+    "full_text_section_supported_findings": 71,
+    "abstract_supported_findings": 5,
+    "coordinate_markers": 5,
+    "figure_records": 18,
+    "region_layers": 7,
+    "circuit_profiles": 13,
+    "hover_anatomy_entries": 48,
+    "hover_base_tract_entries": 6,
+    "public_pathway_families": 13,
+    "functional_maps": 2,
+    "initial_unique_urls": 107,
+    "http_2xx_or_3xx": 92,
+    "http_403": 15,
+    "http_404": 0
+  },
+  "clinical_sources": [
+    {
+      "id": "P23434914",
+      "label": "Figee 2013 + 2014 addendum",
+      "title": "Deep brain stimulation restores frontostriatal network activity in obsessive-compulsive disorder.",
+      "doi": "10.1038/nn.3344",
+      "pmid": "23434914",
+      "publication_year": "2013",
+      "metadata_basis": "Europe PMC/PubMed core metadata; Crossref where available",
+      "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:23434914%20AND%20SRC:MED&format=json&resultType=core",
+      "citation_support_basis": "map-relevant full-text sections/figures (local, cached or public)",
+      "audit_note": "Original Figures 1–3 and the July 2014 addendum; artifact-controlled Supplementary Table 6. Original and reanalysis claims remain distinct.",
+      "indexed_corrections": [
+        {
+          "source": "MED",
+          "reference": "Nat Neurosci. 2014 Sep;17(9):1286",
+          "type": "Erratum in",
+          "orderIn": 1
+        }
+      ]
+    },
+    {
+      "id": "P23652657",
+      "label": "Van den Munckhof 2013",
+      "title": "Active stimulation site of nucleus accumbens deep brain stimulation in obsessive-compulsive disorder is localized in the ventral internal capsule.",
+      "doi": "10.1007/978-3-7091-1482-7_9",
+      "pmid": "23652657",
+      "publication_year": "2013",
+      "metadata_basis": "Europe PMC/PubMed core metadata; Crossref where available",
+      "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:23652657%20AND%20SRC:MED&format=json&resultType=core",
+      "citation_support_basis": "map-relevant full-text sections/figures (local, cached or public)",
+      "audit_note": "Assembled PDF F076: chapter pp. 58–65; Table 1 on PDF p. 62 and Figure 2 on p. 63.",
+      "indexed_corrections": [
+        {
+          "source": "MED",
+          "id": "25433923",
+          "reference": "Acta Neurochir (Wien). 2015 Feb;157(2):345. doi: 10.1007/s00701-014-2289-0",
+          "type": "Comment in",
+          "orderIn": 1
+        },
+        {
+          "source": "MED",
+          "id": "25544032",
+          "reference": "Acta Neurochir (Wien). 2015 Feb;157(2):347-8. doi: 10.1007/s00701-014-2270-y",
+          "type": "Comment in",
+          "orderIn": 2
+        }
+      ]
+    },
+    {
+      "id": "P38141909",
+      "label": "Meyer 2024",
+      "title": "Deep Brain Stimulation for Obsessive-Compulsive Disorder: Optimal Stimulation Sites.",
+      "doi": "10.1016/j.biopsych.2023.12.010",
+      "pmid": "38141909",
+      "publication_year": "2024",
+      "metadata_basis": "Europe PMC/PubMed core metadata; Crossref where available",
+      "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:38141909%20AND%20SRC:MED&format=json&resultType=core",
+      "citation_support_basis": "map-relevant full-text sections/figures (local, cached or public)",
+      "audit_note": "Main Figures 2 and 4B; Results validation paragraph; supplement Methods 1.3 and Table S1. Figure 4B on PDF p. 8 visually inspected.",
+      "indexed_corrections": []
+    },
+    {
+      "id": "P41172368",
+      "label": "Segura-Amil 2026 (online 2025)",
+      "title": "Deep brain stimulation for obsessive-compulsive disorder: evolution of tractography-based targeting.",
+      "doi": "10.3171/2025.6.JNS243066",
+      "pmid": "41172368",
+      "publication_year": "2026",
+      "metadata_basis": "Europe PMC/PubMed core metadata; Crossref where available",
+      "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:41172368%20AND%20SRC:MED&format=json&resultType=core",
+      "citation_support_basis": "map-relevant full-text sections/figures (local, cached or public)",
+      "audit_note": "Results and Figures 2–4, 6; Discussion p. 11. Initial six-person map remains separate from ten-person outcome cohort.",
+      "indexed_corrections": []
+    },
+    {
+      "id": "P34482949",
+      "label": "Baldermann 2021",
+      "title": "Connectomic Deep Brain Stimulation for Obsessive-Compulsive Disorder.",
+      "doi": "10.1016/j.biopsych.2021.07.010",
+      "pmid": "34482949",
+      "publication_year": "2021",
+      "metadata_basis": "Europe PMC/PubMed core metadata; Crossref where available",
+      "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:34482949%20AND%20SRC:MED&format=json&resultType=core",
+      "citation_support_basis": "map-relevant full-text sections/figures (local, cached or public)",
+      "audit_note": "Figures 1, 4–6 and adjacent synthesis/nomenclature discussion.",
+      "indexed_corrections": []
+    },
+    {
+      "id": "P35817944",
+      "label": "Figee 2022",
+      "title": "Deep Brain Stimulation for Depression.",
+      "doi": "10.1007/s13311-022-01270-3",
+      "pmid": "35817944",
+      "publication_year": "2022",
+      "metadata_basis": "Europe PMC/PubMed core metadata; Crossref where available",
+      "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:35817944%20AND%20SRC:MED&format=json&resultType=core",
+      "citation_support_basis": "map-relevant full-text sections/figures (local, cached or public)",
+      "audit_note": "Figures 1–5 and tractography targeting discussion on PDF p. 12.",
+      "indexed_corrections": []
+    },
+    {
+      "id": "P38341414",
+      "label": "Roalf 2024",
+      "title": "Elevating the field for applying neuroimaging to individual patients in psychiatry.",
+      "doi": "10.1038/s41398-024-02781-7",
+      "pmid": "38341414",
+      "publication_year": "2024",
+      "metadata_basis": "Europe PMC/PubMed core metadata; Crossref where available",
+      "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:38341414%20AND%20SRC:MED&format=json&resultType=core",
+      "citation_support_basis": "map-relevant full-text sections/figures (local, cached or public)",
+      "audit_note": "Figures 2–3 and target engagement discussion.",
+      "indexed_corrections": []
+    },
+    {
+      "id": "D11bec4ad31",
+      "label": "Smith, Figee & Mayberg 2025",
+      "title": "Neuromodulation and Psychiatric Disorders",
+      "doi": "10.1093/med/9780197640654.003.0010",
+      "pmid": null,
+      "publication_year": "2025",
+      "metadata_basis": "Supplied chapter title/DOI and author information",
+      "metadata_url": "https://doi.org/10.1093/med/9780197640654.003.0010",
+      "citation_support_basis": "map-relevant full-text sections/figures (local, cached or public)",
+      "audit_note": "Chapter PDF pp. 6–7 (SCC), 9–10 (depression TMS), 13 (OCD TMS). Figure 10.1 on p. 6 visually inspected; 10.2 on p. 11 is VC/VS.",
+      "indexed_corrections": []
+    },
+    {
+      "id": "P30522916",
+      "label": "Liebrand 2019",
+      "title": "Individual white matter bundle trajectories are associated with deep brain stimulation response in obsessive-compulsive disorder.",
+      "doi": "10.1016/j.brs.2018.11.014",
+      "pmid": "30522916",
+      "publication_year": "2019",
+      "metadata_basis": "Europe PMC/PubMed core metadata; Crossref where available",
+      "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:30522916%20AND%20SRC:MED&format=json&resultType=core",
+      "citation_support_basis": "map-relevant full-text sections/figures (local, cached or public)",
+      "audit_note": "Correct institutional PDF, Results and Figures 3–6; confirms relative-distance outcome association and limits. The supplied file named Liebrand 2019.pdf remains excluded because it contains the Figee supplement.",
+      "indexed_corrections": []
+    },
+    {
+      "id": "P22658708",
+      "label": "Fox 2012",
+      "title": "Efficacy of transcranial magnetic stimulation targets for depression is related to intrinsic functional connectivity with the subgenual cingulate",
+      "doi": "10.1016/j.biopsych.2012.04.028",
+      "pmid": "22658708",
+      "publication_year": "2012",
+      "metadata_basis": "Europe PMC/PubMed core metadata; Crossref where available",
+      "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:22658708%20AND%20SRC:MED&format=json&resultType=core",
+      "citation_support_basis": "map-relevant full-text sections/figures (local, cached or public)",
+      "audit_note": "Table 1A, Results: Identification of optimized TMS targets, Figure 3 and its caption. Figure image inspected: A/B are seeds and C/D are target maps. The manuscript prose itself refers to A/B beside the target coordinates; atlas locators now identify the plotted target panels explicitly.",
+      "indexed_corrections": []
+    },
+    {
+      "id": "P29274805",
+      "label": "Weigand 2018",
+      "title": "Prospective Validation That Subgenual Connectivity Predicts Antidepressant Efficacy of Transcranial Magnetic Stimulation Sites",
+      "doi": "10.1016/j.biopsych.2017.10.028",
+      "pmid": "29274805",
+      "publication_year": "2018",
+      "metadata_basis": "Europe PMC/PubMed core metadata; Crossref where available",
+      "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:29274805%20AND%20SRC:MED&format=json&resultType=core",
+      "citation_support_basis": "map-relevant full-text sections/figures (local, cached or public)",
+      "audit_note": "Primary cohort r=-.55 and secondary sham/active analyses; Figures 3–4. Secondary active sample follows sham, not a separate targeting trial.",
+      "indexed_corrections": [
+        {
+          "source": "MED",
+          "id": "29929580",
+          "reference": "Biol Psychiatry. 2018 Jul 1;84(1):e1-e2. doi: 10.1016/j.biopsych.2018.04.010.",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ]
+    },
+    {
+      "id": "P32160765",
+      "label": "Siddiqi 2020",
+      "title": "Distinct symptom-specific treatment targets for circuit-based neuromodulation",
+      "doi": "10.1176/appi.ajp.2019.19090915",
+      "pmid": "32160765",
+      "publication_year": "2020",
+      "metadata_basis": "Europe PMC/PubMed core metadata; Crossref where available",
+      "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:32160765%20AND%20SRC:MED&format=json&resultType=core",
+      "citation_support_basis": "map-relevant full-text sections/figures (local, cached or public)",
+      "audit_note": "Distinct symptom-circuit results and Figure 5; NeuroVault image 787858 sign and attribution checked against the released-map metadata.",
+      "indexed_corrections": [
+        {
+          "source": "MED",
+          "id": "32354264",
+          "reference": "Am J Psychiatry. 2020 May 1;177(5):373-375. doi: 10.1176/appi.ajp.2020.20030271",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ]
+    },
+    {
+      "id": "P34711062",
+      "label": "Cole 2022",
+      "title": "Stanford Neuromodulation Therapy (SNT): A Double-Blind Randomized Controlled Trial",
+      "doi": "10.1176/appi.ajp.2021.20101429",
+      "pmid": "34711062",
+      "publication_year": "2022",
+      "metadata_basis": "Europe PMC/PubMed core metadata; Crossref where available",
+      "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:34711062%20AND%20SRC:MED&format=json&resultType=core",
+      "citation_support_basis": "map-relevant full-text sections/figures (local, cached or public)",
+      "audit_note": "Supplied main PDF and supplement p. 3: participant-space BA46 targeting and sgACC subunits; main abstract and Results for MADRS outcomes.",
+      "indexed_corrections": [
+        {
+          "source": "MED",
+          "id": "35105163",
+          "reference": "Am J Psychiatry. 2022 Feb;179(2):85-87. doi: 10.1176/appi.ajp.2021.21121221",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ]
+    },
+    {
+      "id": "P36855880",
+      "label": "Elbau 2023",
+      "title": "Functional connectivity mapping for rTMS target selection in depression",
+      "doi": "10.1176/appi.ajp.20220306",
+      "pmid": "36855880",
+      "publication_year": "2023",
+      "metadata_basis": "Europe PMC/PubMed core metadata; Crossref where available",
+      "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:36855880%20AND%20SRC:MED&format=json&resultType=core",
+      "citation_support_basis": "map-relevant full-text sections/figures (local, cached or public)",
+      "audit_note": "Abstract, Results and respiration/global-signal discussion: r=-.16, about 3% explained variance and dependence on stimulated-cortex definition.",
+      "indexed_corrections": [
+        {
+          "source": "MED",
+          "id": "36855875",
+          "reference": "Am J Psychiatry. 2023 Mar 1;180(3):185-187. doi: 10.1176/appi.ajp.20230015.",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ]
+    },
+    {
+      "id": "P38228914",
+      "label": "Morriss 2024",
+      "title": "Connectivity-guided intermittent theta burst versus repetitive transcranial magnetic stimulation for treatment-resistant depression: a randomized controlled trial",
+      "doi": "10.1038/s41591-023-02764-z",
+      "pmid": "38228914",
+      "publication_year": "2024",
+      "metadata_basis": "Europe PMC/PubMed core metadata; Crossref where available",
+      "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:38228914%20AND%20SRC:MED&format=json&resultType=core",
+      "citation_support_basis": "map-relevant full-text sections/figures (local, cached or public)",
+      "audit_note": "Methods: Interventions for the [30,24,-14] analysis seed; abstract and primary outcome results for P=.689.",
+      "indexed_corrections": []
+    },
+    {
+      "id": "P42340706",
+      "label": "Taylor 2026",
+      "title": "Connectivity- vs Scalp-Based Targeting of Accelerated Transcranial Magnetic Stimulation for Depression: A Randomized Clinical Trial",
+      "doi": "10.1001/jamapsychiatry.2026.1100",
+      "pmid": "42340706",
+      "publication_year": "2026",
+      "metadata_basis": "Europe PMC/PubMed core metadata; Crossref where available",
+      "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42340706%20AND%20SRC:MED&format=json&resultType=core",
+      "citation_support_basis": "map-relevant full-text sections/figures (local, cached or public)",
+      "audit_note": "Supplied main article, supplements 1–3 and correction notice. Figure 2/Methods identify the reused public circuit. Median reduction 24 versus 18, P=.02, and correction scope checked.",
+      "indexed_corrections": [
+        {
+          "source": "MED",
+          "id": "42340697",
+          "reference": "JAMA Psychiatry. 2026 Aug 1;83(8):787-788. doi: 10.1001/jamapsychiatry.2026.1026.",
+          "type": "Comment in",
+          "orderIn": 1
+        },
+        {
+          "source": "MED",
+          "id": "42555018",
+          "reference": "JAMA Psychiatry. 2026 Aug 1;83(8):885. doi: 10.1001/jamapsychiatry.2026.2469.",
+          "type": "Erratum in",
+          "orderIn": 2
+        }
+      ]
+    },
+    {
+      "id": "P31109199",
+      "label": "Carmi 2019",
+      "title": "Efficacy and Safety of Deep Transcranial Magnetic Stimulation for Obsessive-Compulsive Disorder: A Prospective Multicenter Randomized Double-Blind Placebo-Controlled Trial",
+      "doi": "10.1176/appi.ajp.2019.18101180",
+      "pmid": "31109199",
+      "publication_year": "2019",
+      "metadata_basis": "Europe PMC/PubMed core metadata; Crossref where available",
+      "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:31109199%20AND%20SRC:MED&format=json&resultType=core",
+      "citation_support_basis": "map-relevant full-text sections/figures (local, cached or public)",
+      "audit_note": "Supplied main Methods pp. 2–3 and outcome Results pp. 4–5. Response denominators 42 and 45 remain distinct from randomized/modified ITT counts.",
+      "indexed_corrections": []
+    },
+    {
+      "id": "P26440813",
+      "label": "Dunlop 2016",
+      "title": "Reductions in Cortico-Striatal Hyperconnectivity Accompany Successful Treatment of Obsessive-Compulsive Disorder with Dorsomedial Prefrontal rTMS",
+      "doi": "10.1038/npp.2015.292",
+      "pmid": "26440813",
+      "publication_year": "2016",
+      "metadata_basis": "Europe PMC/PubMed core metadata; Crossref where available",
+      "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:26440813%20AND%20SRC:MED&format=json&resultType=core",
+      "citation_support_basis": "map-relevant full-text sections/figures (local, cached or public)",
+      "audit_note": "Methods: rTMS Treatment and MRI Acquisition and Analysis; outcomes Figure 1 and connectivity Figure 2. MNI seed and Talairach coil landmark remain distinct.",
+      "indexed_corrections": []
+    },
+    {
+      "id": "P19691873",
+      "label": "Mantovani 2010",
+      "title": "Randomized sham-controlled trial of repetitive transcranial magnetic stimulation in treatment-resistant obsessive–compulsive disorder",
+      "doi": "10.1017/S1461145709990435",
+      "pmid": "19691873",
+      "publication_year": "2010",
+      "metadata_basis": "Europe PMC/PubMed core metadata; Crossref where available",
+      "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:19691873%20AND%20SRC:MED&format=json&resultType=core",
+      "citation_support_basis": "map-relevant full-text sections/figures (local, cached or public)",
+      "audit_note": "Publisher HTML: rTMS methods and randomized-phase completer response paragraph; bilateral pre-SMA scalp rule and 67%/22%, P=.153 confirmed. PDF pagination not independently reverified; locators now use HTML sections.",
+      "indexed_corrections": []
+    },
+    {
+      "id": "P25203167",
+      "label": "Nauczyciel 2014",
+      "title": "Repetitive transcranial magnetic stimulation over the orbitofrontal cortex for obsessive-compulsive disorder: a double-blind, crossover study",
+      "doi": "10.1038/tp.2014.62",
+      "pmid": "25203167",
+      "publication_year": "2014",
+      "metadata_basis": "Europe PMC/PubMed core metadata; Crossref where available",
+      "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:25203167%20AND%20SRC:MED&format=json&resultType=core",
+      "citation_support_basis": "map-relevant full-text sections/figures (local, cached or public)",
+      "audit_note": "Clinical effect and PET Results, Figure 2 and Table 3: right OFC stimulation versus bilateral metabolic changes; P=.07 comparison.",
+      "indexed_corrections": []
+    },
+    {
+      "id": "P39089567",
+      "label": "Fitzsimmons 2025",
+      "title": "Transcranial Magnetic Stimulation–Induced Plasticity Improving Cognitive Control in Obsessive-Compulsive Disorder, Part I: Clinical and Neuroimaging Outcomes From a Randomized Trial",
+      "doi": "10.1016/j.biopsych.2024.06.029",
+      "pmid": "39089567",
+      "publication_year": "2025",
+      "metadata_basis": "Europe PMC/PubMed core metadata; Crossref where available",
+      "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:39089567%20AND%20SRC:MED&format=json&resultType=core",
+      "citation_support_basis": "published abstract",
+      "audit_note": "Published abstract at PubMed/Amsterdam UMC supports both displayed findings and left-sided targets. Final PDF access blocked; prior indexed methods/results review is not upgraded to a fresh full-text review.",
+      "indexed_corrections": [
+        {
+          "source": "MED",
+          "id": "37961433",
+          "reference": "medRxiv. 2023 Nov 05:2023.11.04.23298100. doi: 10.1101/2023.11.04.23298100.",
+          "type": "Update of",
+          "orderIn": 1
+        }
+      ]
+    },
+    {
+      "id": "P40963640",
+      "label": "Jimenez 2025",
+      "title": "Safety and tolerability of dual-site accelerated transcranial magnetic stimulation treatment for obsessive-compulsive disorder and major depressive disorder",
+      "doi": "10.1016/j.transm.2025.100182",
+      "pmid": "40963640",
+      "publication_year": "2025",
+      "metadata_basis": "Europe PMC/PubMed core metadata; Crossref where available",
+      "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:40963640%20AND%20SRC:MED&format=json&resultType=core",
+      "citation_support_basis": "map-relevant full-text sections/figures (local, cached or public)",
+      "audit_note": "Main targeting/treatment/follow-up text and Figure 1. A=targets, B=dosage, C=Y-BOCS, D=BDI/BAI.",
+      "indexed_corrections": []
+    },
+    {
+      "id": "P24832866",
+      "label": "Riva-Posse 2014",
+      "title": "Defining Critical White Matter Pathways Mediating Successful Subcallosal Cingulate Deep Brain Stimulation for Treatment-Resistant Depression",
+      "doi": "10.1016/j.biopsych.2014.03.029",
+      "pmid": "24832866",
+      "publication_year": "2014",
+      "metadata_basis": "Europe PMC/PubMed core metadata; Crossref where available",
+      "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:24832866%20AND%20SRC:MED&format=json&resultType=core",
+      "citation_support_basis": "map-relevant full-text sections/figures (local, cached or public)",
+      "audit_note": "Abstract; Results and Figures 2–4, Table 1 for connectivity and anatomical-coordinate comparisons.",
+      "indexed_corrections": [
+        {
+          "source": "MED",
+          "id": "25454067",
+          "reference": "Biol Psychiatry. 2014 Dec 15;76(12):914-6. doi: 10.1016/j.biopsych.2014.09.012.",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ]
+    },
+    {
+      "id": "P28397839",
+      "label": "Riva-Posse 2018",
+      "title": "A connectomic approach for subcallosal cingulate deep brain stimulation surgery: prospective targeting in treatment-resistant depression",
+      "doi": "10.1038/mp.2017.59",
+      "pmid": "28397839",
+      "publication_year": "2018",
+      "metadata_basis": "Europe PMC/PubMed core metadata; Crossref where available",
+      "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:28397839%20AND%20SRC:MED&format=json&resultType=core",
+      "citation_support_basis": "map-relevant full-text sections/figures (local, cached or public)",
+      "audit_note": "Surgical targeting four-bundle blueprint and Figure 2; Results, Table 2 and Figure 3 for 8/11 and 9/11 responders.",
+      "indexed_corrections": []
+    },
+    {
+      "id": "P30867553",
+      "label": "Coenen 2019",
+      "title": "Superolateral medial forebrain bundle deep brain stimulation in major depression: a gateway trial",
+      "doi": "10.1038/s41386-019-0369-9",
+      "pmid": "30867553",
+      "publication_year": "2019",
+      "metadata_basis": "Europe PMC/PubMed core metadata; Crossref where available",
+      "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:30867553%20AND%20SRC:MED&format=json&resultType=core",
+      "citation_support_basis": "map-relevant full-text sections/figures (local, cached or public)",
+      "audit_note": "Methods: Interventions, Figure 1; abstract/longitudinal Results and surgical effect limitations.",
+      "indexed_corrections": []
+    },
+    {
+      "id": "P27049915",
+      "label": "Bergfeld 2016",
+      "title": "Deep Brain Stimulation of the Ventral Anterior Limb of the Internal Capsule for Treatment-Resistant Depression: A Randomized Clinical Trial",
+      "doi": "10.1001/jamapsychiatry.2016.0152",
+      "pmid": "27049915",
+      "publication_year": "2016",
+      "metadata_basis": "Europe PMC/PubMed core metadata; Crossref where available",
+      "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:27049915%20AND%20SRC:MED&format=json&resultType=core",
+      "citation_support_basis": "map-relevant full-text sections/figures (local, cached or public)",
+      "audit_note": "Cached publisher full text: optimization/crossover Results, Table 2, and Methods surgery/optimization with Supplement 2 cross-reference. Publisher currently blocks fresh automated retrieval.",
+      "indexed_corrections": [
+        {
+          "source": "MED",
+          "id": "27049731",
+          "reference": "JAMA Psychiatry. 2016 May 1;73(5):439-40. doi: 10.1001/jamapsychiatry.2016.0173.",
+          "type": "Comment in",
+          "orderIn": 1
+        },
+        {
+          "source": "MED",
+          "id": "28480203",
+          "reference": "Ann Transl Med. 2017 Apr;5(7):167. doi: 10.21037/atm.2017.03.53.",
+          "type": "Comment in",
+          "orderIn": 2
+        },
+        {
+          "source": "MED",
+          "id": "28480207",
+          "reference": "Ann Transl Med. 2017 Apr;5(7):171. doi: 10.21037/atm.2017.03.49.",
+          "type": "Comment in",
+          "orderIn": 3
+        },
+        {
+          "source": "MED",
+          "id": "28567383",
+          "reference": "Ann Transl Med. 2017 May;5(Suppl 1):S1. doi: 10.21037/atm.2017.03.40.",
+          "type": "Comment in",
+          "orderIn": 4
+        }
+      ]
+    },
+    {
+      "id": "P32620886",
+      "label": "Li 2020",
+      "title": "A unified connectomic target for deep brain stimulation in obsessive-compulsive disorder",
+      "doi": "10.1038/s41467-020-16734-3",
+      "pmid": "32620886",
+      "publication_year": "2020",
+      "metadata_basis": "Europe PMC/PubMed core metadata; Crossref where available",
+      "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:32620886%20AND%20SRC:MED&format=json&resultType=core",
+      "citation_support_basis": "map-relevant full-text sections/figures (local, cached or public)",
+      "audit_note": "Results Figures 3–6; release statement and London cohort. Released response-model provenance checked against public-pathways.json; original study maps are not individual anatomy.",
+      "indexed_corrections": [
+        {
+          "source": "PPR",
+          "id": "PPR76191",
+          "type": "Preprint in",
+          "note": "CrossRef Pre-print loader",
+          "orderIn": 10002
+        }
+      ]
+    },
+    {
+      "id": "P30853111",
+      "label": "Tyagi 2019",
+      "title": "A Randomized Trial Directly Comparing Ventral Capsule and Anteromedial Subthalamic Nucleus Stimulation in Obsessive-Compulsive Disorder: Clinical and Imaging Evidence for Dissociable Effects",
+      "doi": "10.1016/j.biopsych.2019.01.017",
+      "pmid": "30853111",
+      "publication_year": "2019",
+      "metadata_basis": "Europe PMC/PubMed core metadata; Crossref where available",
+      "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:30853111%20AND%20SRC:MED&format=json&resultType=core",
+      "citation_support_basis": "map-relevant full-text sections/figures (local, cached or public)",
+      "audit_note": "Abstract, tractography Results and Figure 3, clinical/cognitive outcomes. Medial VC versus lateral OFC/amSTN distinctions retained.",
+      "indexed_corrections": [
+        {
+          "source": "MED",
+          "id": "30999984",
+          "reference": "Biol Psychiatry. 2019 May 1;85(9):706-707. doi: 10.1016/j.biopsych.2019.03.970.",
+          "type": "Comment in",
+          "orderIn": 1
+        },
+        {
+          "source": "MED",
+          "id": "31656763",
+          "reference": "Ann Transl Med. 2019 Sep;7(Suppl 6):S184. doi: 10.21037/atm.2019.07.65.",
+          "type": "Comment in",
+          "orderIn": 2
+        }
+      ]
+    },
+    {
+      "id": "P41234275",
+      "label": "Van Bogaert 2026",
+      "title": "Electrophysiological Biomarkers Reflect Target Engagement and Response Using Deep Brain Stimulation for Obsessive-Compulsive Disorder",
+      "doi": "10.1016/j.bpsgos.2025.100609",
+      "pmid": "41234275",
+      "publication_year": "2026",
+      "metadata_basis": "Europe PMC/PubMed core metadata; Crossref where available",
+      "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:41234275%20AND%20SRC:MED&format=json&resultType=core",
+      "citation_support_basis": "map-relevant full-text sections/figures (local, cached or public)",
+      "audit_note": "Contact/connectivity analyses and evoked-potential responder comparisons, Figures 3–5. Two nonresponders and acute-measure limitations retained.",
+      "indexed_corrections": []
+    },
+    {
+      "id": "P28988904",
+      "label": "Holtzheimer 2017",
+      "title": "Subcallosal cingulate deep brain stimulation for treatment-resistant depression: a multisite, randomised, sham-controlled trial",
+      "doi": "10.1016/S2215-0366(17)30371-1",
+      "pmid": "28988904",
+      "publication_year": "2017",
+      "metadata_basis": "Europe PMC/PubMed core metadata; Crossref where available",
+      "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:28988904%20AND%20SRC:MED&format=json&resultType=core",
+      "citation_support_basis": "published abstract",
+      "audit_note": "Published abstract Methods/Results only: 12/60 versus 5/30 over months 4–6, >=40% response criterion; no significant active–sham result.",
+      "indexed_corrections": [
+        {
+          "source": "MED",
+          "id": "28988905",
+          "reference": "Lancet Psychiatry. 2017 Nov;4(11):820-821. doi: 10.1016/S2215-0366(17)30396-6",
+          "type": "Comment in",
+          "orderIn": 1
+        },
+        {
+          "source": "MED",
+          "id": "29115244",
+          "reference": "Lancet Psychiatry. 2017 Nov;4(11):819. doi: 10.1016/S2215-0366(17)30404-2",
+          "type": "Comment in",
+          "orderIn": 2
+        },
+        {
+          "source": "MED",
+          "id": "29189789",
+          "reference": "Nature. 2017 Nov 22;551(7682):549-550. doi: 10.1038/nature.2017.23031",
+          "type": "Comment in",
+          "orderIn": 3
+        }
+      ]
+    },
+    {
+      "id": "P25726497",
+      "label": "Dougherty 2015",
+      "title": "A Randomized Sham-Controlled Trial of Deep Brain Stimulation of the Ventral Capsule/Ventral Striatum for Chronic Treatment-Resistant Depression",
+      "doi": "10.1016/j.biopsych.2014.11.023",
+      "pmid": "25726497",
+      "publication_year": "2015",
+      "metadata_basis": "Europe PMC/PubMed core metadata; Crossref where available",
+      "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:25726497%20AND%20SRC:MED&format=json&resultType=core",
+      "citation_support_basis": "published abstract",
+      "audit_note": "Published abstract only: 16-week outcome, 3/15 versus 2/14, >=50% MADRS response; study total 30 distinct from response denominator total 29.",
+      "indexed_corrections": [
+        {
+          "source": "MED",
+          "id": "26195174",
+          "reference": "Biol Psychiatry. 2015 Aug 15;78(4):218-9. doi: 10.1016/j.biopsych.2015.06.020.",
+          "type": "Comment in",
+          "orderIn": 1
+        },
+        {
+          "source": "MED",
+          "id": "26444852",
+          "reference": "Stereotact Funct Neurosurg. 2015;93(5):366-9. doi: 10.1159/000437390.",
+          "type": "Comment in",
+          "orderIn": 2
+        },
+        {
+          "source": "MED",
+          "id": "26767391",
+          "reference": "Evid Based Ment Health. 2016 May;19(2):59. doi: 10.1136/eb-2015-102110.",
+          "type": "Comment in",
+          "orderIn": 3
+        }
+      ]
+    },
+    {
+      "id": "P31711880",
+      "label": "Dunlop 2020",
+      "title": "Dorsomedial prefrontal cortex repetitive transcranial magnetic stimulation for treatment-refractory major depressive disorder: A three-arm, blinded, randomized controlled trial",
+      "doi": "10.1016/j.brs.2019.10.020",
+      "pmid": "31711880",
+      "publication_year": "2020",
+      "metadata_basis": "Europe PMC/PubMed core metadata; Crossref where available",
+      "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:31711880%20AND%20SRC:MED&format=json&resultType=core",
+      "citation_support_basis": "published abstract",
+      "audit_note": "Published abstract only: 120 randomized, high/low frequency dmPFC arms not superior to sham; sham apparatus limitation.",
+      "indexed_corrections": []
+    }
+  ],
+  "finding_checks": [
+    {
+      "id": "FM001",
+      "source_id": "P41172368",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "F035",
+        "pdf_page": 5,
+        "detail": "Results: Initial Common Responder Map; Fig. 2A"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "FM002",
+      "source_id": "P41172368",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "F035",
+        "pdf_page": 5,
+        "detail": "Results: Initial Common Responder Map; Fig. 2A"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "FM003",
+      "source_id": "P41172368",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "F035",
+        "pdf_page": 5,
+        "detail": "Results: Initial Common Responder Map; Fig. 2A"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "FM004",
+      "source_id": "P41172368",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "F035",
+        "pdf_page": 5,
+        "detail": "Results: Initial Common Responder Map; Fig. 2A"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "FM005",
+      "source_id": "P41172368",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "F035",
+        "pdf_page": 5,
+        "detail": "Results: Stimulation Location; Fig. 4 on p. 7"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "FM006",
+      "source_id": "P41172368",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "F035",
+        "pdf_page": 11,
+        "detail": "Discussion: dACC connectivity and targeting limitations"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "FM007",
+      "source_id": "P41172368",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "F035",
+        "pdf_page": 6,
+        "detail": "Results: Clinical Outcomes; Fig. 6 on p. 8"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "FM008",
+      "source_id": "P38141909",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "F032",
+        "pdf_page": 6,
+        "detail": "Fig. 2; optimal/suboptimal site results"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "FM009",
+      "source_id": "P38141909",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "F032",
+        "pdf_page": 6,
+        "detail": "Fig. 2; Supplement Table S1 (F065 p. 21)"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "FM010",
+      "source_id": "P38141909",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "F032",
+        "pdf_page": 1,
+        "detail": "Abstract Results; Fig. 2 p. 6"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "FM011",
+      "source_id": "P38141909",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "F032",
+        "pdf_page": 8,
+        "detail": "Figure 4B; Results: Validation in an Independent Cohort (PDF p. 5)"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "FM012",
+      "source_id": "P38141909",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "F065",
+        "pdf_page": 5,
+        "detail": "Supplementary Methods 1.3"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "FM013",
+      "source_id": "P23434914",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "F054",
+        "pdf_page": 1,
+        "detail": "Fig. 1 and reward-task paragraph"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "FM014",
+      "source_id": "P23434914",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "F054",
+        "pdf_page": 2,
+        "detail": "Fig. 2; supplement Tables 3–4"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "FM015",
+      "source_id": "P23434914",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "F054",
+        "pdf_page": 2,
+        "detail": "Fig. 2; supplement Tables 3–4"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "FM016",
+      "source_id": "P23434914",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "F053",
+        "pdf_page": 8,
+        "detail": "Supplementary Table 6; read with addendum F054 p. 5"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "FM017",
+      "source_id": "P23434914",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "F053",
+        "pdf_page": 8,
+        "detail": "Supplementary Table 6"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "FM018",
+      "source_id": "P23434914",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "F053",
+        "pdf_page": 8,
+        "detail": "Supplementary Table 6"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "FM019",
+      "source_id": "P23434914",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "F054",
+        "pdf_page": 2,
+        "detail": "Fig. 3"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "FM020",
+      "source_id": "P23652657",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "F076",
+        "pdf_page": 63,
+        "detail": "Book Fig. 2; Table 1 on PDF p. 62; chapter PDF pp. 58–65"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "FM021",
+      "source_id": "P34482949",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "F008",
+        "pdf_page": 7,
+        "detail": "Figs. 5–6; surrounding discussion on p. 6"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "FM022",
+      "source_id": "P34482949",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "F008",
+        "pdf_page": 7,
+        "detail": "Fig. 6; discussion on p. 6"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "FM023",
+      "source_id": "P34482949",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "F008",
+        "pdf_page": 6,
+        "detail": "Fig. 4"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "FM024",
+      "source_id": "P30522916",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Main article: Methods, Figs. 3–6 and limitations; F060 is supplementary context only.",
+        "external_url": "https://pure.knaw.nl/ws/files/9220570/Liebrand.pdf"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "FM025",
+      "source_id": "P35817944",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "F011",
+        "pdf_page": 5,
+        "detail": "Figs. 1–2; also Fig. 3 p. 8 and Figs. 4–5 p. 9"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "FM026",
+      "source_id": "P35817944",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "F011",
+        "pdf_page": 12,
+        "detail": "Tractography-based targeting discussion; Smith, Figee & Mayberg chapter Figure 10.1 (PDF p. 6), with four-bundle discussion on PDF p. 7"
+      },
+      "supporting_locators": [
+        {
+          "source_id": "D11bec4ad31",
+          "asset_id": "F074",
+          "pdf_page": 6,
+          "label": "Chapter · Fig. 10.1",
+          "detail": "Figure 10.1 depicts SCC stimulation and connected tracts; the four-bundle discussion follows on PDF p. 7."
+        }
+      ]
+    },
+    {
+      "id": "FM027",
+      "source_id": "P35817944",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "F011",
+        "pdf_page": 8,
+        "detail": "Fig. 3 legend"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "FM028",
+      "source_id": "P38341414",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "F039",
+        "pdf_page": 5,
+        "detail": "Fig. 2"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "FM029",
+      "source_id": "P38341414",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "F039",
+        "pdf_page": 6,
+        "detail": "Fig. 3 and surrounding target engagement discussion"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "FM030",
+      "source_id": "D11bec4ad31",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "F074",
+        "pdf_page": 9,
+        "detail": "TMS and depression discussion"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "FM031",
+      "source_id": "D11bec4ad31",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "F074",
+        "pdf_page": 13,
+        "detail": "OCD: Transcranial Magnetic Stimulation section"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "FM032",
+      "source_id": "D11bec4ad31",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "F074",
+        "pdf_page": 13,
+        "detail": "OCD: Transcranial Magnetic Stimulation section"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-01-1",
+      "source_id": "P22658708",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Results: Identification of optimized TMS targets; Figure 3C–D (target maps)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4120275/"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-01-2",
+      "source_id": "P22658708",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Table 1A; Figure 3",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4120275/"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-02-1",
+      "source_id": "P29274805",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Abstract; Results: Primary cohort",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6091227/"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-02-2",
+      "source_id": "P29274805",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Results: Secondary cohort",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6091227/"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-03-1",
+      "source_id": "P32160765",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Results; Figures 1–4",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8396109/"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-03-2",
+      "source_id": "P32160765",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Figure 5; NeuroVault image 787858",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8396109/"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-04-1",
+      "source_id": "P34711062",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "R2_COLE_S1",
+        "pdf_page": 3,
+        "detail": "Main Methods; Supplement: MRI acquisition and processing, PDF p. 3",
+        "url": "https://doi.org/10.1176/appi.ajp.2021.20101429"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-04-2",
+      "source_id": "P34711062",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "R2_COLE",
+        "pdf_page": 1,
+        "detail": "Main Abstract and Results, PDF pp. 1, 4–5",
+        "url": "https://doi.org/10.1176/appi.ajp.2021.20101429"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-05-1",
+      "source_id": "P36855880",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Abstract; Results",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11446248/"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-05-2",
+      "source_id": "P36855880",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Results and Discussion: global signal and respiratory pattern",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11446248/"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-06-1",
+      "source_id": "P38228914",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Methods: Interventions",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10878976/"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-06-2",
+      "source_id": "P38228914",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Abstract; primary outcome analysis",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10878976/"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-07-1",
+      "source_id": "P42340706",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "R2_TAYLOR",
+        "pdf_page": 3,
+        "detail": "Main Methods and Figure 2, PDF pp. 2–4; Supplement 2",
+        "url": "https://doi.org/10.1001/jamapsychiatry.2026.1100"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-07-2",
+      "source_id": "P42340706",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "R2_TAYLOR",
+        "pdf_page": 1,
+        "detail": "Main Abstract and Results; supplied correction notice",
+        "url": "https://doi.org/10.1001/jamapsychiatry.2026.1100"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-08-1",
+      "source_id": "P31109199",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "R2_CARMI",
+        "pdf_page": 2,
+        "detail": "Main Methods, PDF pp. 2–3",
+        "url": "https://doi.org/10.1176/appi.ajp.2019.18101180"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-08-2",
+      "source_id": "P31109199",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": "R2_CARMI",
+        "pdf_page": 4,
+        "detail": "Main Abstract and Results, PDF pp. 1, 4–5",
+        "url": "https://doi.org/10.1176/appi.ajp.2019.18101180"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-09-1",
+      "source_id": "P26440813",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Abstract; Results; Figures 1–2",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4793124/"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-09-2",
+      "source_id": "P26440813",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Methods: rTMS Treatment; MRI Acquisition and Analysis",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4793124/"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-10-1",
+      "source_id": "P19691873",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Methods: rTMS methods (publisher HTML)",
+        "url": "https://academic.oup.com/ijnp/article/13/2/217/663177"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-10-2",
+      "source_id": "P19691873",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Results: Randomized phase (phase 1), completer response paragraph; Table 2 (continuous measures)",
+        "url": "https://academic.oup.com/ijnp/article/13/2/217/663177"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-11-1",
+      "source_id": "P25203167",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Abstract; Results: Clinical effect",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4203001/"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-11-2",
+      "source_id": "P25203167",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Results: PET findings; Figure 2",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4203001/"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-12-1",
+      "source_id": "P39089567",
+      "status": "abstract support checked; full text not reverified",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Published abstract: Methods and Results",
+        "url": "https://www.biologicalpsychiatryjournal.com/article/S0006-3223%2824%2901488-4/fulltext"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-12-2",
+      "source_id": "P39089567",
+      "status": "abstract support checked; full text not reverified",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Published abstract: Methods and Results",
+        "url": "https://www.biologicalpsychiatryjournal.com/article/S0006-3223%2824%2901488-4/fulltext"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-13-1",
+      "source_id": "P40963640",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Main text: MRI targeting; Figure 1A",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12440150/"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-13-2",
+      "source_id": "P40963640",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Main text: Treatment and follow-up; Figure 1C–D (outcomes); Figure 1B (dosage)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12440150/"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-14-1",
+      "source_id": "P24832866",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Abstract; Methods: Participants; Results; Figures 1–3",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4487804/"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-14-2",
+      "source_id": "P24832866",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Results and Discussion: anatomical coordinates versus connectivity",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4487804/"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-15-1",
+      "source_id": "P28397839",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Methods: Surgical targeting; connectome blueprint",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5636645/"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-15-2",
+      "source_id": "P28397839",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Abstract; Results",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5636645/"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-16-1",
+      "source_id": "P30867553",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Methods: DBS surgery; Figure 1",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6785007/"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-16-2",
+      "source_id": "P30867553",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Abstract; Results; Discussion",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6785007/"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-17-1",
+      "source_id": "P27049915",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Abstract; Results: Optimization and crossover phases",
+        "url": "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2512238"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-17-2",
+      "source_id": "P27049915",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Methods: Surgery and optimization; Supplement 2",
+        "url": "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2512238"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-18-1",
+      "source_id": "P32620886",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Abstract; Results; Figures 3–6; Methods: London cohort",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7335093/"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-18-2",
+      "source_id": "P32620886",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Discussion: openly released tract atlas",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7335093/"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-19-1",
+      "source_id": "P30853111",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Abstract; Results: Tractography",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6467837/"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-19-3",
+      "source_id": "P30853111",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Abstract; Results: Tractography",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6467837/"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-19-2",
+      "source_id": "P30853111",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Abstract; Results: clinical outcomes and cognitive flexibility",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6467837/"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-20-1",
+      "source_id": "P41234275",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Abstract; Results: contact and connectivity associations",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12607010/"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "R2-20-2",
+      "source_id": "P41234275",
+      "status": "citation support checked in relevant full-text sections/figures",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Abstract; Results: clinical response associations",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12607010/"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "AUDIT-01",
+      "source_id": "P28988904",
+      "status": "abstract support checked; full text not reverified",
+      "locator": {
+        "detail": "Published abstract: Methods and Results",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28988904/"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "AUDIT-02",
+      "source_id": "P25726497",
+      "status": "abstract support checked; full text not reverified",
+      "locator": {
+        "detail": "Published abstract: Methods and Results",
+        "url": "https://ohiostate.elsevierpure.com/en/publications/a-randomized-sham-controlled-trial-of-deep-brain-stimulation-of-t/"
+      },
+      "supporting_locators": []
+    },
+    {
+      "id": "REGION-01",
+      "source_id": "P31711880",
+      "status": "abstract support checked; full text not reverified",
+      "locator": {
+        "asset_id": null,
+        "pdf_page": null,
+        "detail": "Published abstract: Methods, Results and Conclusion",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31711880/"
+      },
+      "supporting_locators": []
+    }
+  ],
+  "coordinate_checks": [
+    {
+      "id": "fox-sgacc-target",
+      "source_id": "P22658708",
+      "xyz": [
+        -44,
+        38,
+        34
+      ],
+      "role": "Candidate cortical target",
+      "locator": "Fox 2012, Results: Identification of optimized TMS targets; Figure 3C (target map)",
+      "status": "Coordinates and seed-versus-target role checked against the cited source"
+    },
+    {
+      "id": "fox-network-target",
+      "source_id": "P22658708",
+      "xyz": [
+        -38,
+        44,
+        26
+      ],
+      "role": "Candidate cortical target",
+      "locator": "Fox 2012, Results: Identification of optimized TMS targets; Figure 3D (target map)",
+      "status": "Coordinates and seed-versus-target role checked against the cited source"
+    },
+    {
+      "id": "fox-sgacc-seed",
+      "source_id": "P22658708",
+      "xyz": [
+        5.9,
+        16.3,
+        -9.8
+      ],
+      "role": "Connectivity analysis seed",
+      "locator": "Fox 2012, Table 1A",
+      "status": "Coordinates and seed-versus-target role checked against the cited source"
+    },
+    {
+      "id": "morriss-insula-seed",
+      "source_id": "P38228914",
+      "xyz": [
+        30,
+        24,
+        -14
+      ],
+      "role": "Connectivity analysis seed",
+      "locator": "Morriss 2024, Methods: Interventions",
+      "status": "Coordinates and seed-versus-target role checked against the cited source"
+    },
+    {
+      "id": "dunlop-dmpfc-seed",
+      "source_id": "P26440813",
+      "xyz": [
+        0,
+        38,
+        24
+      ],
+      "role": "Connectivity analysis seed",
+      "locator": "Dunlop 2016, Methods: MRI Acquisition and Analysis",
+      "status": "Coordinates and seed-versus-target role checked against the cited source"
+    }
+  ],
+  "figure_checks": [
+    {
+      "id": "FIG_JNS2",
+      "source_id": "P41172368",
+      "asset_id": "F035",
+      "pdf_page": 5,
+      "locator": "Fig. 2",
+      "basis": "supplied source PDF figure/table checked"
+    },
+    {
+      "id": "FIG_JNS3",
+      "source_id": "P41172368",
+      "asset_id": "F035",
+      "pdf_page": 6,
+      "locator": "Fig. 3",
+      "basis": "supplied source PDF figure/table checked"
+    },
+    {
+      "id": "FIG_JNS4",
+      "source_id": "P41172368",
+      "asset_id": "F035",
+      "pdf_page": 7,
+      "locator": "Fig. 4",
+      "basis": "supplied source PDF figure/table checked"
+    },
+    {
+      "id": "FIG_JNS_S2",
+      "source_id": "P41172368",
+      "asset_id": "F034",
+      "pdf_page": 6,
+      "locator": "Supplementary Table 2",
+      "basis": "cached source extraction; not a currently configured local PDF link"
+    },
+    {
+      "id": "FIG_MEYER2",
+      "source_id": "P38141909",
+      "asset_id": "F032",
+      "pdf_page": 6,
+      "locator": "Fig. 2",
+      "basis": "supplied source PDF figure/table checked"
+    },
+    {
+      "id": "FIG_MEYER4",
+      "source_id": "P38141909",
+      "asset_id": "F032",
+      "pdf_page": 8,
+      "locator": "Fig. 4B",
+      "basis": "supplied source PDF figure/table checked"
+    },
+    {
+      "id": "FIG_MEYER_S1",
+      "source_id": "P38141909",
+      "asset_id": "F065",
+      "pdf_page": 21,
+      "locator": "Supplementary Table S1",
+      "basis": "supplied source PDF figure/table checked"
+    },
+    {
+      "id": "FIG_MEYER_S2",
+      "source_id": "P38141909",
+      "asset_id": "F065",
+      "pdf_page": 8,
+      "locator": "Supplementary Fig. S2",
+      "basis": "supplied source PDF figure/table checked"
+    },
+    {
+      "id": "FIG_FIGEE2",
+      "source_id": "P23434914",
+      "asset_id": "F054",
+      "pdf_page": 2,
+      "locator": "Fig. 2",
+      "basis": "supplied source PDF figure/table checked"
+    },
+    {
+      "id": "FIG_FIGEE_S6",
+      "source_id": "P23434914",
+      "asset_id": "F053",
+      "pdf_page": 8,
+      "locator": "Supplementary Table 6",
+      "basis": "supplied source PDF figure/table checked"
+    },
+    {
+      "id": "FIG_VDM2",
+      "source_id": "P23652657",
+      "asset_id": "F076",
+      "pdf_page": 63,
+      "locator": "Chapter Fig. 2",
+      "basis": "supplied source PDF figure/table checked"
+    },
+    {
+      "id": "FIG_BALDER1",
+      "source_id": "P34482949",
+      "asset_id": "F008",
+      "pdf_page": 2,
+      "locator": "Fig. 1",
+      "basis": "supplied source PDF figure/table checked"
+    },
+    {
+      "id": "FIG_BALDER4",
+      "source_id": "P34482949",
+      "asset_id": "F008",
+      "pdf_page": 6,
+      "locator": "Fig. 4",
+      "basis": "supplied source PDF figure/table checked"
+    },
+    {
+      "id": "FIG_BALDER6",
+      "source_id": "P34482949",
+      "asset_id": "F008",
+      "pdf_page": 7,
+      "locator": "Fig. 6",
+      "basis": "supplied source PDF figure/table checked"
+    },
+    {
+      "id": "FIG_DEP1",
+      "source_id": "P35817944",
+      "asset_id": "F011",
+      "pdf_page": 5,
+      "locator": "Fig. 1",
+      "basis": "supplied source PDF figure/table checked"
+    },
+    {
+      "id": "FIG_ROALF2",
+      "source_id": "P38341414",
+      "asset_id": "F039",
+      "pdf_page": 5,
+      "locator": "Fig. 2",
+      "basis": "supplied source PDF figure/table checked"
+    },
+    {
+      "id": "FIG_SMITH1",
+      "source_id": "D11bec4ad31",
+      "asset_id": "F074",
+      "pdf_page": 6,
+      "locator": "Fig. 10.1",
+      "basis": "supplied source PDF figure/table checked"
+    },
+    {
+      "id": "FIG_LIEBRAND_S1",
+      "source_id": "P30522916",
+      "asset_id": "F060",
+      "pdf_page": null,
+      "locator": "Supplementary Fig. 1 embedded in DOCX",
+      "basis": "cached source extraction; not a currently configured local PDF link"
+    }
+  ],
+  "supplemental_metadata": [
+    {
+      "uses": [
+        {
+          "catalog": "circuit",
+          "id": "yeh2022",
+          "label": "Yeh 2022 · population tractography"
+        }
+      ],
+      "title": "Population-based tract-to-region connectome of the human brain and its hierarchical topology.",
+      "doi": "10.1038/s41467-022-32595-4",
+      "pmid": "35995773",
+      "pmcid": "PMC9395399",
+      "year": "2022"
+    },
+    {
+      "uses": [
+        {
+          "catalog": "circuit",
+          "id": "strafella2001",
+          "label": "Strafella 2001 · TMS–PET"
+        }
+      ],
+      "title": "Repetitive transcranial magnetic stimulation of the human prefrontal cortex induces dopamine release in the caudate nucleus.",
+      "doi": "10.1523/jneurosci.21-15-j0003.2001",
+      "pmid": "11459878",
+      "pmcid": "PMC6762641",
+      "year": "2001"
+    },
+    {
+      "uses": [
+        {
+          "catalog": "circuit",
+          "id": "lehericy2004",
+          "label": "Lehéricy 2004 · pre-SMA–striatum"
+        }
+      ],
+      "title": "3-D diffusion tensor axonal tracking shows distinct SMA and pre-SMA projections to the human striatum.",
+      "doi": "10.1093/cercor/bhh091",
+      "pmid": "15166103",
+      "pmcid": null,
+      "year": "2004"
+    },
+    {
+      "uses": [
+        {
+          "catalog": "circuit",
+          "id": "aron2007",
+          "label": "Aron 2007 · inhibitory-control network"
+        }
+      ],
+      "title": "Triangulating a cognitive control network using diffusion-weighted magnetic resonance imaging (MRI) and functional MRI.",
+      "doi": "10.1523/jneurosci.0519-07.2007",
+      "pmid": "17409238",
+      "pmcid": "PMC6672420",
+      "year": "2007"
+    },
+    {
+      "uses": [
+        {
+          "catalog": "circuit",
+          "id": "ji2021",
+          "label": "Ji 2021 · pre-SMA–STN targeting"
+        }
+      ],
+      "title": "Pre-supplementary motor network connectivity and clinical outcome of magnetic stimulation in obsessive-compulsive disorder.",
+      "doi": "10.1002/hbm.25468",
+      "pmid": "34050701",
+      "pmcid": "PMC8288080",
+      "year": "2021"
+    },
+    {
+      "uses": [
+        {
+          "catalog": "circuit",
+          "id": "seguin2026",
+          "label": "Seguin 2026 · indirect white-matter routes"
+        }
+      ],
+      "title": "White matter pathways mediating dorsolateral prefrontal TMS therapy for depression.",
+      "doi": "10.1038/s41593-026-02248-6",
+      "pmid": "41981337",
+      "pmcid": null,
+      "year": "2026"
+    },
+    {
+      "uses": [
+        {
+          "catalog": "region:dmpfc",
+          "id": null,
+          "label": "Dunlop 2020"
+        }
+      ],
+      "title": "Dorsomedial prefrontal cortex repetitive transcranial magnetic stimulation for treatment-refractory major depressive disorder: A three-arm, blinded, randomized controlled trial.",
+      "doi": "10.1016/j.brs.2019.10.020",
+      "pmid": "31711880",
+      "pmcid": null,
+      "year": "2020"
+    },
+    {
+      "uses": [
+        {
+          "catalog": "region:dlpfc",
+          "id": null,
+          "label": "CerebrA / DKT · anatomical boundaries"
+        },
+        {
+          "catalog": "region:vlpfc",
+          "id": null,
+          "label": "CerebrA / DKT · anatomical boundaries"
+        },
+        {
+          "catalog": "region:ofc",
+          "id": null,
+          "label": "CerebrA / DKT · anatomical boundaries"
+        },
+        {
+          "catalog": "region:right-ofc",
+          "id": null,
+          "label": "CerebrA / DKT · anatomical boundaries"
+        }
+      ],
+      "title": "CerebrA, registration and manual label correction of Mindboggle-101 atlas for MNI-ICBM152 template.",
+      "doi": "10.1038/s41597-020-0557-9",
+      "pmid": "32669554",
+      "pmcid": "PMC7363886",
+      "year": "2020"
+    },
+    {
+      "uses": [
+        {
+          "catalog": "region:dlpfc",
+          "id": null,
+          "label": "Fox 2012"
+        },
+        {
+          "catalog": "region:sgacc",
+          "id": null,
+          "label": "Fox 2012"
+        }
+      ],
+      "title": "Efficacy of transcranial magnetic stimulation targets for depression is related to intrinsic functional connectivity with the subgenual cingulate.",
+      "doi": "10.1016/j.biopsych.2012.04.028",
+      "pmid": "22658708",
+      "pmcid": "PMC4120275",
+      "year": "2012"
+    },
+    {
+      "uses": [
+        {
+          "catalog": "region:dlpfc",
+          "id": null,
+          "label": "Fitzsimmons 2025"
+        },
+        {
+          "catalog": "region:presma",
+          "id": null,
+          "label": "Fitzsimmons 2025"
+        }
+      ],
+      "title": "Transcranial Magnetic Stimulation-Induced Plasticity Improving Cognitive Control in Obsessive-Compulsive Disorder, Part I: Clinical and Neuroimaging Outcomes From a Randomized Trial.",
+      "doi": "10.1016/j.biopsych.2024.06.029",
+      "pmid": "39089567",
+      "pmcid": null,
+      "year": "2025"
+    },
+    {
+      "uses": [
+        {
+          "catalog": "region:presma",
+          "id": null,
+          "label": "Mantovani 2010"
+        }
+      ],
+      "title": "Randomized sham-controlled trial of repetitive transcranial magnetic stimulation in treatment-resistant obsessive-compulsive disorder.",
+      "doi": "10.1017/s1461145709990435",
+      "pmid": "19691873",
+      "pmcid": null,
+      "year": "2010"
+    },
+    {
+      "uses": [
+        {
+          "catalog": "region:presma",
+          "id": null,
+          "label": "Ji 2021"
+        }
+      ],
+      "title": "Pre-supplementary motor network connectivity and clinical outcome of magnetic stimulation in obsessive-compulsive disorder.",
+      "doi": "10.1002/hbm.25468",
+      "pmid": "34050701",
+      "pmcid": "PMC8288080",
+      "year": "2021"
+    },
+    {
+      "uses": [
+        {
+          "catalog": "region:vlpfc",
+          "id": null,
+          "label": "Sydnor 2022 · mechanistic background"
+        }
+      ],
+      "title": "Cortical-subcortical structural connections support transcranial magnetic stimulation engagement of the amygdala.",
+      "doi": "10.1126/sciadv.abn5803",
+      "pmid": "35731882",
+      "pmcid": "PMC9217085",
+      "year": "2022"
+    },
+    {
+      "uses": [
+        {
+          "catalog": "region:vlpfc",
+          "id": null,
+          "label": "Oathes 2023 · depression circuit probing"
+        }
+      ],
+      "title": "Non-Invasively Targeting, Probing, and Modulating a Deep Brain Circuit for Depression Alleviation.",
+      "doi": "10.1038/s44220-023-00165-2",
+      "pmid": "41726164",
+      "pmcid": "PMC12919846",
+      "year": "2023"
+    },
+    {
+      "uses": [
+        {
+          "catalog": "region:vlpfc",
+          "id": null,
+          "label": "Li 2020 · OCD DBS"
+        }
+      ],
+      "title": "A unified connectomic target for deep brain stimulation in obsessive-compulsive disorder.",
+      "doi": "10.1038/s41467-020-16734-3",
+      "pmid": "32620886",
+      "pmcid": "PMC7335093",
+      "year": "2020"
+    },
+    {
+      "uses": [
+        {
+          "catalog": "region:sgacc",
+          "id": null,
+          "label": "Holtzheimer 2017 · SCC DBS"
+        }
+      ],
+      "title": "Subcallosal cingulate deep brain stimulation for treatment-resistant depression: a multisite, randomised, sham-controlled trial.",
+      "doi": "10.1016/s2215-0366(17)30371-1",
+      "pmid": "28988904",
+      "pmcid": null,
+      "year": "2017"
+    },
+    {
+      "uses": [
+        {
+          "catalog": "region:ofc",
+          "id": null,
+          "label": "Tyagi 2019"
+        }
+      ],
+      "title": "A Randomized Trial Directly Comparing Ventral Capsule and Anteromedial Subthalamic Nucleus Stimulation in Obsessive-Compulsive Disorder: Clinical and Imaging Evidence for Dissociable Effects.",
+      "doi": "10.1016/j.biopsych.2019.01.017",
+      "pmid": "30853111",
+      "pmcid": "PMC6467837",
+      "year": "2019"
+    },
+    {
+      "uses": [
+        {
+          "catalog": "pathway",
+          "id": "middlebrooks2020",
+          "label": "Middlebrooks 2020 · DBS atlas"
+        }
+      ],
+      "title": "Neuroimaging Advances in Deep Brain Stimulation: Review of Indications, Anatomy, and Brain Connectomics.",
+      "doi": "10.3174/ajnr.a6693",
+      "pmid": "32816768",
+      "pmcid": "PMC7583111",
+      "year": "2020"
+    },
+    {
+      "uses": [
+        {
+          "catalog": "pathway",
+          "id": "neudorfer2020",
+          "label": "Neudorfer 2020 · hypothalamic atlas"
+        }
+      ],
+      "title": "A high-resolution in vivo magnetic resonance imaging atlas of the human hypothalamic region.",
+      "doi": "10.1038/s41597-020-00644-6",
+      "pmid": "32934244",
+      "pmcid": "PMC7492465",
+      "year": "2020"
+    },
+    {
+      "uses": [
+        {
+          "catalog": "circuit",
+          "id": "salomons2014"
+        }
+      ],
+      "title": "Resting-state cortico-thalamic-striatal connectivity predicts response to dorsomedial prefrontal rTMS in major depressive disorder.",
+      "doi": "10.1038/npp.2013.222",
+      "pmid": "24150516",
+      "year": "2014"
+    }
+  ],
+  "additional_attribution_checks": [
+    {
+      "source": "AAL3 / Rolls 2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31521825/",
+      "result": "Correct source for the named anatomy labels. Regional unions and AC-plane split remain atlas estimates."
+    },
+    {
+      "source": "MIAL / Najdenovska 2018",
+      "url": "https://doi.org/10.1038/sdata.2018.270",
+      "result": "Attribution matches the thalamic nuclei atlas."
+    },
+    {
+      "source": "MASSP / Bazin 2020",
+      "url": "https://doi.org/10.7554/eLife.59430",
+      "result": "Attribution matches the subcortical parcellation."
+    },
+    {
+      "source": "TemplateFlow MNI / aseg",
+      "url": "https://github.com/templateflow/tpl-MNI152NLin2009cAsym",
+      "result": "Existing file-level source provenance retained; anatomical attribution is separate from clinical evidence."
+    },
+    {
+      "source": "DIPY 80-bundle atlas",
+      "url": "https://doi.org/10.6084/m9.figshare.7375883.v2",
+      "result": "Dataset DOI resolves; this is a DataCite/figshare dataset, not a missing Crossref journal article."
+    },
+    {
+      "source": "Siddiqi 2020/2021 map origins",
+      "url": "https://neurovault.org/collections/13075/",
+      "result": "Existing image IDs 787858/787859 and original_citation fields checked. The Taylor overlay explicitly retains its Siddiqi 2021 origin; map reuse is not a new individual target."
+    }
+  ],
+  "corrections": [
+    {
+      "location": "P22658708.title",
+      "before": "Efficacy of TMS targets is related to connectivity with the subgenual cingulate",
+      "after": "Efficacy of transcranial magnetic stimulation targets for depression is related to intrinsic functional connectivity with the subgenual cingulate",
+      "reason": "Restore the published article title; short author-year labels are unchanged."
+    },
+    {
+      "location": "P29274805.title",
+      "before": "Prospective validation of subgenual connectivity and antidepressant efficacy of TMS sites",
+      "after": "Prospective Validation That Subgenual Connectivity Predicts Antidepressant Efficacy of Transcranial Magnetic Stimulation Sites",
+      "reason": "Restore the published article title; short author-year labels are unchanged."
+    },
+    {
+      "location": "P34711062.title",
+      "before": "Stanford Neuromodulation Therapy: a double-blind randomized controlled trial",
+      "after": "Stanford Neuromodulation Therapy (SNT): A Double-Blind Randomized Controlled Trial",
+      "reason": "Restore the published article title; short author-year labels are unchanged."
+    },
+    {
+      "location": "P42340706.title",
+      "before": "Connectivity- versus scalp-based targeting of accelerated TMS for depression",
+      "after": "Connectivity- vs Scalp-Based Targeting of Accelerated Transcranial Magnetic Stimulation for Depression: A Randomized Clinical Trial",
+      "reason": "Restore the published article title; short author-year labels are unchanged."
+    },
+    {
+      "location": "P31109199.title",
+      "before": "Deep TMS for OCD: prospective multicenter randomized sham-controlled trial",
+      "after": "Efficacy and Safety of Deep Transcranial Magnetic Stimulation for Obsessive-Compulsive Disorder: A Prospective Multicenter Randomized Double-Blind Placebo-Controlled Trial",
+      "reason": "Restore the published article title; short author-year labels are unchanged."
+    },
+    {
+      "location": "P19691873.title",
+      "before": "Randomized sham-controlled rTMS trial in treatment-resistant OCD",
+      "after": "Randomized sham-controlled trial of repetitive transcranial magnetic stimulation in treatment-resistant obsessive–compulsive disorder",
+      "reason": "Restore the published article title; short author-year labels are unchanged."
+    },
+    {
+      "location": "P39089567.title",
+      "before": "TMS-induced plasticity and cognitive control in OCD, Part I",
+      "after": "Transcranial Magnetic Stimulation–Induced Plasticity Improving Cognitive Control in Obsessive-Compulsive Disorder, Part I: Clinical and Neuroimaging Outcomes From a Randomized Trial",
+      "reason": "Restore the published article title; short author-year labels are unchanged."
+    },
+    {
+      "location": "P24832866.title",
+      "before": "Critical white-matter pathways for successful subcallosal cingulate DBS",
+      "after": "Defining Critical White Matter Pathways Mediating Successful Subcallosal Cingulate Deep Brain Stimulation for Treatment-Resistant Depression",
+      "reason": "Restore the published article title; short author-year labels are unchanged."
+    },
+    {
+      "location": "P27049915.title",
+      "before": "Ventral anterior internal-capsule DBS for treatment-resistant depression: randomized trial",
+      "after": "Deep Brain Stimulation of the Ventral Anterior Limb of the Internal Capsule for Treatment-Resistant Depression: A Randomized Clinical Trial",
+      "reason": "Restore the published article title; short author-year labels are unchanged."
+    },
+    {
+      "location": "FM006.evidence_locator.detail",
+      "before": "Discussion opening paragraph",
+      "after": "Discussion: dACC connectivity and targeting limitations",
+      "reason": "The cited paragraph is on p. 11, not the opening of the Discussion."
+    },
+    {
+      "location": "FM011.evidence_locator.pdf_page",
+      "before": 7,
+      "after": 8,
+      "reason": "Figure 3 concerns depression/anxiety symptoms; independent OCD validation is Figure 4B."
+    },
+    {
+      "location": "FM011.evidence_locator.detail",
+      "before": "Fig. 3",
+      "after": "Figure 4B; Results: Validation in an Independent Cohort (PDF p. 5)",
+      "reason": "Figure 3 concerns depression/anxiety symptoms; independent OCD validation is Figure 4B."
+    },
+    {
+      "location": "FM026.evidence_locator.detail",
+      "before": "Tractography-based targeting discussion; Smith chapter Fig. 10.2 (F074 p. 11)",
+      "after": "Tractography-based targeting discussion; Smith, Figee & Mayberg chapter Figure 10.1 (PDF p. 6), with four-bundle discussion on PDF p. 7",
+      "reason": "Chapter Figure 10.2 is VC/VS, not SCC."
+    },
+    {
+      "location": "R2-09-1.evidence_locator.detail",
+      "before": "Abstract; Results; Figures 2–3",
+      "after": "Abstract; Results; Figures 1–2",
+      "reason": "The paper has two main figures. Figure 1 gives outcomes and Figure 2 connectivity changes; there is no main Figure 3."
+    },
+    {
+      "location": "R2-13-2.evidence_locator.detail",
+      "before": "Main text: Treatment and follow-up; Figure 1B",
+      "after": "Main text: Treatment and follow-up; Figure 1C–D (outcomes); Figure 1B (dosage)",
+      "reason": "Panel B is dosage. OCD and mood/anxiety follow-up appear in C and D."
+    },
+    {
+      "location": "fox-sgacc-target.locator",
+      "before": "Fox 2012, Figure 3A",
+      "after": "Fox 2012, Results: Identification of optimized TMS targets; Figure 3C (target map)",
+      "reason": "The source prose itself uses A/B beside these coordinates, but the visual figure and caption identify A/B as seeds and C/D as target maps. Specify the plotted target panels and the correct Results heading."
+    },
+    {
+      "location": "fox-network-target.locator",
+      "before": "Fox 2012, Figure 3B",
+      "after": "Fox 2012, Results: Identification of optimized TMS targets; Figure 3D (target map)",
+      "reason": "The source prose itself uses A/B beside these coordinates, but the visual figure and caption identify A/B as seeds and C/D as target maps. Specify the plotted target panels and the correct Results heading."
+    },
+    {
+      "location": "FIG_MEYER3.id",
+      "before": "FIG_MEYER3",
+      "after": "FIG_MEYER4",
+      "reason": "Correct validation figure identity."
+    },
+    {
+      "location": "FIG_MEYER3.pdf_page",
+      "before": 7,
+      "after": 8,
+      "reason": "Validation is on PDF p. 8."
+    },
+    {
+      "location": "FIG_MEYER3.locator",
+      "before": "Fig. 3",
+      "after": "Fig. 4B",
+      "reason": "Correct validation panel."
+    },
+    {
+      "location": "FIG_MEYER3.preferred_standalone_asset_id",
+      "before": "F027",
+      "after": null,
+      "reason": "F027 is Figure 3; use the verified full PDF page instead."
+    },
+    {
+      "location": "FIG_SMITH2.id",
+      "before": "FIG_SMITH2",
+      "after": "FIG_SMITH1",
+      "reason": "Correct SCC figure identity."
+    },
+    {
+      "location": "FIG_SMITH2.pdf_page",
+      "before": 11,
+      "after": 6,
+      "reason": "SCC Figure 10.1 is on PDF p. 6."
+    },
+    {
+      "location": "FIG_SMITH2.locator",
+      "before": "Fig. 10.2",
+      "after": "Fig. 10.1",
+      "reason": "Figure 10.2 is VC/VS."
+    },
+    {
+      "location": "FIG_LIEBRAND_S1.completeness",
+      "before": "complete_pdf_figure_available",
+      "after": "complete_docx_figure_available",
+      "reason": "The supplement is a DOCX, not a PDF."
+    },
+    {
+      "location": "P19691873.full_text_url",
+      "before": "https://academic.oup.com/ijnp/article-pdf/13/2/217/1907996/13-2-217.pdf",
+      "after": "https://academic.oup.com/ijnp/article/13/2/217/663177",
+      "reason": "Use the verified publisher full-text article instead of the automated-access-blocked PDF."
+    },
+    {
+      "location": "R2-10-1.evidence_locator.detail",
+      "before": "Methods: rTMS methods, PDF p. 3",
+      "after": "Methods: rTMS methods (publisher HTML)",
+      "reason": "Replace unverified PDF pagination with the publisher HTML section checked in this audit."
+    },
+    {
+      "location": "R2-10-2.evidence_locator.detail",
+      "before": "Results: Randomized phase; Table 2, PDF pp. 4–6",
+      "after": "Results: Randomized phase (phase 1), completer response paragraph; Table 2 (continuous measures)",
+      "reason": "Replace unverified PDF pagination with the publisher HTML section checked in this audit."
+    },
+    {
+      "location": "R2-12-1.evidence_locator.detail",
+      "before": "Published Abstract; Methods: Study Design; Results",
+      "after": "Published abstract: Methods and Results",
+      "reason": "Both incorporated claims are directly supported by the published abstract; no full-PDF verification is claimed."
+    },
+    {
+      "location": "R2-12-2.evidence_locator.detail",
+      "before": "Published Abstract; Results: task-related activation",
+      "after": "Published abstract: Methods and Results",
+      "reason": "Both incorporated claims are directly supported by the published abstract; no full-PDF verification is claimed."
+    },
+    {
+      "location": "R2-18-2.limitations",
+      "before": "That atlas is linked as an external resource; the generic displayed HCP bundles are not substituted for Li’s tract.",
+      "after": "Positive-weight fibers from the released Li response atlas are available as the separate “OCD response-associated fibers (Li 2020)” layer. They are normative response associations, not individual patient tractograms or generic HCP bundles.",
+      "reason": "The released model is now in the atlas, rather than only linked externally."
+    },
+    {
+      "location": "R2-18-1.geometry_available",
+      "before": false,
+      "after": true,
+      "reason": "The public Li model is now available as a separately identified layer."
+    },
+    {
+      "location": "R2-18-2.geometry_available",
+      "before": false,
+      "after": true,
+      "reason": "The public Li model is now available as a separately identified layer."
+    },
+    {
+      "location": "hover.subthalamic-nucleus.description",
+      "before": "A basal-ganglia nucleus relevant to OCD DBS and pre-SMA inhibitory-control circuitry. This is the whole STN, not a distinct anteromedial target mask; hyperdirect fibers are unavailable.",
+      "after": "A basal-ganglia nucleus relevant to OCD DBS and pre-SMA inhibitory-control circuitry. This is the whole STN, not a distinct anteromedial target mask. Separate public STN pathways and an estimated pre-SMA–STN subset can be enabled.",
+      "reason": "Public pathway expansion made the previous blanket unavailability statement obsolete."
+    },
+    {
+      "location": "R2-01-1.evidence_locator.detail",
+      "before": "Results: Connectivity-based Targeting; Figure 3",
+      "after": "Results: Identification of optimized TMS targets; Figure 3C–D (target maps)",
+      "reason": "Use the actual Results heading and explicit target-map panels."
+    },
+    {
+      "catalog": "interface",
+      "id": "sources-and-methods",
+      "field": "pre-SMA–STN availability",
+      "before": "The pre-SMA–STN hyperdirect pathway ... is unavailable.",
+      "after": "An estimated pre-SMA–STN subset is available from released STN pathway geometry; individual and study-specific tractograms remain unavailable.",
+      "reason": "Updated a stale active methods note to agree with the existing public-pathway catalog."
+    }
+  ],
+  "http_head_snapshot": [
+    {
+      "url": "https://doi.org/10.1038/nn.3344",
+      "uses": [
+        "evidence/sources/0/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://doi.org/10.1007/978-3-7091-1482-7_9",
+      "uses": [
+        "evidence/sources/1/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://doi.org/10.1016/j.biopsych.2023.12.010",
+      "uses": [
+        "evidence/sources/2/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://doi.org/10.3171/2025.6.JNS243066",
+      "uses": [
+        "evidence/sources/3/url"
+      ],
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.biopsych.2021.07.010",
+      "uses": [
+        "evidence/sources/4/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://doi.org/10.1007/s13311-022-01270-3",
+      "uses": [
+        "evidence/sources/5/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://doi.org/10.1038/s41398-024-02781-7",
+      "uses": [
+        "evidence/sources/6/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://doi.org/10.1093/med/9780197640654.003.0010",
+      "uses": [
+        "evidence/sources/7/url"
+      ],
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://pure.knaw.nl/ws/files/9220570/Liebrand.pdf",
+      "uses": [
+        "evidence/sources/8/url",
+        "evidence/evidence/23/evidence_locator/external_url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://doi.org/10.1016/j.biopsych.2012.04.028",
+      "uses": [
+        "evidence/sources/9/url",
+        "TMS-CIRCUITS.txt",
+        "TMS-CIRCUITS.txt"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4120275/",
+      "uses": [
+        "evidence/sources/9/full_text_url",
+        "evidence/evidence/32/evidence_locator/url",
+        "evidence/evidence/33/evidence_locator/url",
+        "evidence/coordinate_markers/0/url",
+        "evidence/coordinate_markers/1/url",
+        "evidence/coordinate_markers/2/url",
+        "region-overlays/regions/1/sources/1/url",
+        "region-overlays/regions/4/sources/1/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://doi.org/10.1016/j.biopsych.2017.10.028",
+      "uses": [
+        "evidence/sources/10/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6091227/",
+      "uses": [
+        "evidence/sources/10/full_text_url",
+        "evidence/evidence/34/evidence_locator/url",
+        "evidence/evidence/35/evidence_locator/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://doi.org/10.1176/appi.ajp.2019.19090915",
+      "uses": [
+        "evidence/sources/11/url",
+        "TMS-CIRCUITS.txt"
+      ],
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8396109/",
+      "uses": [
+        "evidence/sources/11/full_text_url",
+        "evidence/evidence/36/evidence_locator/url",
+        "evidence/evidence/37/evidence_locator/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://neurovault.org/images/787858/",
+      "uses": [
+        "evidence/sources/11/resource_url",
+        "study-maps/0/url",
+        "ATTRIBUTION.txt"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://doi.org/10.1176/appi.ajp.2021.20101429",
+      "uses": [
+        "evidence/sources/12/url",
+        "evidence/sources/12/full_text_url",
+        "evidence/evidence/38/evidence_locator/url",
+        "evidence/evidence/39/evidence_locator/url"
+      ],
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.1176/appi.ajp.20220306",
+      "uses": [
+        "evidence/sources/13/url"
+      ],
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11446248/",
+      "uses": [
+        "evidence/sources/13/full_text_url",
+        "evidence/evidence/40/evidence_locator/url",
+        "evidence/evidence/41/evidence_locator/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://doi.org/10.1038/s41591-023-02764-z",
+      "uses": [
+        "evidence/sources/14/url",
+        "TMS-CIRCUITS.txt"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10878976/",
+      "uses": [
+        "evidence/sources/14/full_text_url",
+        "evidence/evidence/42/evidence_locator/url",
+        "evidence/evidence/43/evidence_locator/url",
+        "evidence/coordinate_markers/3/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://doi.org/10.1001/jamapsychiatry.2026.1100",
+      "uses": [
+        "evidence/sources/15/url",
+        "evidence/sources/15/full_text_url",
+        "evidence/evidence/44/evidence_locator/url",
+        "evidence/evidence/45/evidence_locator/url",
+        "TMS-CIRCUITS.txt"
+      ],
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://neurovault.org/images/787859/",
+      "uses": [
+        "evidence/sources/15/resource_url",
+        "study-maps/1/url",
+        "ATTRIBUTION.txt"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://doi.org/10.1176/appi.ajp.2019.18101180",
+      "uses": [
+        "evidence/sources/16/url",
+        "evidence/sources/16/full_text_url",
+        "evidence/evidence/46/evidence_locator/url",
+        "evidence/evidence/47/evidence_locator/url",
+        "TMS-CIRCUITS.txt",
+        "TMS-CIRCUITS.txt",
+        "TMS-CIRCUITS.txt",
+        "TMS-CIRCUITS.txt"
+      ],
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.1038/npp.2015.292",
+      "uses": [
+        "evidence/sources/17/url",
+        "TMS-CIRCUITS.txt",
+        "TMS-CIRCUITS.txt"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4793124/",
+      "uses": [
+        "evidence/sources/17/full_text_url",
+        "evidence/evidence/48/evidence_locator/url",
+        "evidence/evidence/49/evidence_locator/url",
+        "evidence/coordinate_markers/4/url",
+        "index.html"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://doi.org/10.1017/S1461145709990435",
+      "uses": [
+        "evidence/sources/18/url"
+      ],
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://academic.oup.com/ijnp/article-pdf/13/2/217/1907996/13-2-217.pdf",
+      "uses": [
+        "evidence/sources/18/full_text_url",
+        "evidence/evidence/50/evidence_locator/url",
+        "evidence/evidence/51/evidence_locator/url"
+      ],
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.1038/tp.2014.62",
+      "uses": [
+        "evidence/sources/19/url",
+        "TMS-CIRCUITS.txt"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4203001/",
+      "uses": [
+        "evidence/sources/19/full_text_url",
+        "evidence/evidence/52/evidence_locator/url",
+        "evidence/evidence/53/evidence_locator/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://doi.org/10.1016/j.biopsych.2024.06.029",
+      "uses": [
+        "evidence/sources/20/url",
+        "TMS-CIRCUITS.txt",
+        "TMS-CIRCUITS.txt"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://www.biologicalpsychiatryjournal.com/article/S0006-3223%2824%2901488-4/fulltext",
+      "uses": [
+        "evidence/sources/20/full_text_url",
+        "evidence/evidence/54/evidence_locator/url",
+        "evidence/evidence/55/evidence_locator/url"
+      ],
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.transm.2025.100182",
+      "uses": [
+        "evidence/sources/21/url",
+        "TMS-CIRCUITS.txt"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12440150/",
+      "uses": [
+        "evidence/sources/21/full_text_url",
+        "evidence/evidence/56/evidence_locator/url",
+        "evidence/evidence/57/evidence_locator/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://doi.org/10.1016/j.biopsych.2014.03.029",
+      "uses": [
+        "evidence/sources/22/url",
+        "TMS-CIRCUITS.txt",
+        "TMS-CIRCUITS.txt"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4487804/",
+      "uses": [
+        "evidence/sources/22/full_text_url",
+        "evidence/evidence/58/evidence_locator/url",
+        "evidence/evidence/59/evidence_locator/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://doi.org/10.1038/mp.2017.59",
+      "uses": [
+        "evidence/sources/23/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5636645/",
+      "uses": [
+        "evidence/sources/23/full_text_url",
+        "evidence/evidence/60/evidence_locator/url",
+        "evidence/evidence/61/evidence_locator/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://doi.org/10.1038/s41386-019-0369-9",
+      "uses": [
+        "evidence/sources/24/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6785007/",
+      "uses": [
+        "evidence/sources/24/full_text_url",
+        "evidence/evidence/62/evidence_locator/url",
+        "evidence/evidence/63/evidence_locator/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://doi.org/10.1001/jamapsychiatry.2016.0152",
+      "uses": [
+        "evidence/sources/25/url"
+      ],
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2512238",
+      "uses": [
+        "evidence/sources/25/full_text_url",
+        "evidence/evidence/64/evidence_locator/url",
+        "evidence/evidence/65/evidence_locator/url"
+      ],
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41467-020-16734-3",
+      "uses": [
+        "evidence/sources/26/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7335093/",
+      "uses": [
+        "evidence/sources/26/full_text_url",
+        "evidence/evidence/66/evidence_locator/url",
+        "evidence/evidence/67/evidence_locator/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://www.lead-dbs.org/download-lead-dbs/",
+      "uses": [
+        "evidence/sources/26/resource_url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://doi.org/10.1016/j.biopsych.2019.01.017",
+      "uses": [
+        "evidence/sources/27/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6467837/",
+      "uses": [
+        "evidence/sources/27/full_text_url",
+        "evidence/evidence/68/evidence_locator/url",
+        "evidence/evidence/69/evidence_locator/url",
+        "evidence/evidence/70/evidence_locator/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://doi.org/10.1016/j.bpsgos.2025.100609",
+      "uses": [
+        "evidence/sources/28/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12607010/",
+      "uses": [
+        "evidence/sources/28/full_text_url",
+        "evidence/evidence/71/evidence_locator/url",
+        "evidence/evidence/72/evidence_locator/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28988904/",
+      "uses": [
+        "evidence/sources/29/url",
+        "evidence/evidence/73/evidence_locator/url",
+        "region-overlays/regions/4/sources/2/url"
+      ],
+      "status": 203
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25726497/",
+      "uses": [
+        "evidence/sources/30/url"
+      ],
+      "status": 203
+    },
+    {
+      "url": "https://ohiostate.elsevierpure.com/en/publications/a-randomized-sham-controlled-trial-of-deep-brain-stimulation-of-t/",
+      "uses": [
+        "evidence/sources/30/abstract_url",
+        "evidence/evidence/74/evidence_locator/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31711880/",
+      "uses": [
+        "evidence/sources/31/url",
+        "evidence/evidence/75/evidence_locator/url",
+        "region-overlays/regions/0/sources/2/url",
+        "TMS-CIRCUITS.txt",
+        "TMS-CIRCUITS.txt"
+      ],
+      "status": 203
+    },
+    {
+      "url": "https://www.nature.com/articles/s41467-022-32595-4",
+      "uses": [
+        "tms-circuits/sources/0/url",
+        "TMS-CIRCUITS.txt",
+        "TMS-CIRCUITS.txt",
+        "TMS-CIRCUITS.txt",
+        "TMS-CIRCUITS.txt",
+        "TMS-CIRCUITS.txt",
+        "TMS-CIRCUITS.txt",
+        "TMS-CIRCUITS.txt",
+        "TMS-CIRCUITS.txt",
+        "TMS-CIRCUITS.txt",
+        "TMS-CIRCUITS.txt",
+        "TMS-CIRCUITS.txt",
+        "TMS-CIRCUITS.txt",
+        "TMS-CIRCUITS.txt"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11459878/",
+      "uses": [
+        "tms-circuits/sources/1/url",
+        "TMS-CIRCUITS.txt",
+        "TMS-CIRCUITS.txt",
+        "TMS-CIRCUITS.txt",
+        "TMS-CIRCUITS.txt",
+        "TMS-CIRCUITS.txt",
+        "TMS-CIRCUITS.txt"
+      ],
+      "status": 203
+    },
+    {
+      "url": "https://www.nature.com/articles/npp2013222",
+      "uses": [
+        "tms-circuits/sources/2/url",
+        "TMS-CIRCUITS.txt",
+        "TMS-CIRCUITS.txt",
+        "TMS-CIRCUITS.txt"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15166103/",
+      "uses": [
+        "tms-circuits/sources/3/url",
+        "TMS-CIRCUITS.txt",
+        "TMS-CIRCUITS.txt"
+      ],
+      "status": 203
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17409238/",
+      "uses": [
+        "tms-circuits/sources/4/url",
+        "TMS-CIRCUITS.txt"
+      ],
+      "status": 203
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8288080/",
+      "uses": [
+        "tms-circuits/sources/5/url",
+        "TMS-CIRCUITS.txt",
+        "TMS-CIRCUITS.txt"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://www.nature.com/articles/s41593-026-02248-6",
+      "uses": [
+        "tms-circuits/sources/6/url",
+        "TMS-CIRCUITS.txt",
+        "TMS-CIRCUITS.txt",
+        "TMS-CIRCUITS.txt"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://github.com/caioseguin/tms_dep_pathways",
+      "uses": [
+        "tms-circuits/sources/6/resource_url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://www.oxcns.org/aal3.html",
+      "uses": [
+        "region-overlays/regions/0/sources/0/url",
+        "region-overlays/regions/2/sources/0/url",
+        "region-overlays/regions/4/sources/0/url",
+        "app.js",
+        "REGION-OVERLAYS.txt"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://www.nature.com/articles/npp2015292",
+      "uses": [
+        "region-overlays/regions/0/sources/1/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://www.nature.com/articles/s41597-020-0557-9",
+      "uses": [
+        "region-overlays/regions/1/sources/0/url",
+        "region-overlays/regions/3/sources/0/url",
+        "region-overlays/regions/5/sources/0/url",
+        "region-overlays/regions/6/sources/0/url",
+        "REGION-OVERLAYS.txt"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39089567/",
+      "uses": [
+        "region-overlays/regions/1/sources/2/url",
+        "region-overlays/regions/2/sources/2/url"
+      ],
+      "status": 203
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19691873/",
+      "uses": [
+        "region-overlays/regions/2/sources/1/url"
+      ],
+      "status": 203
+    },
+    {
+      "url": "https://doi.org/10.1002/hbm.25468",
+      "uses": [
+        "region-overlays/regions/2/sources/3/url"
+      ],
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9217085/",
+      "uses": [
+        "region-overlays/regions/3/sources/1/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12919846/",
+      "uses": [
+        "region-overlays/regions/3/sources/2/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://www.nature.com/articles/s41467-020-16734-3",
+      "uses": [
+        "region-overlays/regions/3/sources/3/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://www.nature.com/articles/tp201462",
+      "uses": [
+        "region-overlays/regions/5/sources/1/url",
+        "region-overlays/regions/6/sources/1/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30853111/",
+      "uses": [
+        "region-overlays/regions/5/sources/2/url"
+      ],
+      "status": 203
+    },
+    {
+      "url": "https://neurovault.org/FAQ",
+      "uses": [
+        "study-maps/0/license_url",
+        "study-maps/1/license_url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://doi.org/10.6084/m9.figshare.7375883.v2",
+      "uses": [
+        "public-pathways/sources/0/url",
+        "ATTRIBUTION.txt"
+      ],
+      "status": 202
+    },
+    {
+      "url": "https://doi.org/10.3174/ajnr.A6693",
+      "uses": [
+        "public-pathways/sources/1/url"
+      ],
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41597-020-00644-6",
+      "uses": [
+        "public-pathways/sources/3/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://github.com/aycibatuhan/nervous-system-atlas/releases/tag/v1.0.3",
+      "uses": [
+        "atlas/mesh_bundle_url",
+        "index.html",
+        "ATTRIBUTION.txt"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_T1w.nii.gz",
+      "uses": [
+        "atlas/sources/mni_t1w/url",
+        "atlas/sources/mni_t1w/urls/0"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_T2w.nii.gz",
+      "uses": [
+        "atlas/sources/mni_t1w/urls/1"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_desc-brain_mask.nii.gz",
+      "uses": [
+        "atlas/sources/mni_t1w/urls/2"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_desc-brain_T1w.nii.gz",
+      "uses": [
+        "atlas/sources/mni_t1w/urls/3"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/LICENSE",
+      "uses": [
+        "atlas/sources/mni_t1w/urls/4",
+        "atlas/licenses/MNI/url",
+        "atlas/licenses/MNI-FreeSurfer/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_seg-aseg_dseg.nii.gz",
+      "uses": [
+        "atlas/sources/mni_aseg/url",
+        "atlas/sources/mni_aseg/urls/0"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_atlas-MIAL67ThalamicNuclei_dseg.nii.gz",
+      "uses": [
+        "atlas/sources/mial_thalamus/url",
+        "atlas/sources/mial_thalamus/urls/0"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_atlas-MIAL67ThalamicNuclei_dseg.tsv",
+      "uses": [
+        "atlas/sources/mial_thalamus/urls/1"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_atlas-MASSP20_dseg.nii.gz",
+      "uses": [
+        "atlas/sources/massp/url",
+        "atlas/sources/massp/urls/0"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_atlas-MASSP20_dseg.tsv",
+      "uses": [
+        "atlas/sources/massp/urls/1"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://zenodo.org/api/records/3942115/files/MNI152b_atlas_labels_0.5mm.nii.gz/content",
+      "uses": [
+        "atlas/sources/hypothalamus_neudorfer/url",
+        "atlas/sources/hypothalamus_neudorfer/urls/0"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://zenodo.org/api/records/3942115/files/Volumes_names-labels.csv/content",
+      "uses": [
+        "atlas/sources/hypothalamus_neudorfer/urls/1"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cSym/tpl-MNI152NLin2009cSym_res-1_atlas-CerebrA_dseg.nii.gz",
+      "uses": [
+        "atlas/sources/cerebra/url",
+        "atlas/sources/cerebra/urls/0"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cSym/tpl-MNI152NLin2009cSym_atlas-CerebA_dseg.tsv",
+      "uses": [
+        "atlas/sources/cerebra/urls/1"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cSym/tpl-MNI152NLin2009cSym_res-1_T1w.nii.gz",
+      "uses": [
+        "atlas/sources/cerebra/urls/2"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cSym/LICENSE",
+      "uses": [
+        "atlas/sources/cerebra/urls/3"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "uses": [
+        "atlas/licenses/CC-BY-SA-4.0/url",
+        "ATTRIBUTION.txt"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "uses": [
+        "atlas/licenses/CC-BY-4.0/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "uses": [
+        "atlas/licenses/CC0-1.0/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "uses": [
+        "atlas/licenses/Apache-2.0/url"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://www.oxcns.org/AAL3v1_for_SPM12.zip",
+      "uses": [
+        "region-surfaces/source_url",
+        "ATTRIBUTION.txt",
+        "REGION-OVERLAYS.txt"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://practicum.labsolver.org/wmt.html",
+      "uses": [
+        "index.html"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://brain.labsolver.org/hcp_trk_atlas.html",
+      "uses": [
+        "index.html",
+        "app.js",
+        "ATTRIBUTION.txt"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://github.com/omar-chishti/omar-chishti.github.io",
+      "uses": [
+        "ATTRIBUTION.txt"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://doi.org/10.1038/s41467-022-32595-4",
+      "uses": [
+        "ATTRIBUTION.txt"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://github.com/data-others/atlas/releases/download/hcp1065/hcp1065_avg_tracts_trk.zip",
+      "uses": [
+        "ATTRIBUTION.txt"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://github.com/mrdoob/three.js/tree/r170",
+      "uses": [
+        "ATTRIBUTION.txt"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://www.lead-dbs.org/release/leaddbs.zip",
+      "uses": [
+        "ATTRIBUTION.txt"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://doi.org/10.1016/j.neuroimage.2019.116189",
+      "uses": [
+        "REGION-OVERLAYS.txt"
+      ],
+      "status": 200
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.25468",
+      "uses": [
+        "REGION-OVERLAYS.txt"
+      ],
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "limitations": [
+    "HTTP HEAD success is not proof of accessible full text or source accuracy. Some successful redirects reach cookie or anti-bot pages. Publisher 403s are access limits, not confirmed broken citations.",
+    "Fitzsimmons final PDF remains blocked; both displayed findings are supported by its published abstract. Holtzheimer, Dougherty and Dunlop 2020 remain abstract-level checks.",
+    "Mantovani HTML claims were verified, but old PDF pagination was not; unverified page references were replaced with named HTML sections.",
+    "F009, F034 and F060 are legacy asset references without current local-sources PDF routes. F034 was checked from cached extracted text; F060 is a DOCX supplement. No live finding PDF link relies on these missing routes.",
+    "Source corpus relationships and geometry do not establish causal treatment efficacy or individual anatomical validity.",
+    "Remote pages and indexing can change after this dated audit. No blanket guarantee that every source statement or all future links are error-free."
+  ]
+}

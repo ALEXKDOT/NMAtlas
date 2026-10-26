@@ -1,0 +1,159 @@
+{
+  "checked": "2026-10-15",
+  "version": "0.17.0",
+  "clinical_sources": [
+    {
+      "id": "P42102818",
+      "pmid": "42102818",
+      "doi": "10.1016/j.cell.2026.04.030",
+      "title": "Fronto-insular circuit mechanisms of accelerated intermittent theta burst stimulation",
+      "metadata_url": "https://pubmed.ncbi.nlm.nih.gov/42102818/"
+    },
+    {
+      "id": "P41484145",
+      "pmid": "41484145",
+      "doi": "10.1038/s41467-025-67945-5",
+      "title": "Distinct antidepressant therapies act on a common brain network",
+      "metadata_url": "https://pubmed.ncbi.nlm.nih.gov/41484145/"
+    }
+  ],
+  "finding_checks": [
+    {
+      "id": "R5-J-PLASTICITY",
+      "source_id": "P42102818",
+      "locator": {
+        "asset_id": "R5_JOHNSON",
+        "pdf_page": 6,
+        "detail": "Figure 2 and legend (PDF pp. 6–7); Results; Limitations (p. 15)",
+        "url": "https://doi.org/10.1016/j.cell.2026.04.030"
+      },
+      "status": "Full text, relevant figures and methods checked",
+      "limitations": "Opsins reproduce a pulse pattern, not human magnetic stimulation. Rodent prelimbic cortex is not an exact human DLPFC homologue. Cellular plasticity and antidepressant-like behavior do not establish a clinical treatment mechanism or drug recommendation."
+    },
+    {
+      "id": "R5-J-CAUSAL",
+      "source_id": "P42102818",
+      "locator": {
+        "asset_id": "R5_JOHNSON",
+        "pdf_page": 12,
+        "detail": "Figure 5A–F and Results on PDF p. 11",
+        "url": "https://doi.org/10.1016/j.cell.2026.04.030"
+      },
+      "status": "Full text, relevant figures and methods checked",
+      "limitations": "Necessity and sufficiency concern these mouse manipulations and behavioral assays, not remission of human depression. FST inhibition groups had n=20/19/22; NIH groups n=12/14/13; projection-specific groups n=10/11. No human fronto-insular tract is reconstructed."
+    },
+    {
+      "id": "R5-J-EVOKED",
+      "source_id": "P42102818",
+      "locator": {
+        "asset_id": "R5_JOHNSON",
+        "pdf_page": 13,
+        "detail": "Figure 6A–E; legend continues on PDF p. 14; STAR Methods, TMS–iEEG",
+        "url": "https://doi.org/10.1016/j.cell.2026.04.030"
+      },
+      "status": "Full text, relevant figures and methods checked",
+      "limitations": "Ten patients contributed, with 8–10 per region; five overlapped an earlier report. These 0.5-Hz pulses probed connectivity and were not an antidepressant aiTBS trial. Responses do not prove a direct monosynaptic tract or a mood mechanism."
+    },
+    {
+      "id": "R5-J-RESPONSE",
+      "source_id": "P42102818",
+      "locator": {
+        "asset_id": "R5_JOHNSON",
+        "pdf_page": 13,
+        "detail": "Figure 6F–J and legend on PDF p. 14; STAR Methods, Human participants and fMRI Data Analysis (p. 31)",
+        "url": "https://doi.org/10.1016/j.cell.2026.04.030"
+      },
+      "status": "Full text, relevant figures and methods checked",
+      "limitations": "Exploratory same-cohort correlations, without sham control or external predictive validation. This is not a randomized comparison of insula-based targeting and does not supersede BRIGhTMIND. The paper differs in anterior/posterior wording across text and figure labels, so no insular subregion is assigned here. Whole-brain feature screening is exploratory."
+    },
+    {
+      "id": "R5-J-CHANGE",
+      "source_id": "P42102818",
+      "locator": {
+        "asset_id": "R5_JOHNSON",
+        "pdf_page": 31,
+        "detail": "STAR Methods, fMRI Data Analysis; Figure S9D; Results on PDF p. 14",
+        "url": "https://doi.org/10.1016/j.cell.2026.04.030"
+      },
+      "status": "Full text, relevant figures and methods checked",
+      "limitations": "The same 51-person open-label cohort had no sham-treated arm. The uncorrected decrease must not be described as a confirmed treatment-induced change or as evidence that reducing this connection causes improvement."
+    },
+    {
+      "id": "R5-D-NETWORK",
+      "source_id": "P41484145",
+      "locator": {
+        "asset_id": "R5_JI",
+        "pdf_page": 2,
+        "detail": "Results, Longitudinal experiments and A common network; Figures 2–3 (PDF p. 3); Methods pp. 8–9",
+        "url": "https://doi.org/10.1038/s41467-025-67945-5"
+      },
+      "status": "Full text, relevant figures and methods checked",
+      "limitations": "Discovery comprised 11 ECT, 4 pharmacotherapy and 1 MST experiments, not DBS or rTMS. Seeds reflected gray-matter increases, usually not demonstrated correlations with symptom improvement. Coordinate spheres and a healthy 652-person connectome introduce spatial and population assumptions. Whole amygdala surfaces are broader than the derived hub clusters."
+    },
+    {
+      "id": "R5-D-VALIDATION",
+      "source_id": "P41484145",
+      "locator": {
+        "asset_id": "R5_JI",
+        "pdf_page": 4,
+        "detail": "Retrospective clinical validation; Figure 4A–B",
+        "url": "https://doi.org/10.1038/s41467-025-67945-5"
+      },
+      "status": "Full text, relevant figures and methods checked",
+      "limitations": "Validation concerns spatial resemblance of networks constructed from structural changes. It does not establish clinical prediction, mediation or superiority of DTN-guided stimulation. The 94 ECT participants are separate from the discovery synthesis; the comparison cohort contained 21 Parkinson’s patients."
+    },
+    {
+      "id": "R5-D-ECS",
+      "source_id": "P41484145",
+      "locator": {
+        "asset_id": "R5_JI",
+        "pdf_page": 5,
+        "detail": "Figure 5 and caption; Results on PDF p. 4; Methods p. 9",
+        "url": "https://doi.org/10.1038/s41467-025-67945-5"
+      },
+      "status": "Full text, relevant figures and methods checked",
+      "limitations": "Ten rats per arm were assigned; one per arm was excluded for cannula placement, leaving nine per arm. This supports a causal contribution in a rat ECS model, not efficacy of human amygdala DBS or TMS. Behavioral assays and drug inactivation do not identify a human stimulation target."
+    },
+    {
+      "id": "R5-D-TARGETS",
+      "source_id": "P41484145",
+      "locator": {
+        "asset_id": "R5_JI",
+        "pdf_page": 7,
+        "detail": "Figure 7a; Generalizability on PDF p. 5; Methods p. 9",
+        "url": "https://doi.org/10.1038/s41467-025-67945-5"
+      },
+      "status": "Full text, relevant figures and methods checked",
+      "limitations": "These are selected literature sites, not 24 new patients or a randomized target comparison. Positive and negative functional connectivity do not mean excitation and inhibition. DBS/rTMS were absent from the network’s discovery experiments; exact site coordinates and electric fields are not reconstructed here."
+    },
+    {
+      "id": "R5-D-RESPONSE",
+      "source_id": "P41484145",
+      "locator": {
+        "asset_id": "R5_JI",
+        "pdf_page": 7,
+        "detail": "Figure 7b (called 7c in the Results text); Generalizability on PDF pp. 5 and 10",
+        "url": "https://doi.org/10.1038/s41467-025-67945-5"
+      },
+      "status": "Full text, relevant figures and methods checked",
+      "limitations": "This is a change–change association in a previously collected dataset, not baseline prediction or a prospective DTN-guided efficacy trial. Several covariates were controlled; causality and clinical utility remain unestablished. Other symptom associations were nonsignificant, which does not establish perfect depression specificity. No DLPFC coil site is inferred for this dataset."
+    }
+  ],
+  "coordinate_checks": [],
+  "spatial_review": {
+    "johnson": "No reusable study-specific imaging volume or electrodes identified in the data statement. No human registration of mouse PL/insula experiments.",
+    "ji": "Author DTN.nii linked externally. Repository lists DTN.nii and README only, without a separate data reuse license; article is CC BY-NC-ND 4.0. No derived volume is redistributed. Reference anatomy does not delineate the hub clusters."
+  },
+  "source_files": [
+    {
+      "asset_id": "R5_JOHNSON",
+      "filename": "PIIS0092867426004654-2.pdf",
+      "sha256": "5f161a2898272ae68cfb4586b74b765d952ac84ee45a7510e2e14564fbfcddc5"
+    },
+    {
+      "asset_id": "R5_JI",
+      "filename": "s41467-025-67945-5.pdf",
+      "sha256": "f33664e66b5e7fb7df230318c5200a7e0f6a5ae00fe61963d6e659aea36aba94"
+    }
+  ]
+}
